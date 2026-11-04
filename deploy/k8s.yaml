@@ -1,0 +1,69 @@
+# Vorlage für Kubernetes. Image-Name und Namespace-Label des Ingress an die eigene Umgebung anpassen.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: einvoice-validator
+  labels: {app: einvoice-validator}
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: einvoice-validator}
+  template:
+    metadata:
+      labels: {app: einvoice-validator}
+    spec:
+      automountServiceAccountToken: false
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+        seccompProfile: {type: RuntimeDefault}
+      containers:
+        - name: validator
+          image: einvoice-validator:1.0.0
+          imagePullPolicy: IfNotPresent
+          ports: [{containerPort: 8000}]
+          env:
+            - {name: PARALLEL, value: "4"}
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities: {drop: [ALL]}
+          resources:
+            requests: {cpu: "2", memory: 2Gi}
+            limits: {cpu: "6", memory: 6Gi}
+          volumeMounts:
+            - {name: tmp, mountPath: /tmp}
+          readinessProbe:
+            httpGet: {path: /healthz, port: 8000}
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: {path: /healthz, port: 8000}
+            initialDelaySeconds: 20
+            periodSeconds: 30
+      volumes:
+        - name: tmp
+          emptyDir: {medium: Memory, sizeLimit: 1Gi}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: einvoice-validator
+spec:
+  selector: {app: einvoice-validator}
+  ports: [{port: 8000, targetPort: 8000}]
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: einvoice-validator
+spec:
+  podSelector:
+    matchLabels: {app: einvoice-validator}
+  policyTypes: [Ingress, Egress]
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels: {kubernetes.io/metadata.name: ingress-nginx}
+      ports: [{port: 8000}]
+  egress: []   # kein ausgehender Verkehr, auch kein DNS
