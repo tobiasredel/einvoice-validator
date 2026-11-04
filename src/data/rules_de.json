@@ -1,0 +1,2312 @@
+{
+ "BR-01": {
+  "e": "In der Rechnung fehlt die technische Angabe, nach welchem Standard sie erstellt wurde (z. B. XRechnung oder ZUGFeRD).",
+  "f": "Die Rechnung mit einem Programm erzeugen, das E-Rechnungen korrekt erstellt, oder den Rechnungssteller bitten, sie neu auszustellen.",
+  "t": "Rechnungsformat-Kennung fehlt"
+ },
+ "BR-02": {
+  "e": "Jede Rechnung braucht eine eindeutige Rechnungsnummer – diese fehlt.",
+  "f": "Eine Rechnungsnummer im Rechnungsprogramm vergeben.",
+  "t": "Rechnungsnummer fehlt"
+ },
+ "BR-03": {
+  "e": "Das Ausstellungsdatum der Rechnung fehlt.",
+  "f": "Das Rechnungsdatum im Rechnungsprogramm angeben.",
+  "t": "Rechnungsdatum fehlt"
+ },
+ "BR-04": {
+  "e": "Es fehlt die Angabe, um welche Art von Dokument es sich handelt (z. B. Rechnung, Gutschrift, Korrekturrechnung) – als Code aus einer festen Liste.",
+  "f": "Im Rechnungsprogramm die Dokumentart (z. B. „Rechnung“) auswählen.",
+  "t": "Rechnungsart fehlt"
+ },
+ "BR-05": {
+  "e": "Es fehlt die Angabe, in welcher Währung die Rechnung ausgestellt ist (z. B. EUR).",
+  "f": "Die Rechnungswährung im Rechnungsprogramm angeben.",
+  "t": "Währung fehlt"
+ },
+ "BR-06": {
+  "e": "Der Name bzw. die Firma des Rechnungsstellers fehlt.",
+  "f": "Den Firmennamen in den Stammdaten des Rechnungsprogramms hinterlegen.",
+  "t": "Name des Verkäufers fehlt"
+ },
+ "BR-07": {
+  "e": "Der Name bzw. die Firma des Rechnungsempfängers fehlt.",
+  "f": "Den Namen des Kunden in der Rechnung ergänzen.",
+  "t": "Name des Käufers fehlt"
+ },
+ "BR-08": {
+  "e": "Die Anschrift des Rechnungsstellers fehlt.",
+  "f": "Die vollständige Firmenanschrift im Rechnungsprogramm hinterlegen.",
+  "t": "Adresse des Verkäufers fehlt"
+ },
+ "BR-09": {
+  "e": "In der Anschrift des Rechnungsstellers fehlt das Land (z. B. DE für Deutschland).",
+  "f": "Das Land in der Firmenanschrift im Rechnungsprogramm ergänzen.",
+  "t": "Land des Verkäufers fehlt"
+ },
+ "BR-10": {
+  "e": "Die Anschrift des Rechnungsempfängers fehlt.",
+  "f": "Die vollständige Kundenanschrift in der Rechnung ergänzen.",
+  "t": "Adresse des Käufers fehlt"
+ },
+ "BR-11": {
+  "e": "In der Anschrift des Rechnungsempfängers fehlt das Land (z. B. DE für Deutschland).",
+  "f": "Das Land in der Kundenanschrift ergänzen.",
+  "t": "Land des Käufers fehlt"
+ },
+ "BR-12": {
+  "e": "Die Rechnung enthält keine Gesamtsumme der Positionen (netto).",
+  "f": "Die Nettosumme aller Positionen ausweisen.",
+  "t": "Summe der Positionen fehlt"
+ },
+ "BR-13": {
+  "e": "Die Rechnung enthält keinen Gesamtbetrag ohne Umsatzsteuer.",
+  "f": "Den Rechnungsbetrag netto ausweisen.",
+  "t": "Nettogesamtbetrag fehlt"
+ },
+ "BR-14": {
+  "e": "Die Rechnung enthält keinen Gesamtbetrag inklusive Umsatzsteuer.",
+  "f": "Den Rechnungsbetrag brutto ausweisen.",
+  "t": "Bruttogesamtbetrag fehlt"
+ },
+ "BR-15": {
+  "e": "Die Rechnung enthält keinen fälligen Zahlbetrag.",
+  "f": "Den zu zahlenden Betrag ausweisen.",
+  "t": "Zahlbetrag fehlt"
+ },
+ "BR-16": {
+  "e": "Die Rechnung enthält keine einzige Position (Leistung oder Artikel). Mindestens eine Rechnungsposition ist Pflicht.",
+  "f": "Im Rechnungsprogramm mindestens eine Position mit Beschreibung, Menge und Preis anlegen.",
+  "t": "Keine Rechnungsposition"
+ },
+ "BR-17": {
+  "e": "Das Geld soll an jemand anderen als den Verkäufer gehen, aber der Name dieses Zahlungsempfängers fehlt.",
+  "f": "Den Namen des abweichenden Zahlungsempfängers eintragen.",
+  "t": "Name des Zahlungsempfängers fehlt"
+ },
+ "BR-18": {
+  "e": "Der Verkäufer hat einen Steuervertreter angegeben, aber dessen Name fehlt.",
+  "f": "Den Namen des Steuervertreters ergänzen.",
+  "t": "Name des Steuervertreters fehlt"
+ },
+ "BR-19": {
+  "e": "Der Verkäufer hat einen Steuervertreter angegeben, aber dessen Anschrift fehlt.",
+  "f": "Die Anschrift des Steuervertreters ergänzen.",
+  "t": "Adresse des Steuervertreters fehlt"
+ },
+ "BR-20": {
+  "e": "In der Anschrift des Steuervertreters fehlt das Land.",
+  "f": "Das Land (z. B. DE) in der Adresse des Steuervertreters ergänzen.",
+  "t": "Land des Steuervertreters fehlt"
+ },
+ "BR-21": {
+  "e": "Eine Rechnungsposition hat keine Positionsnummer.",
+  "f": "Jede Rechnungsposition fortlaufend nummerieren.",
+  "t": "Positionsnummer fehlt"
+ },
+ "BR-22": {
+  "e": "Bei einer Rechnungsposition fehlt die Menge.",
+  "f": "Für jede Position die berechnete Menge angeben.",
+  "t": "Menge fehlt bei Position"
+ },
+ "BR-23": {
+  "e": "Bei einer Rechnungsposition fehlt die Einheit der Menge (z. B. Stück, Stunde, kg).",
+  "f": "Für jede Position eine Mengeneinheit hinterlegen.",
+  "t": "Mengeneinheit fehlt"
+ },
+ "BR-24": {
+  "e": "Bei einer Rechnungsposition fehlt der Nettogesamtbetrag (Menge × Preis abzüglich Rabatten).",
+  "f": "Für jede Position den Nettobetrag ausweisen.",
+  "t": "Nettobetrag der Position fehlt"
+ },
+ "BR-25": {
+  "e": "Eine Rechnungsposition hat keine Bezeichnung der Ware oder Leistung.",
+  "f": "Für jede Position eine Bezeichnung der Ware bzw. Leistung eintragen.",
+  "t": "Artikelbezeichnung fehlt"
+ },
+ "BR-26": {
+  "e": "Bei einer Rechnungsposition fehlt der Netto-Einzelpreis.",
+  "f": "Für jede Position den Netto-Einzelpreis angeben.",
+  "t": "Einzelpreis fehlt"
+ },
+ "BR-27": {
+  "e": "Der Netto-Einzelpreis einer Position ist negativ. Das ist nicht erlaubt.",
+  "f": "Preise positiv angeben; Gutschriften oder Abzüge über eine negative Menge oder einen Rabatt abbilden.",
+  "t": "Negativer Einzelpreis"
+ },
+ "BR-28": {
+  "e": "Der Brutto-Einzelpreis (Listenpreis vor Rabatt) einer Position ist negativ. Das ist nicht erlaubt.",
+  "f": "Den Listenpreis positiv angeben; Abzüge als Rabatt abbilden.",
+  "t": "Negativer Bruttopreis"
+ },
+ "BR-29": {
+  "e": "Das Enddatum des Abrechnungszeitraums liegt vor dem Startdatum.",
+  "f": "Start- und Enddatum des Abrechnungszeitraums prüfen und korrigieren.",
+  "t": "Ende des Abrechnungszeitraums vor Beginn"
+ },
+ "BR-30": {
+  "e": "Bei einer Rechnungsposition liegt das Enddatum des Leistungszeitraums vor dem Startdatum.",
+  "f": "Start- und Enddatum des Zeitraums der Position korrigieren.",
+  "t": "Positionszeitraum: Ende vor Beginn"
+ },
+ "BR-31": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung fehlt der Betrag.",
+  "f": "Für jeden Rabatt auf Rechnungsebene den Betrag angeben.",
+  "t": "Rabattbetrag fehlt"
+ },
+ "BR-32": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung fehlt die Angabe, welcher Umsatzsteuer-Kategorie (z. B. Normalsatz, steuerbefreit) er zugeordnet ist.",
+  "f": "Für jeden Rabatt auf Rechnungsebene die passende Umsatzsteuer-Kategorie angeben.",
+  "t": "Steuerart beim Rabatt fehlt"
+ },
+ "BR-33": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung fehlt der Grund, entweder als Text (z. B. „Treuerabatt“) oder als Code aus einer festen Liste.",
+  "f": "Für jeden Rabatt einen Grund als Text oder Code angeben.",
+  "t": "Grund für Rabatt fehlt"
+ },
+ "BR-36": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) fehlt der Betrag.",
+  "f": "Für jeden Zuschlag auf Rechnungsebene den Betrag angeben.",
+  "t": "Zuschlagsbetrag fehlt"
+ },
+ "BR-37": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) fehlt die Umsatzsteuer-Kategorie (z. B. Normalsatz, steuerbefreit).",
+  "f": "Für jeden Zuschlag die passende Umsatzsteuer-Kategorie angeben.",
+  "t": "Steuerart beim Zuschlag fehlt"
+ },
+ "BR-38": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung fehlt der Grund, als Text (z. B. „Versand“) oder als Code aus einer festen Liste.",
+  "f": "Für jeden Zuschlag einen Grund als Text oder Code angeben.",
+  "t": "Grund für Zuschlag fehlt"
+ },
+ "BR-41": {
+  "e": "Bei einem Nachlass auf eine einzelne Rechnungsposition fehlt der Betrag.",
+  "f": "Für jeden Positionsrabatt den Betrag angeben.",
+  "t": "Betrag des Positionsrabatts fehlt"
+ },
+ "BR-42": {
+  "e": "Bei einem Nachlass auf eine einzelne Rechnungsposition fehlt der Grund, als Text oder als Code aus einer festen Liste.",
+  "f": "Für jeden Positionsrabatt einen Grund angeben.",
+  "t": "Grund für Positionsrabatt fehlt"
+ },
+ "BR-43": {
+  "e": "Bei einem Zuschlag auf eine einzelne Rechnungsposition fehlt der Betrag.",
+  "f": "Für jeden Positionszuschlag den Betrag angeben.",
+  "t": "Betrag des Positionszuschlags fehlt"
+ },
+ "BR-44": {
+  "e": "Bei einem Zuschlag auf eine einzelne Rechnungsposition fehlt der Grund, als Text oder als Code aus einer festen Liste.",
+  "f": "Für jeden Positionszuschlag einen Grund angeben.",
+  "t": "Grund für Positionszuschlag fehlt"
+ },
+ "BR-45": {
+  "e": "In der Umsatzsteuer-Aufschlüsselung fehlt bei einem Steuersatz der Nettobetrag, auf den die Steuer berechnet wird.",
+  "f": "Im Rechnungsprogramm sicherstellen, dass für jeden Steuersatz der zugehörige Nettobetrag ausgewiesen wird.",
+  "t": "Netto-Betrag je Steuersatz fehlt"
+ },
+ "BR-46": {
+  "e": "In der Umsatzsteuer-Aufschlüsselung fehlt bei einem Steuersatz der berechnete Steuerbetrag.",
+  "f": "Für jeden Steuersatz den Umsatzsteuerbetrag ausweisen (bei 0 % den Wert 0).",
+  "t": "Steuerbetrag je Steuersatz fehlt"
+ },
+ "BR-47": {
+  "e": "In der Umsatzsteuer-Aufschlüsselung fehlt die Angabe, um welche Steuerart es sich handelt (z. B. Normalsatz, steuerbefreit, Reverse Charge).",
+  "f": "Für jeden Block der Steueraufschlüsselung die passende Umsatzsteuer-Kategorie angeben.",
+  "t": "Steuerart in Aufschlüsselung fehlt"
+ },
+ "BR-48": {
+  "e": "In der Umsatzsteuer-Aufschlüsselung fehlt der Prozentsatz (z. B. 19 % oder 7 %). Nur bei nicht steuerbaren Umsätzen darf er fehlen.",
+  "f": "Für jede Steuerart den Steuersatz in Prozent angeben (bei Befreiung 0 %).",
+  "t": "Steuersatz in Aufschlüsselung fehlt"
+ },
+ "BR-49": {
+  "e": "Bei den Zahlungsangaben fehlt die Angabe, wie bezahlt werden soll (z. B. Überweisung, Lastschrift, Karte) – als Code aus einer festen Liste.",
+  "f": "Im Rechnungsprogramm die Zahlungsart (z. B. „Überweisung“) auswählen.",
+  "t": "Zahlungsart fehlt"
+ },
+ "BR-50": {
+  "e": "Die Rechnung enthält Angaben zur Zahlung per Überweisung, aber keine Kontonummer (IBAN), auf die überwiesen werden soll.",
+  "f": "Im Rechnungsprogramm die Bankverbindung (IBAN) hinterlegen.",
+  "t": "IBAN fehlt bei Überweisung"
+ },
+ "BR-51": {
+  "e": "Die Rechnung enthält die vollständige Kreditkartennummer. Aus Sicherheitsgründen dürfen höchstens die ersten 6 und die letzten 4 Ziffern erscheinen.",
+  "f": "Die Kartennummer kürzen bzw. teilweise unkenntlich machen (z. B. 123456******1234).",
+  "t": "Vollständige Kartennummer in Rechnung"
+ },
+ "BR-52": {
+  "e": "Zu einer beigefügten Zusatzunterlage (z. B. Lieferschein, Stundenzettel) fehlt deren Kennung oder Bezeichnung.",
+  "f": "Für jede Anlage eine Referenz (z. B. Dokumentnummer) angeben.",
+  "t": "Verweis auf Anlage fehlt"
+ },
+ "BR-53": {
+  "e": "Die Rechnung nennt eine abweichende Währung für die Umsatzsteuer (z. B. Euro bei einer Rechnung in Dollar), gibt aber den Umsatzsteuerbetrag in dieser Währung nicht an.",
+  "f": "Den Umsatzsteuer-Gesamtbetrag zusätzlich in der Buchungswährung angeben oder die abweichende Währung entfernen.",
+  "t": "Steuerbetrag in Buchungswährung fehlt"
+ },
+ "BR-54": {
+  "e": "Ein Merkmal eines Artikels (z. B. Farbe, Größe) hat entweder keinen Namen oder keinen Wert.",
+  "f": "Für jedes Artikelmerkmal sowohl Bezeichnung als auch Wert angeben.",
+  "t": "Artikelmerkmal unvollständig"
+ },
+ "BR-55": {
+  "e": "Es wird auf eine frühere Rechnung verwiesen (z. B. bei Gutschrift oder Korrektur), aber deren Rechnungsnummer fehlt.",
+  "f": "Die Nummer der ursprünglichen Rechnung angeben.",
+  "t": "Vorherige Rechnungsnummer fehlt"
+ },
+ "BR-56": {
+  "e": "Der Verkäufer hat einen Steuervertreter angegeben, aber dessen Umsatzsteuer-Identifikationsnummer fehlt.",
+  "f": "Die USt-ID des Steuervertreters ergänzen.",
+  "t": "USt-ID des Steuervertreters fehlt"
+ },
+ "BR-57": {
+  "e": "Eine Lieferadresse ist angegeben, aber ohne Land.",
+  "f": "Das Land in der Lieferadresse ergänzen.",
+  "t": "Lieferadresse ohne Land"
+ },
+ "BR-61": {
+  "e": "Als Zahlungsart ist eine Überweisung (SEPA, Inland oder international) angegeben, es fehlt aber die Kontonummer (IBAN), auf die gezahlt werden soll.",
+  "f": "Im Rechnungsprogramm die Bankverbindung (IBAN) hinterlegen.",
+  "t": "IBAN fehlt bei Überweisung"
+ },
+ "BR-62": {
+  "e": "Bei der elektronischen Adresse des Verkäufers (z. B. E-Mail oder Peppol-ID) fehlt die Angabe, um welche Art von Adresse es sich handelt.",
+  "f": "Im Rechnungsprogramm die elektronische Adresse vollständig inkl. Adressart (z. B. „E-Mail“) hinterlegen.",
+  "t": "Art der E-Mail-/Empfangsadresse des Verkäufers fehlt"
+ },
+ "BR-63": {
+  "e": "Bei der elektronischen Adresse des Käufers (z. B. E-Mail, Leitweg-ID oder Peppol-ID) fehlt die Angabe, um welche Art von Adresse es sich handelt.",
+  "f": "Beim Kunden die elektronische Adresse vollständig inkl. Adressart hinterlegen.",
+  "t": "Art der E-Mail-/Empfangsadresse des Käufers fehlt"
+ },
+ "BR-64": {
+  "e": "Bei einer standardisierten Artikelnummer (z. B. EAN/GTIN) fehlt die Angabe, um welches Nummernsystem es sich handelt.",
+  "f": "Zur Artikelnummer das passende Nummernsystem (z. B. GTIN) hinterlegen.",
+  "t": "Art der Artikelnummer fehlt"
+ },
+ "BR-65": {
+  "e": "Bei einer Warenklassifikation (z. B. Zolltarifnummer) fehlt die Angabe, welches Klassifikationssystem verwendet wird.",
+  "f": "Zur Klassifikation das verwendete System angeben.",
+  "t": "Art der Warenklassifikation fehlt"
+ },
+ "BR-AE-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „Reverse Charge“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht genau einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "Reverse Charge: Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-AE-02": {
+  "e": "Bei Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge) müssen sowohl die Umsatzsteuer-ID oder Steuernummer des Verkäufers als auch die Umsatzsteuer-ID des Käufers (bzw. eine Kennung des Käufers) in der Rechnung stehen.",
+  "f": "Die Umsatzsteuer-ID des Verkäufers und die des Käufers in der Rechnung ergänzen.",
+  "t": "Reverse Charge: Umsatzsteuer-IDs fehlen"
+ },
+ "BR-AE-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Reverse Charge, Rabatt)"
+ },
+ "BR-AE-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Reverse Charge, Zuschlag)"
+ },
+ "BR-AE-05": {
+  "e": "Positionen mit Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, der Kunde führt die Steuer ab) müssen den Steuersatz 0 % haben – hier ist ein anderer Satz angegeben.",
+  "f": "Den Steuersatz dieser Positionen auf 0 % setzen oder die richtige Steuerart wählen.",
+  "t": "Reverse Charge: Steuersatz muss 0 % sein"
+ },
+ "BR-AE-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der Steuerart Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Rabatt auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Rabatt muss 0 % sein"
+ },
+ "BR-AE-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Zuschlag auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Zuschlag muss 0 % sein"
+ },
+ "BR-AE-08": {
+  "e": "In der Steueraufschlüsselung für Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, der Kunde führt die Steuer ab) muss der Nettobetrag gleich der Summe der zugehörigen Positionen abzüglich Nachlässen und zuzüglich Zuschlägen auf die Gesamtrechnung sein.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Reverse Charge: Nettobetrag stimmt nicht"
+ },
+ "BR-AE-09": {
+  "e": "Bei Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, der Kunde führt die Steuer ab) wird keine Umsatzsteuer berechnet – der Steuerbetrag in der Steueraufschlüsselung muss daher 0 sein.",
+  "f": "Den Steuerbetrag für diese Steuerart im Rechnungsprogramm auf 0 setzen bzw. die richtige Steuerart wählen.",
+  "t": "Reverse Charge: Steuerbetrag muss 0 sein"
+ },
+ "BR-AE-10": {
+  "e": "Bei Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, der Kunde führt die Steuer ab) muss die Rechnung begründen, warum keine Umsatzsteuer berechnet wird – als Text oder als Code aus einer festen Liste. Diese Begründung fehlt.",
+  "f": "Im Rechnungsprogramm den Befreiungsgrund ergänzen (z. B. „Steuerschuldnerschaft des Leistungsempfängers“).",
+  "t": "Reverse Charge: Begründung fehlt"
+ },
+ "BR-AF-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „IGIC (Kanaren)“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht mindestens einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "IGIC (Kanaren): Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-AF-02": {
+  "e": "Die Rechnung enthält Positionen mit der Kanarischen Inselsteuer IGIC (Kanarische Inseln), aber weder die Umsatzsteuer-ID noch die Steuernummer des Verkäufers (oder seines Steuervertreters).",
+  "f": "Die Umsatzsteuer-ID oder Steuernummer des Verkäufers im Rechnungsprogramm hinterlegen.",
+  "t": "IGIC (Kanaren): Steuernummer des Verkäufers fehlt"
+ },
+ "BR-AF-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart IGIC (Kanarische Inseln). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (IGIC Kanaren, Rabatt)"
+ },
+ "BR-AF-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart IGIC (Kanarische Inseln). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (IGIC Kanaren, Zuschlag)"
+ },
+ "BR-AF-05": {
+  "e": "Positionen mit der Kanarischen Inselsteuer IGIC müssen einen Steuersatz größer als 0 % haben.",
+  "f": "Den richtigen IGIC-Steuersatz für die Positionen angeben.",
+  "t": "IGIC (Kanaren): Steuersatz muss über 0 % liegen"
+ },
+ "BR-AF-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der spanischen Regionalsteuer IGIC (Kanarische Inseln) muss ein Steuersatz von 0 % oder mehr angegeben sein.",
+  "f": "Einen gültigen Steuersatz (0 % oder höher) beim Rabatt eintragen.",
+  "t": "Steuersatz beim Rabatt ungültig (IGIC, Kanaren)"
+ },
+ "BR-AF-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der spanischen Regionalsteuer IGIC (Kanarische Inseln) muss ein Steuersatz von 0 % oder mehr angegeben sein.",
+  "f": "Einen gültigen Steuersatz (0 % oder höher) beim Zuschlag eintragen.",
+  "t": "Steuersatz beim Zuschlag ungültig (IGIC, Kanaren)"
+ },
+ "BR-AF-08": {
+  "e": "Für jeden Steuersatz bei der Kanarischen Inselsteuer IGIC (Kanarische Inseln) muss der Nettobetrag in der Steueraufschlüsselung der Summe der zugehörigen Positionen plus Zuschlägen minus Nachlässen auf die Gesamtrechnung entsprechen.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und neu berechnen lassen.",
+  "t": "IGIC (Kanaren): Nettobetrag stimmt nicht"
+ },
+ "BR-AF-09": {
+  "e": "Bei der Kanarischen Inselsteuer IGIC (Kanarische Inseln) muss der Steuerbetrag genau Nettobetrag mal Steuersatz ergeben – das stimmt hier nicht.",
+  "f": "Den Steuerbetrag im Rechnungsprogramm neu berechnen lassen.",
+  "t": "IGIC (Kanaren): Steuerbetrag falsch berechnet"
+ },
+ "BR-AF-10": {
+  "e": "Bei der Kanarischen Inselsteuer IGIC (Kanarische Inseln) wird Steuer berechnet, deshalb darf in der Steueraufschlüsselung kein Grund für eine Steuerbefreiung stehen.",
+  "f": "Den Befreiungsgrund für diese Steuerart entfernen.",
+  "t": "IGIC (Kanaren): Befreiungsgrund nicht erlaubt"
+ },
+ "BR-AG-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „IPSI (Ceuta/Melilla)“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht mindestens einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "IPSI (Ceuta/Melilla): Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-AG-02": {
+  "e": "Die Rechnung enthält Positionen mit der Steuer IPSI der spanischen Gebiete Ceuta und Melilla, aber weder die Umsatzsteuer-ID noch die Steuernummer des Verkäufers (oder seines Steuervertreters).",
+  "f": "Die Umsatzsteuer-ID oder Steuernummer des Verkäufers im Rechnungsprogramm hinterlegen.",
+  "t": "IPSI (Ceuta/Melilla): Steuernummer des Verkäufers fehlt"
+ },
+ "BR-AG-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart IPSI (Ceuta und Melilla). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (IPSI Ceuta/Melilla, Rabatt)"
+ },
+ "BR-AG-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart IPSI (Ceuta und Melilla). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (IPSI Ceuta/Melilla, Zuschlag)"
+ },
+ "BR-AG-05": {
+  "e": "Positionen mit der Steuer IPSI (Ceuta und Melilla) brauchen einen Steuersatz von 0 % oder mehr – dieser fehlt oder ist ungültig.",
+  "f": "Den richtigen IPSI-Steuersatz für die Positionen angeben.",
+  "t": "IPSI (Ceuta/Melilla): Steuersatz fehlt"
+ },
+ "BR-AG-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der spanischen Regionalsteuer IPSI (Ceuta und Melilla) muss ein Steuersatz von 0 % oder mehr angegeben sein.",
+  "f": "Einen gültigen Steuersatz (0 % oder höher) beim Rabatt eintragen.",
+  "t": "Steuersatz beim Rabatt ungültig (IPSI, Ceuta/Melilla)"
+ },
+ "BR-AG-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der spanischen Regionalsteuer IPSI (Ceuta und Melilla) muss ein Steuersatz von 0 % oder mehr angegeben sein.",
+  "f": "Einen gültigen Steuersatz (0 % oder höher) beim Zuschlag eintragen.",
+  "t": "Steuersatz beim Zuschlag ungültig (IPSI, Ceuta/Melilla)"
+ },
+ "BR-AG-08": {
+  "e": "Für jeden Steuersatz bei der Steuer IPSI der spanischen Gebiete Ceuta und Melilla muss der Nettobetrag in der Steueraufschlüsselung der Summe der zugehörigen Positionen plus Zuschlägen minus Nachlässen auf die Gesamtrechnung entsprechen.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und neu berechnen lassen.",
+  "t": "IPSI (Ceuta/Melilla): Nettobetrag stimmt nicht"
+ },
+ "BR-AG-09": {
+  "e": "Bei der Steuer IPSI der spanischen Gebiete Ceuta und Melilla muss der Steuerbetrag genau Nettobetrag mal Steuersatz ergeben – das stimmt hier nicht.",
+  "f": "Den Steuerbetrag im Rechnungsprogramm neu berechnen lassen.",
+  "t": "IPSI (Ceuta/Melilla): Steuerbetrag falsch berechnet"
+ },
+ "BR-AG-10": {
+  "e": "Bei der Steuer IPSI der spanischen Gebiete Ceuta und Melilla wird Steuer berechnet, deshalb darf in der Steueraufschlüsselung kein Grund für eine Steuerbefreiung stehen.",
+  "f": "Den Befreiungsgrund für diese Steuerart entfernen.",
+  "t": "IPSI (Ceuta/Melilla): Befreiungsgrund nicht erlaubt"
+ },
+ "BR-B-01": {
+  "e": "Die Steuerart „Split Payment“ ist ein italienisches Sonderverfahren und nur bei Rechnungen innerhalb Italiens erlaubt.",
+  "f": "Die richtige Steuerart (z. B. Normalsatz) wählen.",
+  "t": "Split Payment nur für italienische Rechnungen"
+ },
+ "BR-B-02": {
+  "e": "Eine Rechnung mit der italienischen Steuerart „Split Payment“ darf keine Positionen, Nachlässe oder Zuschläge mit normaler Umsatzsteuer enthalten.",
+  "f": "Die Steuerarten vereinheitlichen oder die Rechnung aufteilen.",
+  "t": "Split Payment mit Normalsatz gemischt"
+ },
+ "BR-CL-01": {
+  "e": "Bei der Angabe „Dokumentart“ muss ein Code aus der Liste UNTDID 1001 (die Codes für Rechnungen und Gutschriften) stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNTDID 1001 (die Codes für Rechnungen und Gutschriften) auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Dokumentart"
+ },
+ "BR-CL-03": {
+  "e": "Bei der Angabe „Währungscode (currencyID)“ muss ein Code aus der Liste ISO 4217 (alpha-3) stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 4217 (alpha-3) auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Währungscode (currencyID)"
+ },
+ "BR-CL-04": {
+  "e": "Bei der Angabe „Rechnungswährung“ muss ein Code aus der Liste ISO 4217 (alpha-3) stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 4217 (alpha-3) auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Rechnungswährung"
+ },
+ "BR-CL-05": {
+  "e": "Bei der Angabe „Steuerwährung“ muss ein Code aus der Liste ISO 4217 (alpha-3) stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 4217 (alpha-3) auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Steuerwährung"
+ },
+ "BR-CL-06": {
+  "e": "Bei der Angabe „Code für das Steuerdatum (Zeitpunkt der Steuerentstehung)“ muss ein Code aus der Liste UNTDID 2005 (eingeschränkte Auswahl) stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNTDID 2005 (eingeschränkte Auswahl) auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Code für das Steuerdatum (Zeitpunkt der Steuerentstehung)"
+ },
+ "BR-CL-07": {
+  "e": "Bei der Angabe „Schemakennung der Objektkennung“ muss ein Code aus der Liste UNTDID 1153 (eingeschränkte Auswahl) stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNTDID 1153 (eingeschränkte Auswahl) auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung der Objektkennung"
+ },
+ "BR-CL-08": {
+  "e": "Bei der Angabe „Betreffcode des Rechnungshinweises“ muss ein Code aus der Liste UNCL4451 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNCL4451 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Betreffcode des Rechnungshinweises"
+ },
+ "BR-CL-10": {
+  "e": "Bei der Angabe „Schemakennung bei Kennungen“ muss ein Code aus der Liste ISO 6523 ICD stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 6523 ICD auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung bei Kennungen"
+ },
+ "BR-CL-11": {
+  "e": "Bei der Angabe „Schemakennung bei Registrierungskennungen“ muss ein Code aus der Liste ISO 6523 ICD stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 6523 ICD auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung bei Registrierungskennungen"
+ },
+ "BR-CL-13": {
+  "e": "Bei der Angabe „Schemakennung der Artikelklassifizierung“ muss ein Code aus der Liste UNTDID 7143 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNTDID 7143 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung der Artikelklassifizierung"
+ },
+ "BR-CL-14": {
+  "e": "Bei der Angabe „Ländercode“ muss ein Code aus der Liste ISO 3166-1 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 3166-1 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Ländercode"
+ },
+ "BR-CL-15": {
+  "e": "Bei der Angabe „Ländercode“ muss ein Code aus der Liste ISO 3166-1 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 3166-1 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Ländercode"
+ },
+ "BR-CL-16": {
+  "e": "Bei der Angabe „Zahlungsart“ muss ein Code aus der Liste UNCL4461 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNCL4461 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Zahlungsart"
+ },
+ "BR-CL-17": {
+  "e": "Bei der Angabe „Umsatzsteuer-Kategorie“ muss ein Code aus der Liste UNCL5305 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNCL5305 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Umsatzsteuer-Kategorie"
+ },
+ "BR-CL-18": {
+  "e": "Bei der Angabe „Umsatzsteuer-Kategorie“ muss ein Code aus der Liste UNCL5305 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNCL5305 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Umsatzsteuer-Kategorie"
+ },
+ "BR-CL-19": {
+  "e": "Bei der Angabe „Grund des Rabatts“ muss ein Code aus der Liste UNCL 5189 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNCL 5189 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Grund des Rabatts"
+ },
+ "BR-CL-20": {
+  "e": "Bei der Angabe „Grund des Zuschlags“ muss ein Code aus der Liste UNCL 7161 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus UNCL 7161 auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Grund des Zuschlags"
+ },
+ "BR-CL-21": {
+  "e": "Bei der Angabe „Schemakennung der Artikel-Standardkennung“ muss ein Code aus der Liste ISO 6523 ICD stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 6523 ICD auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung der Artikel-Standardkennung"
+ },
+ "BR-CL-22": {
+  "e": "Bei der Angabe „Schemakennung des Befreiungsgrund-Codes“ muss ein Code aus der Liste CEF VATEX stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus CEF VATEX auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung des Befreiungsgrund-Codes"
+ },
+ "BR-CL-23": {
+  "e": "Bei der Angabe „Einheit“ muss ein Code aus der Liste UN/ECE-Empfehlung 20 mit Erweiterung nach Empfehlung 21 stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Einheiten-Code (z. B. „H87“) auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Einheit"
+ },
+ "BR-CL-24": {
+  "e": "Bei der Angabe „Dateityp der Anlage (MIME-Typ)“ muss ein Code aus der Liste MIMEMediaType stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus MIMEMediaType auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Dateityp der Anlage (MIME-Typ)"
+ },
+ "BR-CL-25": {
+  "e": "Bei der Angabe „Schemakennung der elektronischen Adresse“ muss ein Code aus der Liste CEF EAS stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus CEF EAS auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung der elektronischen Adresse"
+ },
+ "BR-CL-26": {
+  "e": "Bei der Angabe „Schemakennung des Lieferorts“ muss ein Code aus der Liste ISO 6523 ICD stehen. Der angegebene Wert gehört nicht dazu.",
+  "f": "Im Rechnungsprogramm einen gültigen Code aus ISO 6523 ICD auswählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Code: Schemakennung des Lieferorts"
+ },
+ "BR-CO-03": {
+  "e": "Der Zeitpunkt, an dem die Umsatzsteuer entsteht, ist sowohl als Datum als auch als Code angegeben. Es darf nur eines von beiden verwendet werden.",
+  "f": "Entweder das Datum oder den Code für den Steuerzeitpunkt entfernen.",
+  "t": "Steuerzeitpunkt doppelt angegeben"
+ },
+ "BR-CO-04": {
+  "e": "Bei einer Rechnungsposition fehlt die Umsatzsteuer-Kategorie (z. B. Normalsatz, steuerbefreit, Reverse Charge).",
+  "f": "Für jede Position die passende Umsatzsteuer-Kategorie angeben.",
+  "t": "Steuerart bei Position fehlt"
+ },
+ "BR-CO-05": {
+  "e": "Beim Nachlass auf Rechnungsebene passen der Grund als Text und der Grund als Code nicht zusammen.",
+  "f": "Text und Code des Rabattgrunds aufeinander abstimmen oder nur eines davon angeben.",
+  "t": "Rabattgrund widersprüchlich"
+ },
+ "BR-CO-06": {
+  "e": "Beim Zuschlag auf Rechnungsebene passen der Grund als Text und als Code nicht zusammen.",
+  "f": "Text und Code des Zuschlagsgrunds aufeinander abstimmen oder nur eines davon angeben.",
+  "t": "Zuschlagsgrund widersprüchlich"
+ },
+ "BR-CO-07": {
+  "e": "Beim Rabatt auf eine Position passen der Grund als Text und als Code nicht zusammen.",
+  "f": "Text und Code des Rabattgrunds aufeinander abstimmen oder nur eines davon angeben.",
+  "t": "Positionsrabatt-Grund widersprüchlich"
+ },
+ "BR-CO-08": {
+  "e": "Beim Zuschlag auf eine Position passen der Grund als Text und als Code nicht zusammen.",
+  "f": "Text und Code des Zuschlagsgrunds aufeinander abstimmen oder nur eines davon angeben.",
+  "t": "Positionszuschlag-Grund widersprüchlich"
+ },
+ "BR-CO-09": {
+  "e": "Eine Umsatzsteuer-ID (von Verkäufer, Käufer oder Steuervertreter) beginnt nicht mit einem gültigen Länderkürzel wie „DE“ oder „AT“ (Griechenland: „EL“).",
+  "f": "Die Umsatzsteuer-ID vollständig mit Länderkürzel eintragen, z. B. DE123456789.",
+  "t": "USt-ID ohne gültiges Länderkürzel"
+ },
+ "BR-CO-10": {
+  "e": "Die ausgewiesene Summe aller Positionen (netto) entspricht nicht der Addition der einzelnen Positions-Nettobeträge.",
+  "f": "Die Positionen nachrechnen und die Nettosumme im Rechnungsprogramm korrigieren.",
+  "t": "Summe der Positionen stimmt nicht"
+ },
+ "BR-CO-11": {
+  "e": "Die ausgewiesene Gesamtsumme der Rabatte auf Rechnungsebene entspricht nicht der Addition der einzelnen Rabatte.",
+  "f": "Die Rabatte nachrechnen und die Summe korrigieren.",
+  "t": "Summe der Rabatte stimmt nicht"
+ },
+ "BR-CO-12": {
+  "e": "Die ausgewiesene Gesamtsumme der Zuschläge auf Rechnungsebene entspricht nicht der Addition der einzelnen Zuschläge.",
+  "f": "Die Zuschläge nachrechnen und die Summe korrigieren.",
+  "t": "Summe der Zuschläge stimmt nicht"
+ },
+ "BR-CO-13": {
+  "e": "Der Rechnungsbetrag ohne Umsatzsteuer muss der Summe der Positionen minus Rabatte plus Zuschläge auf Rechnungsebene entsprechen. Das stimmt hier nicht.",
+  "f": "Positionen, Rabatte und Zuschläge nachrechnen und die Rechnung neu erzeugen.",
+  "t": "Nettogesamtbetrag falsch berechnet"
+ },
+ "BR-CO-14": {
+  "e": "Der Gesamtbetrag der Umsatzsteuer muss der Summe der Steuerbeträge aller Steuersätze in der Steueraufschlüsselung entsprechen.",
+  "f": "Die Steuerbeträge je Steuersatz und die Gesamtsumme im Rechnungsprogramm neu berechnen lassen.",
+  "t": "Umsatzsteuer-Summe stimmt nicht"
+ },
+ "BR-CO-15": {
+  "e": "Der Rechnungsbetrag inklusive Umsatzsteuer muss genau der Nettosumme plus dem Umsatzsteuerbetrag entsprechen – das ist hier nicht der Fall.",
+  "f": "Nettosumme, Steuerbetrag und Bruttobetrag im Rechnungsprogramm neu berechnen lassen.",
+  "t": "Bruttobetrag stimmt nicht"
+ },
+ "BR-CO-16": {
+  "e": "Der fällige Zahlbetrag muss dem Bruttobetrag abzüglich bereits gezahlter Beträge (z. B. Anzahlungen) plus einem eventuellen Rundungsbetrag entsprechen.",
+  "f": "Bruttobetrag, Anzahlungen und Zahlbetrag prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Zahlbetrag falsch berechnet"
+ },
+ "BR-CO-17": {
+  "e": "Der Umsatzsteuerbetrag eines Steuersatzes stimmt nicht: Er muss Nettobetrag × Steuersatz ÷ 100 ergeben, auf zwei Nachkommastellen gerundet.",
+  "f": "Die Steuerberechnung im Rechnungsprogramm prüfen und die Rechnung neu erzeugen.",
+  "t": "Steuerbetrag falsch berechnet"
+ },
+ "BR-CO-18": {
+  "e": "Jede Rechnung braucht mindestens eine Aufschlüsselung der Umsatzsteuer (Nettobetrag, Steuersatz und Steuerbetrag je Steuerart) – diese fehlt.",
+  "f": "Im Rechnungsprogramm Steuersatz bzw. Steuerart für die Positionen angeben, damit die Steuer-Aufschlüsselung erzeugt wird.",
+  "t": "Umsatzsteuer-Aufschlüsselung fehlt"
+ },
+ "BR-CO-19": {
+  "e": "Ein Abrechnungszeitraum ist angelegt, aber weder Start- noch Enddatum sind angegeben.",
+  "f": "Start- und/oder Enddatum des Abrechnungszeitraums eintragen oder den leeren Zeitraum entfernen.",
+  "t": "Abrechnungszeitraum ohne Datum"
+ },
+ "BR-CO-20": {
+  "e": "Bei einer Rechnungsposition ist ein Leistungszeitraum angelegt, aber weder Start- noch Enddatum sind angegeben.",
+  "f": "Start- und/oder Enddatum eintragen oder den leeren Zeitraum entfernen.",
+  "t": "Positionszeitraum ohne Datum"
+ },
+ "BR-CO-21": {
+  "e": "Jeder Nachlass auf die gesamte Rechnung braucht einen Grund als Text, als Code aus einer festen Liste oder beides.",
+  "f": "Für jeden Rabatt einen Grund angeben.",
+  "t": "Grund für Rabatt fehlt"
+ },
+ "BR-CO-22": {
+  "e": "Jeder Zuschlag auf die gesamte Rechnung braucht einen Grund als Text, als Code aus einer festen Liste oder beides.",
+  "f": "Für jeden Zuschlag einen Grund angeben.",
+  "t": "Grund für Zuschlag fehlt"
+ },
+ "BR-CO-23": {
+  "e": "Jeder Nachlass auf eine Rechnungsposition braucht einen Grund als Text, als Code oder beides.",
+  "f": "Für jeden Positionsrabatt einen Grund angeben.",
+  "t": "Grund für Positionsrabatt fehlt"
+ },
+ "BR-CO-24": {
+  "e": "Jeder Zuschlag auf eine Rechnungsposition braucht einen Grund als Text, als Code oder beides.",
+  "f": "Für jeden Positionszuschlag einen Grund angeben.",
+  "t": "Grund für Positionszuschlag fehlt"
+ },
+ "BR-CO-25": {
+  "e": "Es ist noch ein Betrag zu zahlen, aber die Rechnung nennt weder ein Fälligkeitsdatum noch Zahlungsbedingungen.",
+  "f": "Ein Zahlungsziel (z. B. „zahlbar bis …“ oder „14 Tage netto“) in der Rechnung angeben.",
+  "t": "Fälligkeit oder Zahlungsbedingungen fehlen"
+ },
+ "BR-CO-26": {
+  "e": "Damit der Käufer den Lieferanten automatisch zuordnen kann, braucht die Rechnung mindestens eine Kennung des Verkäufers: Lieferantennummer, Handelsregisternummer oder Umsatzsteuer-ID.",
+  "f": "Im Rechnungsprogramm die Umsatzsteuer-ID oder eine andere Kennung des Verkäufers hinterlegen.",
+  "t": "Verkäufer nicht eindeutig erkennbar"
+ },
+ "BR-DE-1": {
+  "e": "Eine XRechnung muss Angaben zur Zahlung enthalten, z. B. Zahlungsart und Bankverbindung.",
+  "f": "Im Rechnungsprogramm Zahlungsart und Bankverbindung (IBAN) hinterlegen.",
+  "t": "Zahlungsangaben fehlen"
+ },
+ "BR-DE-10": {
+  "e": "Es ist eine Lieferadresse angegeben, aber ohne Ort.",
+  "f": "Bei der Lieferadresse den Ort ergänzen.",
+  "t": "Ort der Lieferadresse fehlt"
+ },
+ "BR-DE-11": {
+  "e": "Es ist eine Lieferadresse angegeben, aber ohne Postleitzahl.",
+  "f": "Bei der Lieferadresse die Postleitzahl ergänzen.",
+  "t": "PLZ der Lieferadresse fehlt"
+ },
+ "BR-DE-14": {
+  "e": "In der Steueraufstellung fehlt der Umsatzsteuersatz in Prozent (auch 0 % muss angegeben werden).",
+  "f": "Bei jeder Steuerart den Steuersatz im Rechnungsprogramm angeben.",
+  "t": "Steuersatz fehlt"
+ },
+ "BR-DE-15": {
+  "e": "Eine XRechnung muss eine Käuferreferenz enthalten – bei Behörden ist das meist die Leitweg-ID.",
+  "f": "Die Leitweg-ID bzw. Bestellreferenz vom Auftraggeber erfragen und eintragen.",
+  "t": "Käuferreferenz/Leitweg-ID fehlt"
+ },
+ "BR-DE-16": {
+  "e": "Bei umsatzsteuerpflichtigen Rechnungen muss die Umsatzsteuer-ID oder die Steuernummer des Verkäufers bzw. ein Steuervertreter angegeben sein (XRechnung-Regel).",
+  "f": "In den eigenen Firmendaten die Umsatzsteuer-ID oder Steuernummer hinterlegen.",
+  "t": "Steuernummer des Verkäufers fehlt"
+ },
+ "BR-DE-17": {
+  "e": "Die angegebene Rechnungsart (z. B. Rechnung, Gutschrift, Korrekturrechnung, Teilrechnung) ist für XRechnung nicht vorgesehen.",
+  "f": "Eine zulässige Rechnungsart wählen, z. B. normale Rechnung oder Gutschrift.",
+  "t": "Unzulässige Rechnungsart"
+ },
+ "BR-DE-18": {
+  "e": "Skonto-Bedingungen müssen in den Zahlungsbedingungen in einer festen Schreibweise stehen, z. B. „#SKONTO#TAGE=14#PROZENT=2.00#“.",
+  "f": "Die Skonto-Angabe im Rechnungsprogramm in der vorgeschriebenen Form eintragen.",
+  "t": "Skonto-Angabe falsch formatiert"
+ },
+ "BR-DE-19": {
+  "e": "Als Zahlungsart ist SEPA-Überweisung angegeben, aber die IBAN des Empfängerkontos ist nicht gültig.",
+  "f": "Die eigene IBAN im Rechnungsprogramm prüfen und korrigieren.",
+  "t": "IBAN für Überweisung ungültig"
+ },
+ "BR-DE-2": {
+  "e": "Eine XRechnung muss einen Ansprechpartner beim Rechnungssteller enthalten.",
+  "f": "In den Firmendaten einen Ansprechpartner mit Telefon und E-Mail hinterlegen.",
+  "t": "Kontaktdaten des Verkäufers fehlen"
+ },
+ "BR-DE-20": {
+  "e": "Als Zahlungsart ist SEPA-Lastschrift angegeben, aber die IBAN des zu belastenden Kontos ist nicht gültig.",
+  "f": "Die IBAN des Kunden prüfen und korrigieren.",
+  "t": "IBAN für Lastschrift ungültig"
+ },
+ "BR-DE-21": {
+  "e": "Die Kennung, welcher Standard verwendet wird, entspricht nicht der von XRechnung – die Datei ist evtl. in einem anderen Format erstellt.",
+  "f": "Im Rechnungsprogramm das Format „XRechnung“ (aktuelle Version) auswählen.",
+  "t": "Falsche XRechnung-Kennung"
+ },
+ "BR-DE-22": {
+  "e": "Mehrere angehängte Dateien haben denselben Dateinamen; jeder Anhang braucht einen eindeutigen Namen.",
+  "f": "Die Anhänge umbenennen, sodass jeder Dateiname nur einmal vorkommt.",
+  "t": "Anhänge mit gleichem Dateinamen"
+ },
+ "BR-DE-23-a": {
+  "e": "Als Zahlungsart ist Überweisung angegeben, aber die Angaben zum Empfängerkonto fehlen.",
+  "f": "Die eigene Bankverbindung (IBAN) in den Zahlungsangaben hinterlegen.",
+  "t": "Bankverbindung für Überweisung fehlt"
+ },
+ "BR-DE-23-b": {
+  "e": "Als Zahlungsart ist Überweisung angegeben, gleichzeitig enthält die Rechnung aber auch Karten- oder Lastschriftangaben.",
+  "f": "Nur die Angaben zur gewählten Zahlungsart behalten und die anderen entfernen.",
+  "t": "Widersprüchliche Zahlungsangaben (Überweisung)"
+ },
+ "BR-DE-24-a": {
+  "e": "Als Zahlungsart ist Kartenzahlung angegeben, aber die Angaben zur Zahlungskarte fehlen.",
+  "f": "Die Kartenangaben (z. B. letzte Ziffern der Kartennummer) ergänzen oder die Zahlungsart ändern.",
+  "t": "Kartenangaben fehlen"
+ },
+ "BR-DE-24-b": {
+  "e": "Als Zahlungsart ist Kartenzahlung angegeben, gleichzeitig enthält die Rechnung aber auch Überweisungs- oder Lastschriftangaben.",
+  "f": "Nur die Angaben zur Kartenzahlung behalten und die anderen entfernen.",
+  "t": "Widersprüchliche Zahlungsangaben (Karte)"
+ },
+ "BR-DE-25-a": {
+  "e": "Als Zahlungsart ist Lastschrift angegeben, aber die Lastschrift-Angaben (Mandat, Gläubiger-ID, Konto) fehlen.",
+  "f": "Die Lastschrift-Angaben ergänzen oder eine andere Zahlungsart wählen.",
+  "t": "Lastschriftangaben fehlen"
+ },
+ "BR-DE-25-b": {
+  "e": "Als Zahlungsart ist Lastschrift angegeben, gleichzeitig enthält die Rechnung aber auch Überweisungs- oder Kartenangaben.",
+  "f": "Nur die Lastschrift-Angaben behalten und die anderen entfernen.",
+  "t": "Widersprüchliche Zahlungsangaben (Lastschrift)"
+ },
+ "BR-DE-26": {
+  "e": "Bei einer Korrekturrechnung sollte die ursprüngliche Rechnung (Nummer und Datum) angegeben sein.",
+  "f": "Die Nummer der korrigierten Rechnung in der Korrekturrechnung eintragen.",
+  "t": "Bezug auf Originalrechnung fehlt"
+ },
+ "BR-DE-27": {
+  "e": "Die Telefonnummer des Ansprechpartners enthält weniger als drei Ziffern und ist daher vermutlich unvollständig.",
+  "f": "Eine vollständige Telefonnummer eintragen.",
+  "t": "Telefonnummer ungültig"
+ },
+ "BR-DE-28": {
+  "e": "Die E-Mail-Adresse des Ansprechpartners ist nicht korrekt aufgebaut (z. B. fehlendes oder doppeltes @, Leerzeichen oder Punkt an falscher Stelle).",
+  "f": "Die E-Mail-Adresse prüfen und korrigieren.",
+  "t": "E-Mail-Adresse ungültig"
+ },
+ "BR-DE-3": {
+  "e": "In der Adresse des Rechnungsstellers fehlt der Ort.",
+  "f": "In den eigenen Firmendaten den Ort ergänzen.",
+  "t": "Ort des Verkäufers fehlt"
+ },
+ "BR-DE-30": {
+  "e": "Bei Zahlung per Lastschrift muss die Gläubiger-Identifikationsnummer des Rechnungsstellers angegeben sein (XRechnung-Regel für Behörden).",
+  "f": "Die eigene Gläubiger-ID in den Zahlungsangaben hinterlegen.",
+  "t": "Gläubiger-ID für Lastschrift fehlt"
+ },
+ "BR-DE-31": {
+  "e": "Bei Zahlung per Lastschrift muss die IBAN des Kontos angegeben sein, von dem abgebucht wird (XRechnung-Regel).",
+  "f": "Die IBAN des Kunden für die Lastschrift eintragen.",
+  "t": "Zu belastendes Konto fehlt"
+ },
+ "BR-DE-4": {
+  "e": "In der Adresse des Rechnungsstellers fehlt die Postleitzahl.",
+  "f": "In den eigenen Firmendaten die Postleitzahl ergänzen.",
+  "t": "Postleitzahl des Verkäufers fehlt"
+ },
+ "BR-DE-5": {
+  "e": "Eine XRechnung muss den Namen eines Ansprechpartners oder einer Abteilung beim Rechnungssteller enthalten.",
+  "f": "In den Firmendaten einen Ansprechpartner eintragen.",
+  "t": "Ansprechpartner des Verkäufers fehlt"
+ },
+ "BR-DE-6": {
+  "e": "Eine XRechnung muss eine Telefonnummer des Ansprechpartners beim Rechnungssteller enthalten.",
+  "f": "In den Firmendaten eine Telefonnummer hinterlegen.",
+  "t": "Telefonnummer des Verkäufers fehlt"
+ },
+ "BR-DE-7": {
+  "e": "Eine XRechnung muss eine E-Mail-Adresse des Ansprechpartners beim Rechnungssteller enthalten.",
+  "f": "In den Firmendaten eine E-Mail-Adresse hinterlegen.",
+  "t": "E-Mail des Verkäufers fehlt"
+ },
+ "BR-DE-8": {
+  "e": "In der Adresse des Rechnungsempfängers fehlt der Ort.",
+  "f": "Beim Kunden den Ort in der Adresse ergänzen.",
+  "t": "Ort des Käufers fehlt"
+ },
+ "BR-DE-9": {
+  "e": "In der Adresse des Rechnungsempfängers fehlt die Postleitzahl.",
+  "f": "Beim Kunden die Postleitzahl ergänzen.",
+  "t": "Postleitzahl des Käufers fehlt"
+ },
+ "BR-DE-CVD-01": {
+  "e": "Bei Rechnungen über saubere Fahrzeuge muss die Vertragsnummer angegeben sein.",
+  "f": "Die Vertragsnummer aus dem Auftrag in die Rechnung eintragen.",
+  "t": "Vertragsnummer fehlt"
+ },
+ "BR-DE-CVD-02": {
+  "e": "Bei Rechnungen über saubere Fahrzeuge muss die Nummer der Ausschreibung bzw. des Loses angegeben sein.",
+  "f": "Die Ausschreibungs- bzw. Losnummer vom Auftraggeber erfragen und eintragen.",
+  "t": "Vergabe-/Losnummer fehlt"
+ },
+ "BR-DE-CVD-03": {
+  "e": "Bei Rechnungen über saubere Straßenfahrzeuge (Vergabe nach dem Gesetz über saubere Fahrzeuge) muss mindestens eine Position die Fahrzeugkategorie und die Angabe ‚cva‘ enthalten.",
+  "f": "Bei der Fahrzeugposition die Fahrzeugkategorie und das Merkmal ‚cva‘ (sauberes Fahrzeug) angeben.",
+  "t": "Fahrzeugklassifizierung fehlt"
+ },
+ "BR-DE-CVD-04": {
+  "e": "Die angegebene Fahrzeugkategorie gehört nicht zu den zulässigen Werten (z. B. M1, N1, M3).",
+  "f": "Eine zulässige Fahrzeugkategorie eintragen.",
+  "t": "Ungültige Fahrzeugkategorie"
+ },
+ "BR-DE-CVD-05": {
+  "e": "Der Wert des Merkmals ‚cva‘ (Art des sauberen Fahrzeugs) ist keiner der erlaubten Werte.",
+  "f": "Einen zulässigen Wert für ‚cva‘ angeben (z. B. sauberes oder emissionsfreies Fahrzeug).",
+  "t": "Ungültiger Wert für sauberes Fahrzeug"
+ },
+ "BR-DE-CVD-06-a": {
+  "e": "Eine Position enthält eine Fahrzeugkategorie, aber nicht genau ein Merkmal ‚cva‘ (Angabe zum sauberen Fahrzeug).",
+  "f": "In derselben Position genau ein Merkmal ‚cva‘ mit gültigem Wert ergänzen.",
+  "t": "Merkmal ‚cva‘ fehlt in Position"
+ },
+ "BR-DE-CVD-06-b": {
+  "e": "Eine Position enthält das Merkmal ‚cva‘ (sauberes Fahrzeug), aber nicht genau eine Fahrzeugkategorie.",
+  "f": "In derselben Position genau eine Fahrzeugkategorie angeben.",
+  "t": "Fahrzeugkategorie fehlt in Position"
+ },
+ "BR-DE-TMP-32": {
+  "e": "Die Rechnung sollte ein Liefer- bzw. Leistungsdatum oder einen Leistungszeitraum enthalten – für die ganze Rechnung oder für jede Position.",
+  "f": "Das Liefer-/Leistungsdatum oder den Leistungszeitraum in der Rechnung angeben.",
+  "t": "Leistungsdatum fehlt"
+ },
+ "BR-DEC-01": {
+  "e": "Der Betrag eines Nachlasses auf Rechnungsebene hat mehr als zwei Nachkommastellen.",
+  "f": "Den Rabattbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen beim Rabatt"
+ },
+ "BR-DEC-02": {
+  "e": "Der Grundbetrag, auf den ein Rechnungsrabatt berechnet wird, hat mehr als zwei Nachkommastellen.",
+  "f": "Den Grundbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen bei Rabatt-Basis"
+ },
+ "BR-DEC-05": {
+  "e": "Der Betrag eines Zuschlags auf Rechnungsebene hat mehr als zwei Nachkommastellen.",
+  "f": "Den Zuschlagsbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen beim Zuschlag"
+ },
+ "BR-DEC-06": {
+  "e": "Der Grundbetrag, auf den ein Rechnungszuschlag berechnet wird, hat mehr als zwei Nachkommastellen.",
+  "f": "Den Grundbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen bei Zuschlags-Basis"
+ },
+ "BR-DEC-09": {
+  "e": "Das Feld „Summe der Positionsbeträge (netto)“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Summe der Positionsbeträge (netto)"
+ },
+ "BR-DEC-10": {
+  "e": "Das Feld „Summe der Nachlässe auf die Gesamtrechnung“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Summe der Nachlässe auf die Gesamtrechnung"
+ },
+ "BR-DEC-11": {
+  "e": "Das Feld „Summe der Zuschläge auf die Gesamtrechnung“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Summe der Zuschläge auf die Gesamtrechnung"
+ },
+ "BR-DEC-12": {
+  "e": "Das Feld „Gesamtbetrag ohne Umsatzsteuer“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Gesamtbetrag ohne Umsatzsteuer"
+ },
+ "BR-DEC-13": {
+  "e": "Das Feld „Gesamtbetrag der Umsatzsteuer“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Gesamtbetrag der Umsatzsteuer"
+ },
+ "BR-DEC-14": {
+  "e": "Das Feld „Gesamtbetrag mit Umsatzsteuer“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Gesamtbetrag mit Umsatzsteuer"
+ },
+ "BR-DEC-15": {
+  "e": "Das Feld „Umsatzsteuerbetrag in Buchungswährung“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Umsatzsteuerbetrag in Buchungswährung"
+ },
+ "BR-DEC-16": {
+  "e": "Der bereits gezahlte Betrag hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Gezahlter Betrag"
+ },
+ "BR-DEC-17": {
+  "e": "Das Feld „Rundungsbetrag“ hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Rundungsbetrag"
+ },
+ "BR-DEC-18": {
+  "e": "Der fällige Zahlbetrag hat mehr als zwei Nachkommastellen. Geldbeträge dürfen hier nur auf den Cent genau angegeben werden.",
+  "f": "Den Betrag im Rechnungsprogramm auf zwei Nachkommastellen runden lassen.",
+  "t": "Zu viele Nachkommastellen: Zahlbetrag"
+ },
+ "BR-DEC-19": {
+  "e": "Der Nettobetrag in der Umsatzsteuer-Aufschlüsselung hat mehr als zwei Nachkommastellen.",
+  "f": "Den Betrag auf zwei Nachkommastellen (Cent) runden.",
+  "t": "Zu viele Nachkommastellen beim Nettobetrag"
+ },
+ "BR-DEC-20": {
+  "e": "Der Umsatzsteuerbetrag in der Aufschlüsselung hat mehr als zwei Nachkommastellen.",
+  "f": "Den Steuerbetrag auf zwei Nachkommastellen (Cent) runden.",
+  "t": "Zu viele Nachkommastellen beim Steuerbetrag"
+ },
+ "BR-DEC-23": {
+  "e": "Der Nettobetrag einer Rechnungsposition hat mehr als zwei Nachkommastellen.",
+  "f": "Den Positionsbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen beim Positionsbetrag"
+ },
+ "BR-DEC-24": {
+  "e": "Der Betrag eines Rabatts auf eine Position hat mehr als zwei Nachkommastellen.",
+  "f": "Den Rabattbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen beim Positionsrabatt"
+ },
+ "BR-DEC-25": {
+  "e": "Der Grundbetrag, auf den ein Positionsrabatt berechnet wird, hat mehr als zwei Nachkommastellen.",
+  "f": "Den Grundbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen bei Rabatt-Basis"
+ },
+ "BR-DEC-27": {
+  "e": "Der Betrag eines Zuschlags auf eine Position hat mehr als zwei Nachkommastellen.",
+  "f": "Den Zuschlagsbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen beim Positionszuschlag"
+ },
+ "BR-DEC-28": {
+  "e": "Der Grundbetrag, auf den ein Positionszuschlag berechnet wird, hat mehr als zwei Nachkommastellen.",
+  "f": "Den Grundbetrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen bei Zuschlags-Basis"
+ },
+ "BR-DEX-01": {
+  "e": "Ein angehängtes Dokument hat einen Dateityp, der nicht erlaubt ist. Zulässig sind z. B. PDF, PNG, JPEG, CSV, Excel und ODS (bei Erweiterungen auch XML).",
+  "f": "Den Anhang in einem erlaubten Format (z. B. PDF) beifügen.",
+  "t": "Unzulässiger Dateityp im Anhang"
+ },
+ "BR-DEX-02": {
+  "e": "Der Nettobetrag (BT-131) einer Rechnungsposition (BG-25) oder Unterposition (BG-DEX-01) soll der Summe der Nettobeträge der direkt darunterliegenden Unterpositionen entsprechen. Das ist hier nicht der Fall.",
+  "f": "Die Beträge der Unterpositionen prüfen und die Position neu berechnen lassen.",
+  "t": "Position stimmt nicht mit Unterpositionen überein"
+ },
+ "BR-DEX-03": {
+  "e": "Jede Unterposition (BG-DEX-01) muss genau eine Steuerangabe (BG-DEX-06) enthalten.",
+  "f": "Bei jeder Unterposition genau eine Steuerangabe hinterlegen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Steuerangabe der Unterposition fehlt oder mehrfach"
+ },
+ "BR-DEX-04": {
+  "e": "Bei einer Kennnummer (z. B. für Firma, Artikel oder Ort) ist die Art der Kennung nicht mit einem Code aus der dafür vorgesehenen internationalen Liste angegeben (z. B. 0088 für GLN).",
+  "f": "Die Art der Kennung korrigieren oder die Kennung weglassen bzw. den Hersteller informieren.",
+  "t": "Unbekannte Kennungsart"
+ },
+ "BR-DEX-05": {
+  "e": "Bei einer Kennnummer (z. B. für Firma, Artikel oder Ort) ist die Art der Kennung nicht mit einem Code aus der dafür vorgesehenen internationalen Liste angegeben (z. B. 0088 für GLN).",
+  "f": "Die Art der Kennung korrigieren oder die Kennung weglassen bzw. den Hersteller informieren.",
+  "t": "Unbekannte Kennungsart"
+ },
+ "BR-DEX-06": {
+  "e": "Bei einer Kennnummer (z. B. für Firma, Artikel oder Ort) ist die Art der Kennung nicht mit einem Code aus der dafür vorgesehenen internationalen Liste angegeben (z. B. 0088 für GLN).",
+  "f": "Die Art der Kennung korrigieren oder die Kennung weglassen bzw. den Hersteller informieren.",
+  "t": "Unbekannte Kennungsart"
+ },
+ "BR-DEX-07": {
+  "e": "Bei einer elektronischen Adresse (z. B. Leitweg-ID, E-Mail, Peppol-ID) ist ihre Art nicht mit einem zulässigen Code aus einer festen Liste angegeben.",
+  "f": "Die Art der elektronischen Adresse korrekt auswählen (z. B. „Leitweg-ID“ oder „E-Mail“).",
+  "t": "Art der elektronischen Adresse unbekannt"
+ },
+ "BR-DEX-08": {
+  "e": "Bei der Kennnummer des Lieferorts ist die Art der Kennung nicht mit einem Code aus der vorgesehenen internationalen Liste angegeben.",
+  "f": "Die Art der Lieferort-Kennung korrigieren oder die Kennung weglassen.",
+  "t": "Kennung des Lieferorts ungültig"
+ },
+ "BR-DEX-09": {
+  "e": "Der Zahlbetrag (BT-115) muss dem Bruttobetrag (BT-112) abzüglich bereits gezahlter Beträge (BT-113) zuzüglich Rundungsbetrag (BT-114) und zuzüglich der Summe der Zahlungen Dritter (BT-DEX-002) entsprechen. Das ist hier nicht der Fall.",
+  "f": "Zahlbetrag, bereits gezahlte Beträge, Rundungsbetrag und Zahlungen Dritter im Rechnungsprogramm neu berechnen lassen.",
+  "t": "Zahlbetrag stimmt nicht"
+ },
+ "BR-DEX-10": {
+  "e": "Wenn eine Zahlung eines Dritten (BG-DEX-09) angegeben ist, muss auch die Angabe „Art der Zahlung“ (BT-DEX-001) enthalten sein.",
+  "f": "Bei der Zahlung des Dritten die Angabe „Art der Zahlung“ ergänzen.",
+  "t": "Zahlung Dritter: Art der Zahlung fehlt"
+ },
+ "BR-DEX-11": {
+  "e": "Wenn eine Zahlung eines Dritten (BG-DEX-09) angegeben ist, muss auch die Angabe „Betrag der Zahlung“ (BT-DEX-002) enthalten sein.",
+  "f": "Bei der Zahlung des Dritten die Angabe „Betrag der Zahlung“ ergänzen.",
+  "t": "Zahlung Dritter: Betrag der Zahlung fehlt"
+ },
+ "BR-DEX-12": {
+  "e": "Wenn eine Zahlung eines Dritten (BG-DEX-09) angegeben ist, muss auch die Angabe „Beschreibung der Zahlung“ (BT-DEX-003) enthalten sein.",
+  "f": "Bei der Zahlung des Dritten die Angabe „Beschreibung der Zahlung“ ergänzen.",
+  "t": "Zahlung Dritter: Beschreibung der Zahlung fehlt"
+ },
+ "BR-DEX-13": {
+  "e": "Der Betrag der Zahlung eines Dritten (BT-DEX-002) darf höchstens zwei Nachkommastellen haben.",
+  "f": "Den Betrag auf zwei Nachkommastellen runden.",
+  "t": "Zu viele Nachkommastellen bei der Zahlung Dritter"
+ },
+ "BR-DEX-14": {
+  "e": "Die Währung des Betrags der Zahlung eines Dritten (BT-DEX-002) muss mit der Rechnungswährung (BT-5) übereinstimmen.",
+  "f": "Beim Betrag der Zahlung des Dritten dieselbe Währung wie bei der Rechnung angeben.",
+  "t": "Währung der Zahlung Dritter weicht ab"
+ },
+ "BR-DEX-15": {
+  "e": "Die Rechnung verwendet verschachtelte Unterpositionen; das wird von XRechnung nicht unterstützt.",
+  "f": "Die Rechnung ohne Unterpositionen bzw. im Format XRechnung mit Erweiterung erstellen.",
+  "t": "Unterpositionen nicht unterstützt"
+ },
+ "BR-E-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „Steuerbefreit“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht genau einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "Steuerbefreit: Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-E-02": {
+  "e": "Die Rechnung enthält Positionen mit steuerbefreiten Leistungen, aber weder die Umsatzsteuer-ID noch die Steuernummer des Verkäufers (oder seines Steuervertreters).",
+  "f": "Die Umsatzsteuer-ID oder Steuernummer des Verkäufers im Rechnungsprogramm hinterlegen.",
+  "t": "Steuerbefreit: Steuernummer des Verkäufers fehlt"
+ },
+ "BR-E-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart steuerbefreit. Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Steuerbefreiung, Rabatt)"
+ },
+ "BR-E-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart steuerbefreit. Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Steuerbefreiung, Zuschlag)"
+ },
+ "BR-E-05": {
+  "e": "Positionen mit steuerbefreiten Leistungen müssen den Steuersatz 0 % haben – hier ist ein anderer Satz angegeben.",
+  "f": "Den Steuersatz dieser Positionen auf 0 % setzen oder die richtige Steuerart wählen.",
+  "t": "Steuerbefreit: Steuersatz muss 0 % sein"
+ },
+ "BR-E-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der Steuerart steuerbefreit muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Rabatt auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Rabatt muss 0 % sein"
+ },
+ "BR-E-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart steuerbefreit muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Zuschlag auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Zuschlag muss 0 % sein"
+ },
+ "BR-E-08": {
+  "e": "In der Steueraufschlüsselung für steuerbefreiten Leistungen muss der Nettobetrag gleich der Summe der zugehörigen Positionen abzüglich Nachlässen und zuzüglich Zuschlägen auf die Gesamtrechnung sein.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Steuerbefreit: Nettobetrag stimmt nicht"
+ },
+ "BR-E-09": {
+  "e": "Bei steuerbefreiten Leistungen wird keine Umsatzsteuer berechnet – der Steuerbetrag in der Steueraufschlüsselung muss daher 0 sein.",
+  "f": "Den Steuerbetrag für diese Steuerart im Rechnungsprogramm auf 0 setzen bzw. die richtige Steuerart wählen.",
+  "t": "Steuerbefreit: Steuerbetrag muss 0 sein"
+ },
+ "BR-E-10": {
+  "e": "Bei steuerbefreiten Leistungen muss die Rechnung begründen, warum keine Umsatzsteuer berechnet wird – als Text oder als Code aus einer festen Liste. Diese Begründung fehlt.",
+  "f": "Im Rechnungsprogramm den Befreiungsgrund ergänzen (z. B. „Steuerfrei nach § 4 Nr. … UStG“ oder „Kleinunternehmer gemäß § 19 UStG“).",
+  "t": "Steuerbefreit: Begründung fehlt"
+ },
+ "BR-FXEXT-01": {
+  "e": "Für einen Hinweistext der Rechnung ist ein Thema angegeben, aber der Hinweis selbst (als Text oder Code) fehlt. Sind beide vorhanden, müssen sie dasselbe bedeuten.",
+  "f": "Den Hinweistext ergänzen oder das Thema entfernen.",
+  "t": "Rechnungshinweis: Text fehlt zum Thema"
+ },
+ "BR-FXEXT-02": {
+  "e": "Bei einer Rechnungsposition ist ein Thema für einen Hinweistext angegeben, aber der eigentliche Hinweis (als Text oder Code) fehlt. Sind beide angegeben, müssen sie dasselbe bedeuten.",
+  "f": "Den Hinweistext zur Position ergänzen oder das Thema entfernen.",
+  "t": "Positionshinweis: Text fehlt zum Thema"
+ },
+ "BR-FXEXT-03": {
+  "e": "Für bestimmte weitere Beteiligte (z. B. abweichender Lieferort, Vertreter, Endnutzer) darf nur eine Umsatzsteuer-ID angegeben werden, keine andere Steuernummer.",
+  "f": "Bei diesen Beteiligten nur die Umsatzsteuer-ID eintragen und andere Steuernummern entfernen.",
+  "t": "Falsche Steuernummer bei Beteiligtem"
+ },
+ "BR-FXEXT-04": {
+  "e": "Für Artikelmerkmale sollten nur Codes aus einer festen, international vereinbarten Liste verwendet werden, damit die Rechnung automatisch verarbeitet werden kann.",
+  "f": "Im Rechnungsprogramm für Artikelmerkmale nur Codes aus der vorgesehenen Liste verwenden.",
+  "t": "Unbekannter Code für Artikelmerkmal"
+ },
+ "BR-FXEXT-06": {
+  "e": "Eine Rechnungsposition verweist auf eine übergeordnete Position, ohne anzugeben, welche Art von Position sie ist (z. B. normale Position oder Zwischensumme).",
+  "f": "Bei untergeordneten Positionen die Positionsart angeben.",
+  "t": "Art der Unterposition fehlt"
+ },
+ "BR-FXEXT-08": {
+  "e": "Eine Position ist als Zwischensumme gekennzeichnet, aber ihr Betrag entspricht nicht der Summe der darunter liegenden Positionen.",
+  "f": "Die Zwischensumme im Rechnungsprogramm neu berechnen lassen.",
+  "t": "Zwischensumme stimmt nicht"
+ },
+ "BR-FXEXT-11": {
+  "e": "Eine Rechnungsposition verweist auf eine übergeordnete Position, deren Nummer es in der Rechnung nicht gibt.",
+  "f": "Den Verweis auf eine vorhandene Positionsnummer korrigieren.",
+  "t": "Verweis auf nicht vorhandene Position"
+ },
+ "BR-FXEXT-12": {
+  "e": "Hat eine Zwischensumme einen Betrag, müssen auch alle darunter liegenden Zwischensummen einen Betrag haben.",
+  "f": "Bei allen untergeordneten Zwischensummen den Betrag ergänzen.",
+  "t": "Betrag in Unter-Zwischensumme fehlt"
+ },
+ "BR-FXEXT-AE-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „Reverse Charge (Steuerschuld beim Empfänger)“, aber es fehlt die passende Steueraufstellung für Reverse Charge.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „Reverse Charge (Steuerschuld beim Empfänger)“ unvollständig"
+ },
+ "BR-FXEXT-AE-08b": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, der Kunde führt die Steuer ab) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Reverse Charge: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-AE-08ini": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, der Kunde führt die Steuer ab) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Reverse Charge: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-AE-08rev": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, der Kunde führt die Steuer ab) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Reverse Charge: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-AF-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „Kanaren-Steuer (IGIC)“, aber es fehlt die passende Steueraufstellung für die Kanaren-Steuer.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „Kanaren-Steuer (IGIC)“ unvollständig"
+ },
+ "BR-FXEXT-AF-08b": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei der Kanarischen Inselsteuer IGIC (Kanarische Inseln) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "IGIC (Kanaren): Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-AF-08ini": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei der Kanarischen Inselsteuer IGIC (Kanarische Inseln) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "IGIC (Kanaren): Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-AF-08rev": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei der Kanarischen Inselsteuer IGIC (Kanarische Inseln) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "IGIC (Kanaren): Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-AG-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „Ceuta/Melilla-Steuer (IPSI)“, aber es fehlt die passende Steueraufstellung für die Ceuta/Melilla-Steuer.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „Ceuta/Melilla-Steuer (IPSI)“ unvollständig"
+ },
+ "BR-FXEXT-AG-08b": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei der Steuer IPSI der spanischen Gebiete Ceuta und Melilla weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "IPSI (Ceuta/Melilla): Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-AG-08ini": {
+  "e": "In der Steueraufstellung für Umsätze mit „Ceuta/Melilla-Steuer (IPSI)“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Rundung je Position, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Ceuta/Melilla-Steuer (IPSI)“ stimmt nicht"
+ },
+ "BR-FXEXT-AG-08rev": {
+  "e": "In der Steueraufstellung für Umsätze mit „Ceuta/Melilla-Steuer (IPSI)“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Bruttopreisen bzw. umgekehrter Rundung, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Ceuta/Melilla-Steuer (IPSI)“ stimmt nicht"
+ },
+ "BR-FXEXT-BR-22": {
+  "e": "Eine normale Rechnungsposition enthält keine Menge der gelieferten Waren oder Leistungen.",
+  "f": "Bei jeder Position die berechnete Menge eintragen.",
+  "t": "Menge fehlt in Rechnungsposition"
+ },
+ "BR-FXEXT-BR-23": {
+  "e": "Bei einer normalen Rechnungsposition fehlt die Einheit der Menge (z. B. Stück, Stunde, kg).",
+  "f": "Bei jeder Position eine Mengeneinheit auswählen.",
+  "t": "Mengeneinheit fehlt"
+ },
+ "BR-FXEXT-BR-24": {
+  "e": "Eine normale Rechnungsposition hat keinen Nettobetrag (Gesamtpreis der Position ohne Umsatzsteuer).",
+  "f": "Bei jeder Position den Nettobetrag angeben bzw. berechnen lassen.",
+  "t": "Positionsbetrag fehlt"
+ },
+ "BR-FXEXT-BR-26": {
+  "e": "Bei einer normalen Rechnungsposition fehlt der Netto-Einzelpreis.",
+  "f": "Bei jeder Position den Einzelpreis ohne Umsatzsteuer eintragen.",
+  "t": "Einzelpreis fehlt"
+ },
+ "BR-FXEXT-BR-38": {
+  "e": "Ein Zuschlag oder eine Abgabe auf die gesamte Rechnung hat weder eine Beschreibung noch einen Grund-Code.",
+  "f": "Beim Zuschlag einen Grund angeben (z. B. „Versandkosten“) oder einen passenden Code wählen.",
+  "t": "Grund für Zuschlag fehlt"
+ },
+ "BR-FXEXT-BR-44": {
+  "e": "Ein Zuschlag oder eine Abgabe in einer Rechnungsposition hat weder eine Beschreibung noch einen Grund-Code.",
+  "f": "Beim Zuschlag in der Position einen Grund oder Code angeben.",
+  "t": "Grund für Positionszuschlag fehlt"
+ },
+ "BR-FXEXT-BR-54-1": {
+  "e": "Ein Merkmal eines Artikels (z. B. Farbe oder Größe) hat weder einen Namen noch einen Code, der sagt, um welches Merkmal es sich handelt.",
+  "f": "Beim Artikelmerkmal eine Bezeichnung oder einen Merkmal-Code eintragen.",
+  "t": "Artikelmerkmal ohne Namen"
+ },
+ "BR-FXEXT-BR-54-2": {
+  "e": "Ein Artikelmerkmal muss genau einen Wert haben – entweder als Text oder als Zahl mit Maßeinheit, aber nicht beides gleichzeitig.",
+  "f": "Beim Artikelmerkmal genau eine Wertangabe hinterlegen und die andere entfernen.",
+  "t": "Artikelmerkmal: Wert fehlt oder doppelt"
+ },
+ "BR-FXEXT-CII-DT-097a": {
+  "e": "Ein Datum mit Uhrzeit ist nicht im vorgeschriebenen Format Jahr, Monat, Tag, Stunde, Minute, Sekunde ohne Trennzeichen (z. B. 20261012143000) angegeben.",
+  "f": "Datum und Uhrzeit im richtigen Format angeben bzw. den Hersteller des Rechnungsprogramms informieren.",
+  "t": "Zeitangabe im falschen Format"
+ },
+ "BR-FXEXT-CO-04": {
+  "e": "Eine normale Rechnungsposition hat keine Angabe, wie sie umsatzsteuerlich behandelt wird (z. B. Normalsatz, steuerfrei, Reverse Charge).",
+  "f": "Bei jeder Position die Steuerart bzw. den Steuersatz auswählen.",
+  "t": "Umsatzsteuer-Kategorie der Position fehlt"
+ },
+ "BR-FXEXT-CO-10": {
+  "e": "Die angegebene Summe aller Positionsbeträge entspricht nicht der tatsächlichen Summe der einzelnen Positionen.",
+  "f": "Die Positionssumme im Rechnungsprogramm neu berechnen lassen.",
+  "t": "Summe der Positionen stimmt nicht"
+ },
+ "BR-FXEXT-CO-11": {
+  "e": "Die angegebene Gesamtsumme der Nachlässe auf die Rechnung entspricht nicht der Summe der einzelnen Nachlässe.",
+  "f": "Die Nachlässe prüfen und die Summe neu berechnen lassen.",
+  "t": "Summe der Nachlässe stimmt nicht"
+ },
+ "BR-FXEXT-CO-12": {
+  "e": "Die angegebene Gesamtsumme der Zuschläge entspricht nicht der Summe der einzelnen Zuschläge und Logistikgebühren.",
+  "f": "Die Zuschläge prüfen und die Summe neu berechnen lassen.",
+  "t": "Summe der Zuschläge stimmt nicht"
+ },
+ "BR-FXEXT-CO-13": {
+  "e": "Der Rechnungsbetrag ohne Umsatzsteuer muss der Summe der Positionen minus Nachlässe plus Zuschläge entsprechen. Das stimmt hier nicht.",
+  "f": "Die Rechnungssummen im Rechnungsprogramm neu berechnen lassen.",
+  "t": "Nettosumme der Rechnung falsch"
+ },
+ "BR-FXEXT-CO-15": {
+  "e": "Der Rechnungsbetrag inklusive Umsatzsteuer muss Nettobetrag plus Umsatzsteuer ergeben. Das stimmt hier nicht.",
+  "f": "Die Rechnungssummen im Rechnungsprogramm neu berechnen lassen.",
+  "t": "Bruttosumme der Rechnung falsch"
+ },
+ "BR-FXEXT-CO-16": {
+  "e": "Der zu zahlende Betrag muss sich ergeben aus: Bruttobetrag minus bereits gezahlter Betrag plus Rundung plus im Namen Dritter erhobene Beträge. Das stimmt hier nicht.",
+  "f": "Zahlbetrag, Anzahlungen und Rundung prüfen und neu berechnen lassen.",
+  "t": "Zahlbetrag falsch berechnet"
+ },
+ "BR-FXEXT-E-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „steuerbefreit“, aber es fehlt die passende Steueraufstellung für steuerbefreite Umsätze.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „steuerbefreit“ unvollständig"
+ },
+ "BR-FXEXT-E-08b": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei steuerbefreiten Leistungen weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Steuerbefreit: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-E-08ini": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei steuerbefreiten Leistungen weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Steuerbefreit: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-E-08rev": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei steuerbefreiten Leistungen weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Steuerbefreit: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-G-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „Ausfuhr außerhalb der EU“, aber es fehlt die passende Steueraufstellung für Ausfuhren.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „Ausfuhr außerhalb der EU“ unvollständig"
+ },
+ "BR-FXEXT-G-08b": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei Ausfuhr in ein Land außerhalb der EU weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Ausfuhr: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-G-08ini": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei Ausfuhr in ein Land außerhalb der EU weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Ausfuhr: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-G-08rev": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei Ausfuhr in ein Land außerhalb der EU weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Ausfuhr: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-IC-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „innergemeinschaftliche Lieferung“, aber es fehlt die passende Steueraufstellung für innergemeinschaftliche Lieferungen.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „innergemeinschaftliche Lieferung“ unvollständig"
+ },
+ "BR-FXEXT-IC-08b": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei innergemeinschaftliche Lieferung (steuerfreie Lieferung an ein Unternehmen in einem anderen EU-Land) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Innergemeinschaftliche Lieferung: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-IC-08ini": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei innergemeinschaftliche Lieferung (steuerfreie Lieferung an ein Unternehmen in einem anderen EU-Land) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Innergemeinschaftliche Lieferung: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-IC-08rev": {
+  "e": "Regel des ZUGFeRD-Profils EXTENDED: Bei innergemeinschaftliche Lieferung (steuerfreie Lieferung an ein Unternehmen in einem anderen EU-Land) weicht der Nettobetrag in der Steueraufschlüsselung zu stark von der Summe der Positionen minus Nachlässen plus Zuschlägen ab.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Innergemeinschaftliche Lieferung: Nettobetrag weicht ab"
+ },
+ "BR-FXEXT-O-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „nicht steuerbar“, aber es fehlt die passende Steueraufstellung für nicht steuerbare Umsätze.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „nicht steuerbar“ unvollständig"
+ },
+ "BR-FXEXT-O-08b": {
+  "e": "In der Steueraufstellung für Umsätze mit „nicht steuerbar“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (ZUGFeRD EXTENDED, mit Rundungstoleranz).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „nicht steuerbar“ stimmt nicht"
+ },
+ "BR-FXEXT-O-08ini": {
+  "e": "In der Steueraufstellung für Umsätze mit „nicht steuerbar“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Rundung je Position, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „nicht steuerbar“ stimmt nicht"
+ },
+ "BR-FXEXT-O-08rev": {
+  "e": "In der Steueraufstellung für Umsätze mit „nicht steuerbar“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Bruttopreisen bzw. umgekehrter Rundung, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „nicht steuerbar“ stimmt nicht"
+ },
+ "BR-FXEXT-S-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „Normalsatz/ermäßigter Satz“, aber es fehlt die passende Steueraufstellung (Nettobetrag und Steuer je Steuersatz) für diese Steuerart.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „Normalsatz/ermäßigter Satz“ unvollständig"
+ },
+ "BR-FXEXT-S-08ini": {
+  "e": "In der Steueraufstellung für Umsätze mit „Normalsatz bzw. ermäßigter Satz“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Rundung je Position, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Normalsatz bzw. ermäßigter Satz“ stimmt nicht"
+ },
+ "BR-FXEXT-S-08rev": {
+  "e": "In der Steueraufstellung für Umsätze mit „Normalsatz bzw. ermäßigter Satz“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Bruttopreisen bzw. umgekehrter Rundung, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Normalsatz bzw. ermäßigter Satz“ stimmt nicht"
+ },
+ "BR-FXEXT-S-09b": {
+  "e": "Für jeden Steuersatz im Normal- bzw. ermäßigten Satz muss der Steuerbetrag dem Nettobetrag mal Steuersatz entsprechen (kleine Rundungsabweichungen sind erlaubt). Das ist hier nicht der Fall.",
+  "f": "Im Rechnungsprogramm die Umsatzsteuer je Steuersatz neu berechnen lassen.",
+  "t": "Umsatzsteuer falsch berechnet"
+ },
+ "BR-FXEXT-S08b": {
+  "e": "In der Steueraufstellung für Umsätze mit „Normalsatz bzw. ermäßigter Satz“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (ZUGFeRD EXTENDED, mit Rundungstoleranz).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Normalsatz bzw. ermäßigter Satz“ stimmt nicht"
+ },
+ "BR-FXEXT-Z-01": {
+  "e": "Die Rechnung enthält Positionen, Nachlässe oder Zuschläge mit der Steuerart „Nullsatz“, aber es fehlt die passende Steueraufstellung für den Nullsatz.",
+  "f": "Die Steuerangaben des Verkäufers bzw. die Steueraufstellung im Rechnungsprogramm ergänzen.",
+  "t": "Steuerangaben für „Nullsatz“ unvollständig"
+ },
+ "BR-FXEXT-Z-08b": {
+  "e": "In der Steueraufstellung für Umsätze mit „Nullsatz“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (ZUGFeRD EXTENDED, mit Rundungstoleranz).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Nullsatz“ stimmt nicht"
+ },
+ "BR-FXEXT-Z-08ini": {
+  "e": "In der Steueraufstellung für Umsätze mit „Nullsatz“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Rundung je Position, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Nullsatz“ stimmt nicht"
+ },
+ "BR-FXEXT-Z-08rev": {
+  "e": "In der Steueraufstellung für Umsätze mit „Nullsatz“ passt der Nettobetrag nicht zu den Positionen: Er muss der Summe der Positionsbeträge minus Nachlässe plus Zuschläge (inkl. Logistikgebühren) dieser Kategorie entsprechen (Prüfung für Rechnungen mit Bruttopreisen bzw. umgekehrter Rundung, ZUGFeRD EXTENDED).",
+  "f": "Im Rechnungsprogramm die Steueraufstellung neu berechnen lassen oder die Beträge der Positionen, Nachlässe und Zuschläge prüfen.",
+  "t": "Nettobetrag für „Nullsatz“ stimmt nicht"
+ },
+ "BR-G-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „Ausfuhr“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht genau einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "Ausfuhr: Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-G-02": {
+  "e": "Bei einer Ausfuhr außerhalb der EU muss die Umsatzsteuer-ID des Verkäufers (oder seines Steuervertreters) in der Rechnung stehen.",
+  "f": "Die Umsatzsteuer-ID des Verkäufers im Rechnungsprogramm hinterlegen.",
+  "t": "Ausfuhr: Umsatzsteuer-ID des Verkäufers fehlt"
+ },
+ "BR-G-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart Ausfuhr außerhalb der EU (steuerfrei). Dafür muss die Umsatzsteuer-ID des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Ausfuhr, Rabatt)"
+ },
+ "BR-G-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart Ausfuhr außerhalb der EU (steuerfrei). Dafür muss die Umsatzsteuer-ID des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Ausfuhr, Zuschlag)"
+ },
+ "BR-G-05": {
+  "e": "Positionen mit Ausfuhr in ein Land außerhalb der EU müssen den Steuersatz 0 % haben – hier ist ein anderer Satz angegeben.",
+  "f": "Den Steuersatz dieser Positionen auf 0 % setzen oder die richtige Steuerart wählen.",
+  "t": "Ausfuhr: Steuersatz muss 0 % sein"
+ },
+ "BR-G-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der Steuerart Ausfuhr außerhalb der EU (steuerfrei) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Rabatt auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Rabatt muss 0 % sein"
+ },
+ "BR-G-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart Ausfuhr außerhalb der EU (steuerfrei) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Zuschlag auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Zuschlag muss 0 % sein"
+ },
+ "BR-G-08": {
+  "e": "In der Steueraufschlüsselung für Ausfuhr in ein Land außerhalb der EU muss der Nettobetrag gleich der Summe der zugehörigen Positionen abzüglich Nachlässen und zuzüglich Zuschlägen auf die Gesamtrechnung sein.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Ausfuhr: Nettobetrag stimmt nicht"
+ },
+ "BR-G-09": {
+  "e": "Bei Ausfuhr in ein Land außerhalb der EU wird keine Umsatzsteuer berechnet – der Steuerbetrag in der Steueraufschlüsselung muss daher 0 sein.",
+  "f": "Den Steuerbetrag für diese Steuerart im Rechnungsprogramm auf 0 setzen bzw. die richtige Steuerart wählen.",
+  "t": "Ausfuhr: Steuerbetrag muss 0 sein"
+ },
+ "BR-G-10": {
+  "e": "Bei Ausfuhr in ein Land außerhalb der EU muss die Rechnung begründen, warum keine Umsatzsteuer berechnet wird – als Text oder als Code aus einer festen Liste. Diese Begründung fehlt.",
+  "f": "Im Rechnungsprogramm den Befreiungsgrund ergänzen (z. B. „Steuerfreie Ausfuhrlieferung“).",
+  "t": "Ausfuhr: Begründung fehlt"
+ },
+ "BR-IC-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „Innergemeinschaftliche Lieferung“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht genau einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "Innergemeinschaftliche Lieferung: Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-IC-02": {
+  "e": "Bei einer innergemeinschaftlichen Lieferung müssen die Umsatzsteuer-ID des Verkäufers (oder seines Steuervertreters) und die Umsatzsteuer-ID des Käufers angegeben sein.",
+  "f": "Beide Umsatzsteuer-IDs in der Rechnung ergänzen.",
+  "t": "EU-Lieferung: Umsatzsteuer-IDs fehlen"
+ },
+ "BR-IC-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart innergemeinschaftliche Lieferung (steuerfreie Lieferung in ein anderes EU-Land). Dafür müssen die Umsatzsteuer-ID des Verkäufers (bzw. seines Steuervertreters) und die Umsatzsteuer-ID des Käufers angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (EU-Lieferung, Rabatt)"
+ },
+ "BR-IC-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart innergemeinschaftliche Lieferung (steuerfreie Lieferung in ein anderes EU-Land). Dafür müssen die Umsatzsteuer-ID des Verkäufers (bzw. seines Steuervertreters) und die Umsatzsteuer-ID des Käufers angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (EU-Lieferung, Zuschlag)"
+ },
+ "BR-IC-05": {
+  "e": "Positionen mit innergemeinschaftliche Lieferung (steuerfreie Lieferung an ein Unternehmen in einem anderen EU-Land) müssen den Steuersatz 0 % haben – hier ist ein anderer Satz angegeben.",
+  "f": "Den Steuersatz dieser Positionen auf 0 % setzen oder die richtige Steuerart wählen.",
+  "t": "Innergemeinschaftliche Lieferung: Steuersatz muss 0 % sein"
+ },
+ "BR-IC-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der Steuerart innergemeinschaftliche Lieferung (steuerfreie Lieferung in ein anderes EU-Land) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Rabatt auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Rabatt muss 0 % sein"
+ },
+ "BR-IC-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart innergemeinschaftliche Lieferung (steuerfreie Lieferung in ein anderes EU-Land) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Zuschlag auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Zuschlag muss 0 % sein"
+ },
+ "BR-IC-08": {
+  "e": "In der Steueraufschlüsselung für innergemeinschaftliche Lieferung (steuerfreie Lieferung an ein Unternehmen in einem anderen EU-Land) muss der Nettobetrag gleich der Summe der zugehörigen Positionen abzüglich Nachlässen und zuzüglich Zuschlägen auf die Gesamtrechnung sein.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Innergemeinschaftliche Lieferung: Nettobetrag stimmt nicht"
+ },
+ "BR-IC-09": {
+  "e": "Bei innergemeinschaftliche Lieferung (steuerfreie Lieferung an ein Unternehmen in einem anderen EU-Land) wird keine Umsatzsteuer berechnet – der Steuerbetrag in der Steueraufschlüsselung muss daher 0 sein.",
+  "f": "Den Steuerbetrag für diese Steuerart im Rechnungsprogramm auf 0 setzen bzw. die richtige Steuerart wählen.",
+  "t": "Innergemeinschaftliche Lieferung: Steuerbetrag muss 0 sein"
+ },
+ "BR-IC-10": {
+  "e": "Bei innergemeinschaftliche Lieferung (steuerfreie Lieferung an ein Unternehmen in einem anderen EU-Land) muss die Rechnung begründen, warum keine Umsatzsteuer berechnet wird – als Text oder als Code aus einer festen Liste. Diese Begründung fehlt.",
+  "f": "Im Rechnungsprogramm den Befreiungsgrund ergänzen (z. B. „Steuerfreie innergemeinschaftliche Lieferung“).",
+  "t": "Innergemeinschaftliche Lieferung: Begründung fehlt"
+ },
+ "BR-IC-11": {
+  "e": "Bei einer innergemeinschaftlichen Lieferung (steuerfrei an ein Unternehmen in einem anderen EU-Land) muss das Lieferdatum oder der Leistungszeitraum angegeben sein.",
+  "f": "Das Liefer- bzw. Leistungsdatum oder den Leistungszeitraum in der Rechnung ergänzen.",
+  "t": "EU-Lieferung: Liefer- oder Leistungsdatum fehlt"
+ },
+ "BR-IC-12": {
+  "e": "Bei einer innergemeinschaftlichen Lieferung (steuerfrei an ein Unternehmen in einem anderen EU-Land) muss das Land angegeben sein, in das geliefert wurde.",
+  "f": "Die Lieferadresse mit Land in der Rechnung ergänzen.",
+  "t": "EU-Lieferung: Lieferland fehlt"
+ },
+ "BR-O-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „Nicht steuerbar“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht genau einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "Nicht steuerbar: Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-O-02": {
+  "e": "Bei nicht steuerbaren Umsätzen dürfen weder die Umsatzsteuer-ID des Verkäufers (bzw. seines Steuervertreters) noch die des Käufers in der Rechnung stehen.",
+  "f": "Die Umsatzsteuer-IDs entfernen oder die richtige Steuerart wählen.",
+  "t": "Nicht steuerbar: Umsatzsteuer-ID nicht erlaubt"
+ },
+ "BR-O-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart „nicht steuerbar“. Dann dürfen keine Umsatzsteuer-IDs von Verkäufer, Steuervertreter oder Käufer angegeben sein.",
+  "f": "Entweder die Umsatzsteuer-IDs entfernen oder die Steuerart des Rabatts korrigieren.",
+  "t": "USt-ID bei nicht steuerbarem Rabatt"
+ },
+ "BR-O-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart „nicht steuerbar“. Dann dürfen keine Umsatzsteuer-IDs von Verkäufer, Steuervertreter oder Käufer angegeben sein.",
+  "f": "Entweder die Umsatzsteuer-IDs entfernen oder die Steuerart des Zuschlags korrigieren.",
+  "t": "USt-ID bei nicht steuerbarem Zuschlag"
+ },
+ "BR-O-05": {
+  "e": "Positionen, die als „nicht steuerbar“ gekennzeichnet sind, dürfen keinen Steuersatz (auch nicht 0 %) enthalten.",
+  "f": "Den Steuersatz bei diesen Positionen entfernen.",
+  "t": "Nicht steuerbar: Steuersatz nicht erlaubt"
+ },
+ "BR-O-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der Steuerart „nicht steuerbar“ darf kein Steuersatz angegeben sein.",
+  "f": "Den Steuersatz beim Rabatt entfernen.",
+  "t": "Steuersatz bei nicht steuerbarem Rabatt"
+ },
+ "BR-O-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart „nicht steuerbar“ darf kein Steuersatz angegeben sein.",
+  "f": "Den Steuersatz beim Zuschlag entfernen.",
+  "t": "Steuersatz bei nicht steuerbarem Zuschlag"
+ },
+ "BR-O-08": {
+  "e": "In der Steueraufschlüsselung für nicht steuerbaren Umsätzen (z. B. Leistungen, die nicht der deutschen bzw. EU-Umsatzsteuer unterliegen) muss der Nettobetrag gleich der Summe der zugehörigen Positionen abzüglich Nachlässen und zuzüglich Zuschlägen auf die Gesamtrechnung sein.",
+  "f": "Positionen, Nachlässe und Zuschläge dieser Steuerart prüfen und die Rechnung neu berechnen lassen.",
+  "t": "Nicht steuerbar: Nettobetrag stimmt nicht"
+ },
+ "BR-O-09": {
+  "e": "Bei nicht steuerbaren Umsätzen (z. B. Leistungen, die nicht der deutschen bzw. EU-Umsatzsteuer unterliegen) wird keine Umsatzsteuer berechnet – der Steuerbetrag in der Steueraufschlüsselung muss daher 0 sein.",
+  "f": "Den Steuerbetrag für diese Steuerart im Rechnungsprogramm auf 0 setzen bzw. die richtige Steuerart wählen.",
+  "t": "Nicht steuerbar: Steuerbetrag muss 0 sein"
+ },
+ "BR-O-10": {
+  "e": "Bei nicht steuerbaren Umsätzen (z. B. Leistungen, die nicht der deutschen bzw. EU-Umsatzsteuer unterliegen) muss die Rechnung begründen, warum keine Umsatzsteuer berechnet wird – als Text oder als Code aus einer festen Liste. Diese Begründung fehlt.",
+  "f": "Im Rechnungsprogramm den Befreiungsgrund ergänzen (z. B. „Nicht im Inland steuerbar“).",
+  "t": "Nicht steuerbar: Begründung fehlt"
+ },
+ "BR-O-11": {
+  "e": "Enthält die Rechnung nicht steuerbare Umsätze, darf sie keine weiteren Steuerarten (z. B. 19 %) enthalten – alles muss „nicht steuerbar“ sein.",
+  "f": "Steuerpflichtige und nicht steuerbare Leistungen auf getrennte Rechnungen aufteilen.",
+  "t": "Nicht steuerbar: andere Steuerarten nicht erlaubt"
+ },
+ "BR-O-12": {
+  "e": "Die Rechnung ist als „nicht steuerbar“ gekennzeichnet, enthält aber Positionen mit einer anderen Steuerart.",
+  "f": "Alle Positionen auf „nicht steuerbar“ setzen oder die Leistungen auf getrennte Rechnungen aufteilen.",
+  "t": "Nicht steuerbar: Positionen mit anderer Steuerart"
+ },
+ "BR-O-13": {
+  "e": "Die Rechnung ist als „nicht steuerbar“ gekennzeichnet, enthält aber einen Nachlass auf die Gesamtrechnung mit einer anderen Steuerart.",
+  "f": "Den Nachlass ebenfalls als „nicht steuerbar“ kennzeichnen.",
+  "t": "Nicht steuerbar: Nachlass mit anderer Steuerart"
+ },
+ "BR-O-14": {
+  "e": "Die Rechnung ist als „nicht steuerbar“ gekennzeichnet, enthält aber einen Zuschlag (z. B. Versandkosten) mit einer anderen Steuerart.",
+  "f": "Den Zuschlag ebenfalls als „nicht steuerbar“ kennzeichnen.",
+  "t": "Nicht steuerbar: Zuschlag mit anderer Steuerart"
+ },
+ "BR-S-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „Normalsatz“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht mindestens einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "Normalsatz: Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-S-02": {
+  "e": "Die Rechnung enthält Positionen mit Umsatzsteuer zum Normalsatz oder ermäßigten Satz (z. B. 19 % oder 7 %), aber weder die Umsatzsteuer-ID noch die Steuernummer des Verkäufers (oder seines Steuervertreters).",
+  "f": "Die Umsatzsteuer-ID oder Steuernummer des Verkäufers im Rechnungsprogramm hinterlegen.",
+  "t": "Normalsatz: Steuernummer des Verkäufers fehlt"
+ },
+ "BR-S-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart Normalsatz bzw. ermäßigter Satz (z. B. 19 % oder 7 %). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Normalsatz, Rabatt)"
+ },
+ "BR-S-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart Normalsatz bzw. ermäßigter Satz (z. B. 19 % oder 7 %). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Normalsatz, Zuschlag)"
+ },
+ "BR-S-05": {
+  "e": "Positionen mit normaler Umsatzsteuer (Normalsatz oder ermäßigter Satz) müssen einen Steuersatz größer als 0 % haben, z. B. 19 % oder 7 %.",
+  "f": "Den richtigen Steuersatz eintragen oder, falls keine Steuer anfällt, die passende Steuerart (z. B. steuerbefreit) wählen.",
+  "t": "Normalsatz: Steuersatz fehlt oder ist 0 %"
+ },
+ "BR-S-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit Normalsatz bzw. ermäßigtem Satz muss ein Steuersatz größer als 0 % angegeben sein.",
+  "f": "Den richtigen Steuersatz (z. B. 19 % oder 7 %) beim Rabatt eintragen.",
+  "t": "Steuersatz beim Rabatt muss über 0 sein"
+ },
+ "BR-S-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit Normalsatz bzw. ermäßigtem Satz muss ein Steuersatz größer als 0 % angegeben sein.",
+  "f": "Den richtigen Steuersatz (z. B. 19 % oder 7 %) beim Zuschlag eintragen.",
+  "t": "Steuersatz beim Zuschlag muss über 0 sein"
+ },
+ "BR-S-08": {
+  "e": "Für jeden Steuersatz (z. B. 19 % und 7 %) muss der Nettobetrag in der Aufschlüsselung der Summe der Positionen mit diesem Satz zuzüglich Zuschlägen und abzüglich Rabatten auf Rechnungsebene entsprechen. Das ist hier nicht der Fall.",
+  "f": "Die Positionen je Steuersatz nachrechnen und die Steueraufschlüsselung korrigieren.",
+  "t": "Nettosumme je Steuersatz stimmt nicht"
+ },
+ "BR-S-09": {
+  "e": "Bei normal besteuerten Umsätzen (z. B. 19 % oder 7 %) muss der Steuerbetrag Nettobetrag × Steuersatz ergeben. Das passt hier nicht.",
+  "f": "Die Steuerberechnung im Rechnungsprogramm prüfen und die Rechnung neu erzeugen.",
+  "t": "Steuerbetrag beim Normalsatz falsch"
+ },
+ "BR-S-10": {
+  "e": "Bei normal besteuerten Umsätzen (z. B. 19 % oder 7 %) darf kein Grund für eine Steuerbefreiung angegeben sein.",
+  "f": "Den Befreiungsgrund entfernen oder die Steuerart korrigieren.",
+  "t": "Befreiungsgrund beim Normalsatz unzulässig"
+ },
+ "BR-TMP-2": {
+  "e": "Der Verweis auf ein externes Dokument muss eine vollständige Webadresse sein (z. B. beginnend mit https://).",
+  "f": "Den Link vollständig mit https:// angeben.",
+  "t": "Link zu Zusatzdokument ungültig"
+ },
+ "BR-TMP-3": {
+  "e": "Die Bezugsmenge bzw. -einheit des Preises ist an zwei Stellen unterschiedlich angegeben; beide Angaben müssen gleich sein.",
+  "f": "Die Preis-Bezugsmenge prüfen bzw. den Hersteller des Rechnungsprogramms informieren.",
+  "t": "Preis-Bezugsmenge widersprüchlich"
+ },
+ "BR-TMP-4": {
+  "e": "Innerhalb der Anlagen zur Rechnung (BG-24) darf die Beschreibung des Belegs (BT-123, ram:Name) höchstens einmal vorkommen.",
+  "f": "Die doppelte Beschreibung entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Beschreibung des Belegs mehrfach angegeben"
+ },
+ "BR-TMP-5": {
+  "e": "Innerhalb der Anlagen zur Rechnung (BG-24) darf das angehängte Dokument (BT-125, ram:AttachmentBinaryObject) höchstens einmal vorkommen.",
+  "f": "Pro Anlage nur ein Dokument einbetten bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Angehängtes Dokument mehrfach angegeben"
+ },
+ "BR-TMP-6": {
+  "e": "Datumsangaben in einer UBL-Rechnung müssen im Format JJJJ-MM-TT (YYYY-MM-DD) angegeben sein.",
+  "f": "Das Datum im Format JJJJ-MM-TT angeben bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Datumsformat in UBL falsch"
+ },
+ "BR-TMP-7": {
+  "e": "Datumsangaben in einer UNCEFACT/CII-Rechnung müssen das Attribut format=\"102\" tragen und im Format JJJJMMTT (YYYYMMDD) angegeben sein.",
+  "f": "Das Datum mit format=\"102\" im Format JJJJMMTT angeben bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Datumsformat in UNCEFACT/CII falsch"
+ },
+ "BR-TMP-CVD-01": {
+  "e": "Bei der Klassifizierung eines Artikels ist die Art der Klassifizierung nicht mit einem Code aus der vorgesehenen Liste angegeben.",
+  "f": "Eine gültige Klassifizierungsart wählen bzw. den Hersteller informieren.",
+  "t": "Art der Artikelklassifizierung ungültig"
+ },
+ "BR-Z-01": {
+  "e": "Positionen, Nachlässe oder Zuschläge sind als „Nullsatz“ gekennzeichnet, aber die Steueraufschlüsselung der Rechnung enthält nicht genau einen passenden Eintrag dafür.",
+  "f": "Die Rechnung im Rechnungsprogramm neu berechnen lassen, damit die Steueraufschlüsselung zu den Positionen passt.",
+  "t": "Nullsatz: Steuer-Aufschlüsselung fehlt"
+ },
+ "BR-Z-02": {
+  "e": "Die Rechnung enthält Positionen mit Umsatzsteuer mit Nullsatz (0 %, z. B. bestimmte Solaranlagen), aber weder die Umsatzsteuer-ID noch die Steuernummer des Verkäufers (oder seines Steuervertreters).",
+  "f": "Die Umsatzsteuer-ID oder Steuernummer des Verkäufers im Rechnungsprogramm hinterlegen.",
+  "t": "Nullsatz: Steuernummer des Verkäufers fehlt"
+ },
+ "BR-Z-03": {
+  "e": "Die Rechnung enthält einen Nachlass auf die gesamte Rechnung mit der Steuerart Nullsatz (0 %). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Nullsatz, Rabatt)"
+ },
+ "BR-Z-04": {
+  "e": "Die Rechnung enthält einen Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart Nullsatz (0 %). Dafür muss die Umsatzsteuer-ID oder Steuernummer des Verkäufers (bzw. seines Steuervertreters) angegeben sein.",
+  "f": "Im Rechnungsprogramm die fehlende Umsatzsteuer-ID bzw. Steuernummer hinterlegen.",
+  "t": "Steuer-ID fehlt (Nullsatz, Zuschlag)"
+ },
+ "BR-Z-05": {
+  "e": "Positionen mit Umsatzsteuer mit Nullsatz (0 %, z. B. bestimmte Solaranlagen) müssen den Steuersatz 0 % haben – hier ist ein anderer Satz angegeben.",
+  "f": "Den Steuersatz dieser Positionen auf 0 % setzen oder die richtige Steuerart wählen.",
+  "t": "Nullsatz: Steuersatz muss 0 % sein"
+ },
+ "BR-Z-06": {
+  "e": "Bei einem Nachlass auf die gesamte Rechnung mit der Steuerart Nullsatz (0 %) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Rabatt auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Rabatt muss 0 % sein"
+ },
+ "BR-Z-07": {
+  "e": "Bei einem Zuschlag auf die gesamte Rechnung (z. B. Versandkosten) mit der Steuerart Nullsatz (0 %) muss der Steuersatz 0 % sein.",
+  "f": "Den Steuersatz beim Zuschlag auf 0 % setzen oder die Steuerart korrigieren.",
+  "t": "Steuersatz beim Zuschlag muss 0 % sein"
+ },
+ "BR-Z-08": {
+  "e": "Für Umsätze mit Nullsatz (0 % Steuer) muss der Nettobetrag in der Aufschlüsselung der Summe der betreffenden Positionen abzüglich Rabatten und zuzüglich Zuschlägen auf Rechnungsebene entsprechen. Das ist hier nicht der Fall.",
+  "f": "Die Positionen, Rabatte und Zuschläge mit 0 % Steuer nachrechnen und die Aufschlüsselung korrigieren.",
+  "t": "Nettosumme beim Nullsatz stimmt nicht"
+ },
+ "BR-Z-09": {
+  "e": "Bei Umsätzen mit Nullsatz muss der Umsatzsteuerbetrag genau 0 sein.",
+  "f": "Den Steuerbetrag für die Nullsatz-Umsätze auf 0 setzen oder die Steuerart korrigieren.",
+  "t": "Steuerbetrag beim Nullsatz nicht 0"
+ },
+ "BR-Z-10": {
+  "e": "Bei Umsätzen mit Nullsatz darf kein Grund für eine Steuerbefreiung angegeben sein – das gilt nur für steuerbefreite Umsätze.",
+  "f": "Den Befreiungsgrund entfernen oder, falls tatsächlich steuerbefreit, die Steuerart auf „steuerbefreit“ ändern.",
+  "t": "Befreiungsgrund beim Nullsatz unzulässig"
+ },
+ "CII-DT-097": {
+  "e": "Ein Datum ist nicht im vorgeschriebenen Format Jahr-Monat-Tag ohne Trennzeichen (z. B. 20261012) angegeben.",
+  "f": "Das Datum im Rechnungsprogramm korrigieren bzw. den Hersteller auf das Datumsformat hinweisen.",
+  "t": "Datum im falschen Format"
+ },
+ "CII-SR-463": {
+  "e": "Bei einem Rabatt oder Zuschlag auf Rechnungsebene fehlt die Kennzeichnung, ob es sich um einen Abzug oder einen Aufschlag handelt.",
+  "f": "Den Rechnungssteller bitten, die Datei mit eindeutiger Kennzeichnung neu zu erzeugen.",
+  "t": "Unklar ob Rabatt oder Zuschlag"
+ },
+ "CII-SR-464": {
+  "e": "Die Bankleitzahl der Bank (BIC) für die Bankverbindung darf in der Rechnung nur einmal vorkommen.",
+  "f": "Doppelte BIC-Angaben im Rechnungsprogramm entfernen.",
+  "t": "BIC mehrfach angegeben"
+ },
+ "CII-SR-465": {
+  "e": "Die Kontaktperson bzw. Abteilung des Verkäufers darf nur einmal angegeben sein.",
+  "f": "Doppelte Kontaktangaben des Verkäufers entfernen.",
+  "t": "Kennung des Verkäufer-Kontakts mehrfach"
+ },
+ "CII-SR-466": {
+  "e": "Die Kontaktperson bzw. Abteilung des Käufers darf nur einmal angegeben sein.",
+  "f": "Doppelte Kontaktangaben des Käufers entfernen.",
+  "t": "Kennung des Käufer-Kontakts mehrfach"
+ },
+ "CII-SR-467": {
+  "e": "Sind mehrere Zahlungswege (z. B. mehrere Bankkonten) angegeben, müssen alle dieselbe Zahlungsart haben.",
+  "f": "Bei allen Zahlungsangaben dieselbe Zahlungsart wählen oder überzählige entfernen.",
+  "t": "Unterschiedliche Zahlungsarten"
+ },
+ "CII-SR-468": {
+  "e": "Sind mehrere Zahlungswege angegeben, muss der Beschreibungstext der Zahlungsart überall gleich sein.",
+  "f": "Den Text zur Zahlungsart vereinheitlichen.",
+  "t": "Unterschiedliche Zahlungsbeschreibungen"
+ },
+ "CII-SR-469": {
+  "e": "Der Verwendungszweck für die Zahlung darf in der Rechnung nur einmal vorkommen.",
+  "f": "Doppelte Verwendungszweck-Angaben entfernen.",
+  "t": "Verwendungszweck mehrfach angegeben"
+ },
+ "CII-SR-470": {
+  "e": "Für das Empfängerkonto muss genau eine Angabe stehen: entweder eine IBAN oder eine sonstige Kontonummer. Hier fehlt sie ganz oder es sind beide angegeben.",
+  "f": "Bei Überweisung die IBAN des Empfängerkontos angeben und nur diese eine Kontoangabe verwenden.",
+  "t": "Kontoangabe fehlt oder doppelt"
+ },
+ "CII-SR-471": {
+  "e": "Bei einem Rabatt oder Zuschlag auf Rechnungsebene fehlt die Umsatzsteuer-Kategorie (z. B. Normalsatz, steuerbefreit).",
+  "f": "Für jeden Rabatt bzw. Zuschlag die passende Umsatzsteuer-Kategorie angeben.",
+  "t": "Steuerart bei Rabatt/Zuschlag fehlt"
+ },
+ "CII-SR-472": {
+  "e": "Bei einem Rabatt oder Zuschlag auf Rechnungsebene sollte der Umsatzsteuersatz angegeben sein.",
+  "f": "Für jeden Rabatt bzw. Zuschlag den Steuersatz in Prozent ergänzen.",
+  "t": "Steuersatz bei Rabatt/Zuschlag fehlt"
+ },
+ "CII-SR-473": {
+  "e": "Bei einem Rabatt oder Zuschlag ist der Betrag mehr als einmal eingetragen; erlaubt ist nur ein Betrag.",
+  "f": "Den doppelten Betrag entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Betrag mehrfach angegeben"
+ },
+ "CII-SR-474": {
+  "e": "Eine Rechnungsposition darf höchstens einen Verweis auf ein zugehöriges Objekt bzw. Bezugsdokument enthalten.",
+  "f": "Doppelte Verweise bei der Position entfernen.",
+  "t": "Positionsbezug mehrfach angegeben"
+ },
+ "CII-SR-475": {
+  "e": "Ein bestimmter Anhang (Rechnungsbeleg) darf nur einen Namen haben – hier sind mehrere angegeben.",
+  "f": "Doppelte Anhänge entfernen und die Rechnung neu erstellen.",
+  "t": "Rechnungsbeleg-Anhang mehrfach benannt"
+ },
+ "CII-SR-476": {
+  "e": "Ein bestimmter Anhang (Rechnungsbeleg) darf nur einmal als Datei eingebettet sein.",
+  "f": "Doppelte Datei-Anhänge entfernen.",
+  "t": "Rechnungsbeleg mehrfach angehängt"
+ },
+ "PEPPOL-EN16931-R001": {
+  "e": "Für den Versand über das Peppol-Netz muss angegeben sein, zu welchem Geschäftsprozess die Rechnung gehört (eine technische Kennung).",
+  "f": "Im Rechnungsprogramm das Peppol-Format korrekt einstellen bzw. den Hersteller kontaktieren.",
+  "t": "Geschäftsprozess-Kennung fehlt"
+ },
+ "PEPPOL-EN16931-R005": {
+  "e": "Eine abweichende Währung für die Umsatzsteuer darf nur angegeben werden, wenn sie sich von der Rechnungswährung unterscheidet (Peppol-Regel).",
+  "f": "Die separate Steuerwährung entfernen, wenn sie der Rechnungswährung entspricht.",
+  "t": "Steuerwährung gleich Rechnungswährung"
+ },
+ "PEPPOL-EN16931-R008": {
+  "e": "Die Rechnungsdatei enthält Felder ohne Inhalt. Das ist nach den Regeln des Peppol-Netzes nicht erlaubt (derzeit nur eine Warnung).",
+  "f": "Im Rechnungsprogramm leere Angaben entfernen oder ausfüllen bzw. den Rechnungssteller bitten, die Datei ohne leere Felder zu erzeugen.",
+  "t": "Leere Felder in der Rechnung"
+ },
+ "PEPPOL-EN16931-R010": {
+  "e": "Für das Peppol-Netz muss die elektronische Empfangsadresse des Rechnungsempfängers (z. B. Peppol-ID oder Leitweg-ID) angegeben sein.",
+  "f": "Beim Kunden die elektronische Adresse (Peppol-ID) hinterlegen.",
+  "t": "Elektronische Adresse des Käufers fehlt"
+ },
+ "PEPPOL-EN16931-R020": {
+  "e": "Für das Peppol-Netz muss die elektronische Adresse des Rechnungsstellers (z. B. Peppol-ID oder E-Mail) angegeben sein.",
+  "f": "In den eigenen Firmendaten die elektronische Adresse hinterlegen.",
+  "t": "Elektronische Adresse des Verkäufers fehlt"
+ },
+ "PEPPOL-EN16931-R040": {
+  "e": "Der Betrag eines Nachlasses oder Zuschlags muss Grundbetrag mal Prozentsatz geteilt durch 100 ergeben. Das stimmt hier nicht.",
+  "f": "Den Nachlass bzw. Zuschlag neu berechnen lassen.",
+  "t": "Rabatt/Zuschlag falsch berechnet"
+ },
+ "PEPPOL-EN16931-R041": {
+  "e": "Ein Nachlass oder Zuschlag ist in Prozent angegeben, aber der Betrag, auf den sich die Prozente beziehen, fehlt.",
+  "f": "Beim Nachlass/Zuschlag den Grundbetrag ergänzen.",
+  "t": "Grundbetrag für Rabatt/Zuschlag fehlt"
+ },
+ "PEPPOL-EN16931-R042": {
+  "e": "Bei einem Nachlass oder Zuschlag ist ein Grundbetrag angegeben, aber der zugehörige Prozentsatz fehlt.",
+  "f": "Den Prozentsatz ergänzen oder den Grundbetrag entfernen.",
+  "t": "Prozentsatz für Rabatt/Zuschlag fehlt"
+ },
+ "PEPPOL-EN16931-R043": {
+  "e": "Die Kennzeichnung, ob es sich um einen Rabatt oder Zuschlag handelt (ChargeIndicator), muss „true“ oder „false“ lauten.",
+  "f": "Den Wert auf „true“ (Zuschlag) oder „false“ (Rabatt) setzen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Ungültiger Wert bei Rabatt/Zuschlag"
+ },
+ "PEPPOL-EN16931-R043-1": {
+  "e": "Bei einem Nachlass oder Zuschlag muss eindeutig gekennzeichnet sein, ob es ein Zuschlag oder ein Nachlass ist; der angegebene Wert ist ungültig.",
+  "f": "Den Hersteller des Rechnungsprogramms informieren, da es sich um einen technischen Formatfehler handelt.",
+  "t": "Rabatt/Zuschlag-Kennzeichen ungültig"
+ },
+ "PEPPOL-EN16931-R043-2": {
+  "e": "Bei einem Nachlass oder Zuschlag muss eindeutig gekennzeichnet sein, ob es ein Zuschlag oder ein Nachlass ist; der angegebene Wert ist ungültig.",
+  "f": "Den Hersteller des Rechnungsprogramms informieren, da es sich um einen technischen Formatfehler handelt.",
+  "t": "Rabatt/Zuschlag-Kennzeichen ungültig"
+ },
+ "PEPPOL-EN16931-R044": {
+  "e": "Beim Einzelpreis einer Position sind nur Nachlässe erlaubt, keine Zuschläge (Peppol-Regel).",
+  "f": "Den Zuschlag auf den Preis entfernen und ihn stattdessen als eigenen Zuschlag in der Position angeben.",
+  "t": "Zuschlag auf Preisebene nicht erlaubt"
+ },
+ "PEPPOL-EN16931-R046": {
+  "e": "Ist ein Bruttopreis angegeben, muss der Nettopreis gleich Bruttopreis minus Preisnachlass sein. Das stimmt hier nicht.",
+  "f": "Brutto-, Netto-Preis und Preisnachlass der Position prüfen und korrigieren.",
+  "t": "Nettopreis passt nicht zum Bruttopreis"
+ },
+ "PEPPOL-EN16931-R053": {
+  "e": "Der Gesamtbetrag der Umsatzsteuer in Rechnungswährung darf nur einmal vorkommen (Peppol-Regel).",
+  "f": "Doppelte Angaben der Steuersumme entfernen bzw. den Hersteller des Rechnungsprogramms informieren.",
+  "t": "Umsatzsteuer-Gesamtbetrag mehrfach angegeben"
+ },
+ "PEPPOL-EN16931-R054": {
+  "e": "Wenn eine eigene Steuerwährung angegeben ist, darf der Umsatzsteuerbetrag in dieser Währung nur einmal vorkommen (Peppol-Regel).",
+  "f": "Doppelte Angaben entfernen, sodass der Steuerbetrag je Währung nur einmal steht.",
+  "t": "Steuerbetrag in Steuerwährung mehrfach"
+ },
+ "PEPPOL-EN16931-R055": {
+  "e": "Der Umsatzsteuer-Gesamtbetrag in Rechnungswährung und in Steuerwährung müssen dasselbe Vorzeichen haben (beide positiv oder beide negativ).",
+  "f": "Die Steuerbeträge in beiden Währungen prüfen und das Vorzeichen angleichen.",
+  "t": "Vorzeichen der Steuerbeträge widersprüchlich"
+ },
+ "PEPPOL-EN16931-R061": {
+  "e": "Bei Zahlung per Lastschrift muss die Mandatsreferenz des SEPA-Lastschriftmandats angegeben sein.",
+  "f": "Die Mandatsreferenz des Kunden in der Rechnung ergänzen.",
+  "t": "Mandatsreferenz für Lastschrift fehlt"
+ },
+ "PEPPOL-EN16931-R101": {
+  "e": "Ein Verweis auf ein zusätzliches Dokument ist an einer Stelle angegeben, an der er nur bei Rechnungspositionen erlaubt ist.",
+  "f": "Den Dokumentverweis entfernen oder an die richtige Stelle verschieben bzw. den Hersteller informieren.",
+  "t": "Zusatzdokument an falscher Stelle"
+ },
+ "PEPPOL-EN16931-R110": {
+  "e": "Der Beginn des Leistungszeitraums einer Position liegt außerhalb des Leistungszeitraums der gesamten Rechnung.",
+  "f": "Die Zeiträume von Position und Rechnung aufeinander abstimmen.",
+  "t": "Positionszeitraum beginnt außerhalb"
+ },
+ "PEPPOL-EN16931-R111": {
+  "e": "Das Ende des Leistungszeitraums einer Position liegt außerhalb des Leistungszeitraums der gesamten Rechnung.",
+  "f": "Die Zeiträume von Position und Rechnung aufeinander abstimmen.",
+  "t": "Positionszeitraum endet außerhalb"
+ },
+ "PEPPOL-EN16931-R120": {
+  "e": "Der Nettobetrag der Position muss Menge mal (Preis geteilt durch Preisbasismenge) entsprechen, zuzüglich der Zuschläge und abzüglich der Rabatte der Position. Das ist hier nicht der Fall.",
+  "f": "Menge, Preis, Rabatte und Zuschläge der Position prüfen und den Positionsbetrag neu berechnen lassen.",
+  "t": "Positionsbetrag stimmt nicht"
+ },
+ "PEPPOL-EN16931-R121": {
+  "e": "Die Menge, auf die sich ein Preis bezieht (z. B. „Preis pro 100 Stück“), muss größer als null sein.",
+  "f": "Die Bezugsmenge des Preises auf einen positiven Wert setzen (z. B. 1).",
+  "t": "Preis-Bezugsmenge ungültig"
+ },
+ "PEPPOL-EN16931-R130": {
+  "e": "Die Einheit der Preis-Bezugsmenge muss dieselbe sein wie die Einheit der berechneten Menge (z. B. beides Stück).",
+  "f": "Die Mengeneinheiten von Preis und Menge angleichen.",
+  "t": "Mengeneinheiten passen nicht zusammen"
+ },
+ "UBL-DT-01": {
+  "e": "Beträge dürfen höchstens zwei Nachkommastellen haben.",
+  "f": "Den Betrag auf zwei Nachkommastellen runden bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Zu viele Nachkommastellen bei Beträgen"
+ },
+ "UBL-DT-06": {
+  "e": "Bei eingebetteten Dateien (Anlagen) muss der Dateityp (MIME-Code) als Attribut angegeben sein.",
+  "f": "Den Dateityp der Anlage angeben bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Dateityp der Anlage fehlt"
+ },
+ "UBL-DT-07": {
+  "e": "Bei eingebetteten Dateien (Anlagen) muss der Dateiname als Attribut angegeben sein.",
+  "f": "Den Dateinamen der Anlage angeben bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Dateiname der Anlage fehlt"
+ },
+ "UBL-DT-08": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „scheme name“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „scheme name“"
+ },
+ "UBL-DT-09": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „scheme agency name“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „scheme agency name“"
+ },
+ "UBL-DT-10": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „scheme data uri“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „scheme data uri“"
+ },
+ "UBL-DT-11": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „scheme uri“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „scheme uri“"
+ },
+ "UBL-DT-12": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „format“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „format“"
+ },
+ "UBL-DT-13": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „unit code list identifier“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „unit code list identifier“"
+ },
+ "UBL-DT-14": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „unit code list agency identifier“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „unit code list agency identifier“"
+ },
+ "UBL-DT-15": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „unit code list agency name“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „unit code list agency name“"
+ },
+ "UBL-DT-16": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „list agency name“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „list agency name“"
+ },
+ "UBL-DT-17": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „list name“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „list name“"
+ },
+ "UBL-DT-18": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „name“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „name“"
+ },
+ "UBL-DT-19": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „language identifier“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „language identifier“"
+ },
+ "UBL-DT-20": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „list uri“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „list uri“"
+ },
+ "UBL-DT-21": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „list scheme uri“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „list scheme uri“"
+ },
+ "UBL-DT-22": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „language local identifier“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „language local identifier“"
+ },
+ "UBL-DT-23": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „uri“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „uri“"
+ },
+ "UBL-DT-24": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „currency code list version id“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „currency code list version id“"
+ },
+ "UBL-DT-25": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „CharacterSetCode“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „CharacterSetCode“"
+ },
+ "UBL-DT-26": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „EncodingCode“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „EncodingCode“"
+ },
+ "UBL-DT-27": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „scheme agency ID“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „scheme agency ID“"
+ },
+ "UBL-DT-28": {
+  "e": "In der Rechnungsdatei (UBL) ist das technische Zusatzattribut „list agency ID“ angegeben. Es soll nach den Regeln nicht vorkommen.",
+  "f": "Den Rechnungssteller bitten, die Datei ohne dieses Attribut zu erzeugen, bzw. die Export-Einstellung im Rechnungsprogramm anpassen.",
+  "t": "Unzulässiges Zusatzattribut „list agency ID“"
+ },
+ "UBL-SR-01": {
+  "e": "Die Angabe „Vertragsnummer“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Vertragsnummer mehrfach angegeben"
+ },
+ "UBL-SR-02": {
+  "e": "Die Angabe „Kennung der Wareneingangsmeldung“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Kennung der Wareneingangsmeldung mehrfach angegeben"
+ },
+ "UBL-SR-03": {
+  "e": "Die Angabe „Kennung des Lieferscheins“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Kennung des Lieferscheins mehrfach angegeben"
+ },
+ "UBL-SR-04": {
+  "e": "Die Angabe „Objektkennung der Rechnung“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Objektkennung der Rechnung mehrfach angegeben"
+ },
+ "UBL-SR-05": {
+  "e": "Die Angabe „Zahlungsbedingungen“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Zahlungsbedingungen mehrfach angegeben"
+ },
+ "UBL-SR-06": {
+  "e": "Die Angabe „Verweis auf die vorherige Rechnung“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Verweis auf die vorherige Rechnung mehrfach angegeben"
+ },
+ "UBL-SR-07": {
+  "e": "Wenn auf eine vorherige Rechnung verwiesen wird, muss auch deren Rechnungsnummer angegeben sein.",
+  "f": "Die Nummer der vorherigen Rechnung ergänzen oder den Verweis entfernen.",
+  "t": "Nummer der vorherigen Rechnung fehlt"
+ },
+ "UBL-SR-08": {
+  "e": "Die Angabe „Abrechnungszeitraum“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Abrechnungszeitraum mehrfach angegeben"
+ },
+ "UBL-SR-09": {
+  "e": "Die Angabe „Name des Verkäufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Name des Verkäufers mehrfach angegeben"
+ },
+ "UBL-SR-10": {
+  "e": "Die Angabe „Handelsname des Verkäufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Handelsname des Verkäufers mehrfach angegeben"
+ },
+ "UBL-SR-11": {
+  "e": "Die Angabe „Registrierungskennung des Verkäufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Registrierungskennung des Verkäufers mehrfach angegeben"
+ },
+ "UBL-SR-12": {
+  "e": "Die Angabe „USt-ID des Verkäufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "USt-ID des Verkäufers mehrfach angegeben"
+ },
+ "UBL-SR-13": {
+  "e": "Die Angabe „Steuernummer des Verkäufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Steuernummer des Verkäufers mehrfach angegeben"
+ },
+ "UBL-SR-14": {
+  "e": "Die Angabe „Zusätzliche rechtliche Angaben des Verkäufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Zusätzliche rechtliche Angaben des Verkäufers mehrfach angegeben"
+ },
+ "UBL-SR-15": {
+  "e": "Die Angabe „Name des Käufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Name des Käufers mehrfach angegeben"
+ },
+ "UBL-SR-16": {
+  "e": "Die Angabe „Kennung des Käufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Kennung des Käufers mehrfach angegeben"
+ },
+ "UBL-SR-17": {
+  "e": "Die Angabe „Registrierungskennung des Käufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Registrierungskennung des Käufers mehrfach angegeben"
+ },
+ "UBL-SR-18": {
+  "e": "Die Angabe „USt-ID des Käufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "USt-ID des Käufers mehrfach angegeben"
+ },
+ "UBL-SR-19": {
+  "e": "Die Angabe „Name des Zahlungsempfängers“ (bei abweichendem Zahlungsempfänger) ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Name des Zahlungsempfängers mehrfach angegeben"
+ },
+ "UBL-SR-20": {
+  "e": "Die Angabe „Kennung des Zahlungsempfängers“ (bei abweichendem Zahlungsempfänger) ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Kennung des Zahlungsempfängers mehrfach angegeben"
+ },
+ "UBL-SR-21": {
+  "e": "Die Angabe „Registrierungskennung des Zahlungsempfängers“ (bei abweichendem Zahlungsempfänger) ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Registrierungskennung des Zahlungsempfängers mehrfach angegeben"
+ },
+ "UBL-SR-22": {
+  "e": "Die Angabe „Name des Steuervertreters“ (falls vorhanden) ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Name des Steuervertreters mehrfach angegeben"
+ },
+ "UBL-SR-23": {
+  "e": "Die Angabe „USt-ID des Steuervertreters“ (falls vorhanden) ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "USt-ID des Steuervertreters mehrfach angegeben"
+ },
+ "UBL-SR-24": {
+  "e": "Die Angabe „Lieferangaben“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Lieferangaben mehrfach angegeben"
+ },
+ "UBL-SR-25": {
+  "e": "Die Angabe „Name des Lieferempfängers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Name des Lieferempfängers mehrfach angegeben"
+ },
+ "UBL-SR-26": {
+  "e": "Die Angabe „Zahlungsreferenz“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Zahlungsreferenz mehrfach angegeben"
+ },
+ "UBL-SR-27": {
+  "e": "Die Angabe „Text zur Zahlungsart“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Text zur Zahlungsart mehrfach angegeben"
+ },
+ "UBL-SR-28": {
+  "e": "Die Angabe „Mandatsreferenz“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Mandatsreferenz mehrfach angegeben"
+ },
+ "UBL-SR-29": {
+  "e": "Die Angabe „Gläubigerkennung der Bank“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Gläubigerkennung der Bank mehrfach angegeben"
+ },
+ "UBL-SR-30": {
+  "e": "Die Angabe „Grund des Rabatts auf Rechnungsebene“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Grund des Rabatts auf Rechnungsebene mehrfach angegeben"
+ },
+ "UBL-SR-31": {
+  "e": "Die Angabe „Grund des Zuschlags auf Rechnungsebene“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Grund des Zuschlags auf Rechnungsebene mehrfach angegeben"
+ },
+ "UBL-SR-32": {
+  "e": "Die Angabe „Text zum Befreiungsgrund“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Text zum Befreiungsgrund mehrfach angegeben"
+ },
+ "UBL-SR-33": {
+  "e": "Die Angabe „Beschreibung des Belegs“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Beschreibung des Belegs mehrfach angegeben"
+ },
+ "UBL-SR-34": {
+  "e": "Die Angabe „Hinweis zur Position“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Hinweis zur Position mehrfach angegeben"
+ },
+ "UBL-SR-35": {
+  "e": "Die Angabe „Bestellpositionsnummer“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Bestellpositionsnummer mehrfach angegeben"
+ },
+ "UBL-SR-36": {
+  "e": "Die Angabe „Abrechnungszeitraum der Position“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Abrechnungszeitraum der Position mehrfach angegeben"
+ },
+ "UBL-SR-37": {
+  "e": "Die Angabe „Preisrabatt des Artikels“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Preisrabatt des Artikels mehrfach angegeben"
+ },
+ "UBL-SR-39": {
+  "e": "Die Angabe „Projektreferenz“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Projektreferenz mehrfach angegeben"
+ },
+ "UBL-SR-40": {
+  "e": "Die Angabe „Handelsname des Käufers“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Handelsname des Käufers mehrfach angegeben"
+ },
+ "UBL-SR-42": {
+  "e": "Beim Verkäufer dürfen höchstens zwei Steuerangaben (Party Tax Scheme) vorkommen.",
+  "f": "Überzählige Steuerangaben des Verkäufers entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Zu viele Steuerangaben beim Verkäufer"
+ },
+ "UBL-SR-43": {
+  "e": "Eine Schemakennung darf nur bei der Objektkennung der Rechnung verwendet werden, also wenn die Dokumentart den Code 130 oder 50 trägt.",
+  "f": "Die Schemakennung entfernen oder die Angabe als Objektkennung (Code 130 bzw. 50) kennzeichnen.",
+  "t": "Schemakennung nur bei Objektkennung erlaubt"
+ },
+ "UBL-SR-44": {
+  "e": "Eine Rechnung darf nur eine eindeutige Zahlungskennung (PaymentID) haben; diese darf aber bei mehreren Zahlungsanweisungen verwendet werden.",
+  "f": "Bei allen Zahlungsanweisungen dieselbe Zahlungskennung verwenden bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Mehrere verschiedene Zahlungskennungen"
+ },
+ "UBL-SR-45": {
+  "e": "Die Angabe „Fälligkeitsdatum“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Fälligkeitsdatum mehrfach angegeben"
+ },
+ "UBL-SR-46": {
+  "e": "Die Angabe „Text zur Zahlungsart“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Text zur Zahlungsart mehrfach angegeben"
+ },
+ "UBL-SR-47": {
+  "e": "Wenn mehrere Zahlungsart-Codes angegeben sind, müssen sie alle gleich sein.",
+  "f": "Bei allen Zahlungsanweisungen dieselbe Zahlungsart wählen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Zahlungsarten widersprechen sich"
+ },
+ "UBL-SR-48": {
+  "e": "Jede Rechnungsposition muss genau eine Umsatzsteuer-Kategorie haben.",
+  "f": "Bei jeder Position genau eine Umsatzsteuer-Kategorie angeben.",
+  "t": "Steuerkategorie der Position fehlt oder mehrfach"
+ },
+ "UBL-SR-49": {
+  "e": "Die Angabe „Datum der Steuerentstehung“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Datum der Steuerentstehung mehrfach angegeben"
+ },
+ "UBL-SR-50": {
+  "e": "Die Angabe „Artikelbeschreibung“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Artikelbeschreibung mehrfach angegeben"
+ },
+ "UBL-SR-51": {
+  "e": "Eine Adresse darf nur eine dritte Adresszeile haben.",
+  "f": "Die überzähligen Adresszeilen zusammenfassen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Adresse mit mehr als einer dritten Zeile"
+ },
+ "UBL-SR-52": {
+  "e": "Die Angabe „Dokumentreferenz“ ist mehr als einmal in der Rechnung enthalten; erlaubt ist nur eine.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Dokumentreferenz mehrfach angegeben"
+ },
+ "UBL-SR-53": {
+  "e": "Wenn eine Steuerangabe mit Steuerschema (PartyTaxScheme/TaxScheme/ID) gemacht wird, muss auch die USt-ID (CompanyID) angegeben sein.",
+  "f": "Die USt-ID ergänzen oder die Steuerangabe entfernen.",
+  "t": "USt-ID bei Steuerangabe fehlt"
+ },
+ "UBL-SR-54": {
+  "e": "Eine Rechnung darf höchstens eine Zahlungskarte (BG-18) enthalten.",
+  "f": "Überzählige Zahlungskarten entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Mehr als eine Zahlungskarte"
+ },
+ "UBL-SR-55": {
+  "e": "Eine Rechnung darf höchstens ein Lastschriftmandat (BG-19) enthalten.",
+  "f": "Überzählige Lastschriftmandate entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Mehr als ein Lastschriftmandat"
+ },
+ "UBL-SR-56": {
+  "e": "Die Kennung des Ursprungsbelegs (BT-17) darf höchstens einmal angegeben sein.",
+  "f": "Die doppelte Angabe entfernen bzw. den Rechnungssteller bitten, die Datei zu korrigieren.",
+  "t": "Mehrere Verweise auf Ursprungsbeleg"
+ }
+}

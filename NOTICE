@@ -1,0 +1,7 @@
+E-Invoice Validator & Viewer
+Copyright 2026 Tobias Redel
+
+This product bundles third-party open-source components, unmodified, under their own licenses:
+Mustang (mustangproject, Apache-2.0), KoSIT Validator, KoSIT XRechnung validator configuration and
+KoSIT XRechnung visualization (all Apache-2.0), and their dependencies.
+See THIRD-PARTY-LICENSES.md for the complete list and the SBOM delivered with each release.

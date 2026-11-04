@@ -1,0 +1,2312 @@
+{
+ "BR-01": {
+  "e": "The invoice does not contain the technical information about which standard it was created in (e.g. XRechnung or ZUGFeRD).",
+  "f": "Create the invoice with software that produces e-invoices correctly, or ask the invoice issuer to reissue it.",
+  "t": "Invoice format identifier missing"
+ },
+ "BR-02": {
+  "e": "Every invoice needs a unique invoice number – this one is missing.",
+  "f": "Assign an invoice number in the invoicing software.",
+  "t": "Invoice number missing"
+ },
+ "BR-03": {
+  "e": "The issue date of the invoice is missing.",
+  "f": "Enter the invoice date in the invoicing software.",
+  "t": "Invoice date missing"
+ },
+ "BR-04": {
+  "e": "The field stating what kind of document this is (e.g. invoice, credit note, corrective invoice) is missing – it must be a code from a fixed list.",
+  "f": "Select the document type (e.g. \"Invoice\") in the invoicing software.",
+  "t": "Invoice type missing"
+ },
+ "BR-05": {
+  "e": "The currency in which the invoice is issued is missing (e.g. EUR).",
+  "f": "Enter the invoice currency in the invoicing software.",
+  "t": "Currency missing"
+ },
+ "BR-06": {
+  "e": "The name or company name of the invoice issuer is missing.",
+  "f": "Store the company name in the master data of the invoicing software.",
+  "t": "Seller name missing"
+ },
+ "BR-07": {
+  "e": "The name or company name of the invoice recipient is missing.",
+  "f": "Add the customer's name to the invoice.",
+  "t": "Buyer name missing"
+ },
+ "BR-08": {
+  "e": "The address of the invoice issuer is missing.",
+  "f": "Store the complete company address in the invoicing software.",
+  "t": "Seller address missing"
+ },
+ "BR-09": {
+  "e": "The country is missing from the invoice issuer's address (e.g. DE for Germany).",
+  "f": "Add the country to the company address in the invoicing software.",
+  "t": "Seller country missing"
+ },
+ "BR-10": {
+  "e": "The address of the invoice recipient is missing.",
+  "f": "Add the complete customer address to the invoice.",
+  "t": "Buyer address missing"
+ },
+ "BR-11": {
+  "e": "The country is missing from the invoice recipient's address (e.g. DE for Germany).",
+  "f": "Add the country to the customer address.",
+  "t": "Buyer country missing"
+ },
+ "BR-12": {
+  "e": "The invoice does not contain a total of the invoice lines (net).",
+  "f": "Show the net sum of all invoice lines.",
+  "t": "Sum of invoice line net amounts missing"
+ },
+ "BR-13": {
+  "e": "The invoice does not contain a total amount without VAT.",
+  "f": "Show the invoice amount net (without VAT).",
+  "t": "Total without VAT missing"
+ },
+ "BR-14": {
+  "e": "The invoice does not contain a total amount including VAT.",
+  "f": "Show the invoice amount gross (with VAT).",
+  "t": "Total with VAT missing"
+ },
+ "BR-15": {
+  "e": "The invoice does not contain an amount due for payment.",
+  "f": "Show the amount to be paid.",
+  "t": "Amount due for payment missing"
+ },
+ "BR-16": {
+  "e": "The invoice does not contain a single line (service or item). At least one invoice line is mandatory.",
+  "f": "Create at least one line with a description, quantity and price in the invoicing software.",
+  "t": "No invoice line"
+ },
+ "BR-17": {
+  "e": "The money is to go to someone other than the seller, but the name of this payee is missing.",
+  "f": "Enter the name of the different payee.",
+  "t": "Payee name missing"
+ },
+ "BR-18": {
+  "e": "The seller has specified a tax representative, but the representative's name is missing.",
+  "f": "Add the name of the tax representative.",
+  "t": "Seller's tax representative name missing"
+ },
+ "BR-19": {
+  "e": "The seller has specified a tax representative, but the representative's address is missing.",
+  "f": "Add the address of the tax representative.",
+  "t": "Seller's tax representative address missing"
+ },
+ "BR-20": {
+  "e": "The country is missing from the tax representative's address.",
+  "f": "Add the country (e.g. DE) to the tax representative's address.",
+  "t": "Seller's tax representative country missing"
+ },
+ "BR-21": {
+  "e": "An invoice line has no line number.",
+  "f": "Number every invoice line consecutively.",
+  "t": "Invoice line number missing"
+ },
+ "BR-22": {
+  "e": "The quantity is missing on an invoice line.",
+  "f": "Enter the invoiced quantity for every line.",
+  "t": "Quantity missing on invoice line"
+ },
+ "BR-23": {
+  "e": "The unit of the quantity (e.g. piece, hour, kg) is missing on an invoice line.",
+  "f": "Store a unit of measure for every line.",
+  "t": "Unit of measure missing"
+ },
+ "BR-24": {
+  "e": "The net amount is missing on an invoice line (quantity × price minus allowances).",
+  "f": "Show the net amount for every line.",
+  "t": "Invoice line net amount missing"
+ },
+ "BR-25": {
+  "e": "An invoice line has no name for the goods or service.",
+  "f": "Enter a name for the goods or service on every line.",
+  "t": "Item name missing"
+ },
+ "BR-26": {
+  "e": "The net item price is missing on an invoice line.",
+  "f": "Enter the net item price for every line.",
+  "t": "Item price missing"
+ },
+ "BR-27": {
+  "e": "The net item price of a line is negative. This is not allowed.",
+  "f": "Enter prices as positive values; show credits or deductions using a negative quantity or an allowance.",
+  "t": "Negative item price"
+ },
+ "BR-28": {
+  "e": "The gross item price (list price before allowance) of a line is negative. This is not allowed.",
+  "f": "Enter the list price as a positive value; show deductions as an allowance.",
+  "t": "Negative gross price"
+ },
+ "BR-29": {
+  "e": "The end date of the invoicing period is earlier than the start date.",
+  "f": "Check and correct the start and end dates of the invoicing period.",
+  "t": "Invoicing period ends before it starts"
+ },
+ "BR-30": {
+  "e": "On an invoice line, the end date of the service period is earlier than the start date.",
+  "f": "Correct the start and end dates of the line's period.",
+  "t": "Invoice line period: end before start"
+ },
+ "BR-31": {
+  "e": "The amount is missing on an allowance applied to the whole invoice.",
+  "f": "Enter the amount for every allowance at invoice level.",
+  "t": "Allowance amount missing"
+ },
+ "BR-32": {
+  "e": "On an allowance applied to the whole invoice, the VAT category it belongs to (e.g. standard rate, exempt) is missing.",
+  "f": "Enter the matching VAT category for every allowance at invoice level.",
+  "t": "VAT category missing on allowance"
+ },
+ "BR-33": {
+  "e": "On an allowance applied to the whole invoice, the reason is missing, either as text (e.g. \"loyalty discount\") or as a code from a fixed list.",
+  "f": "Enter a reason, as text or code, for every allowance.",
+  "t": "Allowance reason missing"
+ },
+ "BR-36": {
+  "e": "The amount is missing on a charge applied to the whole invoice (e.g. shipping costs).",
+  "f": "Enter the amount for every charge at invoice level.",
+  "t": "Charge amount missing"
+ },
+ "BR-37": {
+  "e": "On a charge applied to the whole invoice (e.g. shipping costs), the VAT category (e.g. standard rate, exempt) is missing.",
+  "f": "Enter the matching VAT category for every charge.",
+  "t": "VAT category missing on charge"
+ },
+ "BR-38": {
+  "e": "On a charge applied to the whole invoice, the reason is missing, either as text (e.g. \"shipping\") or as a code from a fixed list.",
+  "f": "Enter a reason, as text or code, for every charge.",
+  "t": "Charge reason missing"
+ },
+ "BR-41": {
+  "e": "The amount is missing on an allowance applied to a single invoice line.",
+  "f": "Enter the amount for every line allowance.",
+  "t": "Invoice line allowance amount missing"
+ },
+ "BR-42": {
+  "e": "On an allowance applied to a single invoice line, the reason is missing, either as text or as a code from a fixed list.",
+  "f": "Enter a reason for every line allowance.",
+  "t": "Invoice line allowance reason missing"
+ },
+ "BR-43": {
+  "e": "The amount is missing on a charge applied to a single invoice line.",
+  "f": "Enter the amount for every line charge.",
+  "t": "Invoice line charge amount missing"
+ },
+ "BR-44": {
+  "e": "On a charge applied to a single invoice line, the reason is missing, either as text or as a code from a fixed list.",
+  "f": "Enter a reason for every line charge.",
+  "t": "Invoice line charge reason missing"
+ },
+ "BR-45": {
+  "e": "In the VAT breakdown, the net amount on which the tax is calculated is missing for a VAT rate.",
+  "f": "Make sure in the invoicing software that the corresponding net amount is shown for every VAT rate.",
+  "t": "Net amount per VAT rate missing"
+ },
+ "BR-46": {
+  "e": "In the VAT breakdown, the calculated VAT amount is missing for a VAT rate.",
+  "f": "Show the VAT amount for every VAT rate (use 0 for a 0% rate).",
+  "t": "VAT amount per VAT rate missing"
+ },
+ "BR-47": {
+  "e": "In the VAT breakdown, the field stating which VAT category applies (e.g. standard rate, exempt, reverse charge) is missing.",
+  "f": "Enter the matching VAT category for every block of the VAT breakdown.",
+  "t": "VAT category missing in breakdown"
+ },
+ "BR-48": {
+  "e": "In the VAT breakdown, the percentage (e.g. 19% or 7%) is missing. It may only be left out for supplies that are not subject to VAT.",
+  "f": "Enter the VAT rate in percent for every VAT category (0% for exemptions).",
+  "t": "VAT rate missing in breakdown"
+ },
+ "BR-49": {
+  "e": "In the payment instructions, the field stating how payment is to be made (e.g. bank transfer, direct debit, card) is missing – it must be a code from a fixed list.",
+  "f": "Select the payment means (e.g. \"Bank transfer\") in the invoicing software.",
+  "t": "Payment means missing"
+ },
+ "BR-50": {
+  "e": "The invoice contains payment details for a bank transfer, but no account number (IBAN) to transfer the money to.",
+  "f": "Store the bank account (IBAN) in the invoicing software.",
+  "t": "IBAN missing for bank transfer"
+ },
+ "BR-51": {
+  "e": "The invoice contains the full credit card number. For security reasons, at most the first 6 and the last 4 digits may appear.",
+  "f": "Shorten or partly mask the card number (e.g. 123456******1234).",
+  "t": "Full card number in invoice"
+ },
+ "BR-52": {
+  "e": "For an attached supporting document (e.g. delivery note, timesheet), its identifier or name is missing.",
+  "f": "Enter a reference (e.g. document number) for every attachment.",
+  "t": "Attachment reference missing"
+ },
+ "BR-53": {
+  "e": "The invoice specifies a different currency for VAT (e.g. euros on an invoice in dollars), but does not state the VAT amount in that currency.",
+  "f": "Also state the total VAT amount in the accounting currency, or remove the different currency.",
+  "t": "VAT amount in accounting currency missing"
+ },
+ "BR-54": {
+  "e": "An attribute of an item (e.g. colour, size) has either no name or no value.",
+  "f": "Enter both a name and a value for every item attribute.",
+  "t": "Item attribute incomplete"
+ },
+ "BR-55": {
+  "e": "An earlier invoice is referred to (e.g. for a credit note or correction), but its invoice number is missing.",
+  "f": "Enter the number of the original invoice.",
+  "t": "Preceding invoice number missing"
+ },
+ "BR-56": {
+  "e": "The seller has specified a tax representative, but the representative's VAT identifier is missing.",
+  "f": "Add the VAT identifier of the tax representative.",
+  "t": "Seller's tax representative VAT identifier missing"
+ },
+ "BR-57": {
+  "e": "A delivery address is given, but without a country.",
+  "f": "Add the country to the delivery address.",
+  "t": "Delivery address without country"
+ },
+ "BR-61": {
+  "e": "A bank transfer (SEPA, domestic or international) is given as the payment means, but the account number (IBAN) to pay into is missing.",
+  "f": "Store the bank account (IBAN) in the invoicing software.",
+  "t": "IBAN missing for bank transfer"
+ },
+ "BR-62": {
+  "e": "For the seller's electronic address (e.g. email or Peppol ID), the field stating what type of address it is is missing.",
+  "f": "Store the electronic address completely in the invoicing software, including the address type (e.g. \"Email\").",
+  "t": "Type of seller's electronic address missing"
+ },
+ "BR-63": {
+  "e": "For the buyer's electronic address (e.g. email, Leitweg-ID or Peppol ID), the field stating what type of address it is is missing.",
+  "f": "Store the customer's electronic address completely, including the address type.",
+  "t": "Type of buyer's electronic address missing"
+ },
+ "BR-64": {
+  "e": "For a standardised item number (e.g. EAN/GTIN), the field stating which numbering system it belongs to is missing.",
+  "f": "Store the matching numbering system (e.g. GTIN) with the item number.",
+  "t": "Item identifier scheme missing"
+ },
+ "BR-65": {
+  "e": "For an item classification (e.g. customs tariff number), the field stating which classification system is used is missing.",
+  "f": "Enter the classification system used for the classification.",
+  "t": "Item classification scheme missing"
+ },
+ "BR-AE-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"reverse charge\", but the invoice's VAT breakdown does not contain exactly one matching entry for them.",
+  "f": "Have the invoice recalculated in the invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "Reverse charge: VAT breakdown missing"
+ },
+ "BR-AE-02": {
+  "e": "For reverse charge, the invoice must contain both the seller's VAT identifier or tax registration identifier and the buyer's VAT identifier (or another buyer identifier).",
+  "f": "Add the seller's VAT identifier and the buyer's VAT identifier to the invoice.",
+  "t": "Reverse charge: VAT identifiers missing"
+ },
+ "BR-AE-03": {
+  "e": "The invoice contains an allowance on the whole invoice with the VAT category reverse charge. For this, the seller's VAT identifier or tax registration identifier (or that of the seller's tax representative) must be given.",
+  "f": "Store the missing VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "Tax identifier missing (reverse charge, allowance)"
+ },
+ "BR-AE-04": {
+  "e": "The invoice contains a charge on the whole invoice (e.g. shipping costs) with the VAT category reverse charge. For this, the seller's VAT identifier or tax registration identifier (or that of the seller's tax representative) must be given.",
+  "f": "Store the missing VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "Tax identifier missing (reverse charge, charge)"
+ },
+ "BR-AE-05": {
+  "e": "Invoice lines under reverse charge (the customer accounts for the VAT) must have a VAT rate of 0% – a different rate is given here.",
+  "f": "Set the VAT rate of these lines to 0% or choose the correct VAT category.",
+  "t": "Reverse charge: VAT rate must be 0%"
+ },
+ "BR-AE-06": {
+  "e": "For an allowance on the whole invoice with the VAT category reverse charge, the VAT rate must be 0%.",
+  "f": "Set the VAT rate on the allowance to 0% or correct the VAT category.",
+  "t": "VAT rate on allowance must be 0%"
+ },
+ "BR-AE-07": {
+  "e": "For a charge on the whole invoice (e.g. shipping costs) with the VAT category reverse charge, the VAT rate must be 0%.",
+  "f": "Set the VAT rate on the charge to 0% or correct the VAT category.",
+  "t": "VAT rate on charge must be 0%"
+ },
+ "BR-AE-08": {
+  "e": "In the VAT breakdown for reverse charge (the customer accounts for the VAT), the net amount must equal the sum of the related invoice lines minus allowances and plus charges on the whole invoice.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Reverse charge: net amount does not match"
+ },
+ "BR-AE-09": {
+  "e": "Under reverse charge (the customer accounts for the VAT), no VAT is charged – the VAT amount in the VAT breakdown must therefore be 0.",
+  "f": "Set the VAT amount for this VAT category to 0 in the invoicing software, or choose the correct VAT category.",
+  "t": "Reverse charge: VAT amount must be 0"
+ },
+ "BR-AE-10": {
+  "e": "Under reverse charge (the customer accounts for the VAT), the invoice must state why no VAT is charged – as text or as a code from a fixed list. This reason is missing.",
+  "f": "Add the exemption reason in the invoicing software (e.g. \"Reverse charge\").",
+  "t": "Reverse charge: reason missing"
+ },
+ "BR-AF-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"IGIC (Canary Islands)\", but the invoice's VAT breakdown does not contain at least one matching entry for them.",
+  "f": "Have the invoice recalculated in the invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "IGIC (Canary Islands): VAT breakdown missing"
+ },
+ "BR-AF-02": {
+  "e": "The invoice contains lines with the Canary Islands tax IGIC (Canary Islands), but neither the seller's VAT identifier nor the seller's tax registration identifier (nor that of the seller's tax representative) is given.",
+  "f": "Store the seller's VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "IGIC (Canary Islands): seller's tax identifier missing"
+ },
+ "BR-AF-03": {
+  "e": "The invoice contains an allowance on the whole invoice with the VAT category IGIC (Canary Islands). For this, the seller's VAT identifier or tax registration identifier (or that of the seller's tax representative) must be given.",
+  "f": "Store the missing VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "Tax identifier missing (IGIC Canary Islands, allowance)"
+ },
+ "BR-AF-04": {
+  "e": "The invoice contains a charge on the whole invoice (e.g. shipping costs) with the VAT category IGIC (Canary Islands). For this, the seller's VAT identifier or tax registration identifier (or that of the seller's tax representative) must be given.",
+  "f": "Store the missing VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "Tax identifier missing (IGIC Canary Islands, charge)"
+ },
+ "BR-AF-05": {
+  "e": "Invoice lines with the Canary Islands tax IGIC must have a VAT rate greater than 0%.",
+  "f": "Enter the correct IGIC rate for the lines.",
+  "t": "IGIC (Canary Islands): VAT rate must be above 0%"
+ },
+ "BR-AF-06": {
+  "e": "For an allowance on the whole invoice with the Spanish regional tax IGIC (Canary Islands), a VAT rate of 0% or more must be given.",
+  "f": "Enter a valid VAT rate (0% or higher) on the allowance.",
+  "t": "VAT rate on allowance invalid (IGIC, Canary Islands)"
+ },
+ "BR-AF-07": {
+  "e": "For a charge on the whole invoice (e.g. shipping costs) with the Spanish regional tax IGIC (Canary Islands), a VAT rate of 0% or more must be given.",
+  "f": "Enter a valid VAT rate (0% or higher) on the charge.",
+  "t": "VAT rate on charge invalid (IGIC, Canary Islands)"
+ },
+ "BR-AF-08": {
+  "e": "For each rate of the Canary Islands tax IGIC (Canary Islands), the net amount in the VAT breakdown must equal the sum of the related invoice lines plus charges minus allowances on the whole invoice.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "IGIC (Canary Islands): net amount does not match"
+ },
+ "BR-AF-09": {
+  "e": "For the Canary Islands tax IGIC (Canary Islands), the VAT amount must be exactly the net amount times the VAT rate – this is not the case here.",
+  "f": "Have the VAT amount recalculated in the invoicing software.",
+  "t": "IGIC (Canary Islands): VAT amount calculated incorrectly"
+ },
+ "BR-AF-10": {
+  "e": "Tax is charged under the Canary Islands tax IGIC (Canary Islands), so the VAT breakdown must not contain a reason for a VAT exemption.",
+  "f": "Remove the exemption reason for this VAT category.",
+  "t": "IGIC (Canary Islands): exemption reason not allowed"
+ },
+ "BR-AG-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"IPSI (Ceuta/Melilla)\", but the invoice's VAT breakdown does not contain at least one matching entry for them.",
+  "f": "Have the invoice recalculated in the invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "IPSI (Ceuta/Melilla): VAT breakdown missing"
+ },
+ "BR-AG-02": {
+  "e": "The invoice contains lines with the tax IPSI of the Spanish territories Ceuta and Melilla, but neither the seller's VAT identifier nor the seller's tax registration identifier (nor that of the seller's tax representative) is given.",
+  "f": "Store the seller's VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "IPSI (Ceuta/Melilla): seller's tax identifier missing"
+ },
+ "BR-AG-03": {
+  "e": "The invoice contains an allowance on the whole invoice with the VAT category IPSI (Ceuta and Melilla). For this, the seller's VAT identifier or tax registration identifier (or that of the seller's tax representative) must be given.",
+  "f": "Store the missing VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "Tax identifier missing (IPSI Ceuta/Melilla, allowance)"
+ },
+ "BR-AG-04": {
+  "e": "The invoice contains a charge on the whole invoice (e.g. shipping costs) with the VAT category IPSI (Ceuta and Melilla). For this, the seller's VAT identifier or tax registration identifier (or that of the seller's tax representative) must be given.",
+  "f": "Store the missing VAT identifier or tax registration identifier in the invoicing software.",
+  "t": "Tax identifier missing (IPSI Ceuta/Melilla, charge)"
+ },
+ "BR-AG-05": {
+  "e": "Invoice lines with the tax IPSI (Ceuta and Melilla) need a VAT rate of 0% or more – it is missing or invalid.",
+  "f": "Enter the correct IPSI rate for the lines.",
+  "t": "IPSI (Ceuta/Melilla): VAT rate missing"
+ },
+ "BR-AG-06": {
+  "e": "For an allowance on the whole invoice with the Spanish regional tax IPSI (Ceuta and Melilla), a VAT rate of 0% or more must be given.",
+  "f": "Enter a valid VAT rate (0% or higher) on the allowance.",
+  "t": "VAT rate on allowance invalid (IPSI, Ceuta/Melilla)"
+ },
+ "BR-AG-07": {
+  "e": "For a charge on the whole invoice (e.g. shipping costs) with the Spanish regional tax IPSI (Ceuta and Melilla), a VAT rate of 0% or more must be given.",
+  "f": "Enter a valid VAT rate (0% or higher) on the charge.",
+  "t": "VAT rate on charge invalid (IPSI, Ceuta/Melilla)"
+ },
+ "BR-AG-08": {
+  "e": "For each rate of the tax IPSI of the Spanish territories Ceuta and Melilla, the net amount in the VAT breakdown must equal the sum of the related invoice lines plus charges minus allowances on the whole invoice.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "IPSI (Ceuta/Melilla): net amount does not match"
+ },
+ "BR-AG-09": {
+  "e": "For the tax IPSI of the Spanish territories Ceuta and Melilla, the VAT amount must be exactly the net amount times the VAT rate – this is not the case here.",
+  "f": "Have the VAT amount recalculated in the invoicing software.",
+  "t": "IPSI (Ceuta/Melilla): VAT amount calculated incorrectly"
+ },
+ "BR-AG-10": {
+  "e": "Tax is charged under the tax IPSI of the Spanish territories Ceuta and Melilla, so the VAT breakdown must not contain a reason for a VAT exemption.",
+  "f": "Remove the exemption reason for this VAT category.",
+  "t": "IPSI (Ceuta/Melilla): exemption reason not allowed"
+ },
+ "BR-B-01": {
+  "e": "The VAT category \"split payment\" is a special Italian procedure and is only allowed on invoices within Italy.",
+  "f": "Choose the correct VAT category (e.g. standard rate).",
+  "t": "Split payment only for Italian invoices"
+ },
+ "BR-B-02": {
+  "e": "An invoice with the Italian VAT category \"split payment\" must not contain invoice lines, allowances or charges with normal VAT.",
+  "f": "Make the VAT categories consistent or split the invoice.",
+  "t": "Split payment mixed with standard rate"
+ },
+ "BR-CL-01": {
+  "e": "The field \"document type\" must contain a code from the invoice and credit note codes of UNTDID 1001. The value given is not on it.",
+  "f": "Select a valid code from UNTDID 1001 (the codes for invoices and credit notes) in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: document type"
+ },
+ "BR-CL-03": {
+  "e": "The field \"currency code (currencyID)\" must contain a code from the list ISO 4217 (alpha-3). The value given is not on it.",
+  "f": "Select a valid code from ISO 4217 (alpha-3) in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: currency code (currencyID)"
+ },
+ "BR-CL-04": {
+  "e": "The field \"invoice currency\" must contain a code from the list ISO 4217 (alpha-3). The value given is not on it.",
+  "f": "Select a valid code from ISO 4217 (alpha-3) in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: invoice currency"
+ },
+ "BR-CL-05": {
+  "e": "The field \"tax currency\" must contain a code from the list ISO 4217 (alpha-3). The value given is not on it.",
+  "f": "Select a valid code from ISO 4217 (alpha-3) in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: tax currency"
+ },
+ "BR-CL-06": {
+  "e": "The field \"VAT point date code\" must contain a code from the restricted selection of UNTDID 2005. The value given is not on it.",
+  "f": "Select a valid code from UNTDID 2005 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: VAT point date code"
+ },
+ "BR-CL-07": {
+  "e": "The scheme identifier of the object identifier must be a code from the restricted selection of UNTDID 1153. The value given is not on it.",
+  "f": "Select a valid code from UNTDID 1153 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of the object identifier"
+ },
+ "BR-CL-08": {
+  "e": "The field \"subject code of the invoice note\" must contain a code from the list UNCL4451. The value given is not on it.",
+  "f": "Select a valid code from UNCL4451 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: subject code of the invoice note"
+ },
+ "BR-CL-10": {
+  "e": "The field \"scheme identifier of an identifier\" must contain a code from the list ISO 6523 ICD. The value given is not on it.",
+  "f": "Select a valid code from ISO 6523 ICD in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of an identifier"
+ },
+ "BR-CL-11": {
+  "e": "The field \"scheme identifier of a registration identifier\" must contain a code from the list ISO 6523 ICD. The value given is not on it.",
+  "f": "Select a valid code from ISO 6523 ICD in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of a registration identifier"
+ },
+ "BR-CL-13": {
+  "e": "The field \"scheme identifier of the item classification\" must contain a code from the list UNTDID 7143. The value given is not on it.",
+  "f": "Select a valid code from UNTDID 7143 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of the item classification"
+ },
+ "BR-CL-14": {
+  "e": "The field \"country code\" must contain a code from the list ISO 3166-1. The value given is not on it.",
+  "f": "Select a valid code from ISO 3166-1 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: country code"
+ },
+ "BR-CL-15": {
+  "e": "The field \"country code\" must contain a code from the list ISO 3166-1. The value given is not on it.",
+  "f": "Select a valid code from ISO 3166-1 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: country code"
+ },
+ "BR-CL-16": {
+  "e": "The field \"payment means\" must contain a code from the list UNCL4461. The value given is not on it.",
+  "f": "Select a valid code from UNCL4461 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: payment means"
+ },
+ "BR-CL-17": {
+  "e": "The field \"VAT category\" must contain a code from the list UNCL5305. The value given is not on it.",
+  "f": "Select a valid code from UNCL5305 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: VAT category"
+ },
+ "BR-CL-18": {
+  "e": "The field \"VAT category\" must contain a code from the list UNCL5305. The value given is not on it.",
+  "f": "Select a valid code from UNCL5305 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: VAT category"
+ },
+ "BR-CL-19": {
+  "e": "The field \"allowance reason\" must contain a code from the list UNCL 5189. The value given is not on it.",
+  "f": "Select a valid code from UNCL 5189 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: allowance reason"
+ },
+ "BR-CL-20": {
+  "e": "The field \"charge reason\" must contain a code from the list UNCL 7161. The value given is not on it.",
+  "f": "Select a valid code from UNCL 7161 in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: charge reason"
+ },
+ "BR-CL-21": {
+  "e": "The field \"scheme identifier of the item standard identifier\" must contain a code from the list ISO 6523 ICD. The value given is not on it.",
+  "f": "Select a valid code from ISO 6523 ICD in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of the item standard identifier"
+ },
+ "BR-CL-22": {
+  "e": "The field \"scheme identifier of the VAT exemption reason code\" must contain a code from the list CEF VATEX. The value given is not on it.",
+  "f": "Select a valid code from CEF VATEX in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of the VAT exemption reason code"
+ },
+ "BR-CL-23": {
+  "e": "The unit of measure must be a code from UN/ECE Recommendation 20 with the Recommendation 21 extension. The value given is not on it.",
+  "f": "Select a valid unit code (e.g. \"H87\") in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: unit of measure"
+ },
+ "BR-CL-24": {
+  "e": "The field \"file type of the attachment (MIME code)\" must contain a code from the list MIMEMediaType. The value given is not on it.",
+  "f": "Select a valid code from MIMEMediaType in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: file type of the attachment (MIME code)"
+ },
+ "BR-CL-25": {
+  "e": "The field \"scheme identifier of the endpoint identifier\" must contain a code from the list CEF EAS. The value given is not on it.",
+  "f": "Select a valid code from CEF EAS in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of the endpoint identifier"
+ },
+ "BR-CL-26": {
+  "e": "The field \"scheme identifier of the delivery location\" must contain a code from the list ISO 6523 ICD. The value given is not on it.",
+  "f": "Select a valid code from ISO 6523 ICD in the invoicing software, or ask the invoice issuer to correct the file.",
+  "t": "Invalid code: scheme identifier of the delivery location"
+ },
+ "BR-CO-03": {
+  "e": "The point in time at which VAT becomes due is given both as a date and as a code. Only one of the two may be used.",
+  "f": "Remove either the date or the code for the VAT point in time.",
+  "t": "VAT point in time given twice"
+ },
+ "BR-CO-04": {
+  "e": "The VAT category (e.g. standard rate, exempt, reverse charge) is missing on an invoice line.",
+  "f": "Enter the matching VAT category for every line.",
+  "t": "VAT category missing on invoice line"
+ },
+ "BR-CO-05": {
+  "e": "For the invoice-level allowance, the reason as text and the reason as code do not match.",
+  "f": "Make the text and code of the allowance reason consistent, or give only one of them.",
+  "t": "Allowance reason contradictory"
+ },
+ "BR-CO-06": {
+  "e": "For the invoice-level charge, the reason as text and the reason as code do not match.",
+  "f": "Make the text and code of the charge reason consistent, or give only one of them.",
+  "t": "Charge reason contradictory"
+ },
+ "BR-CO-07": {
+  "e": "For an allowance on an invoice line, the reason as text and the reason as code do not match.",
+  "f": "Make the text and code of the allowance reason consistent, or give only one of them.",
+  "t": "Invoice line allowance reason contradictory"
+ },
+ "BR-CO-08": {
+  "e": "For a charge on an invoice line, the reason as text and the reason as code do not match.",
+  "f": "Make the text and code of the charge reason consistent, or give only one of them.",
+  "t": "Invoice line charge reason contradictory"
+ },
+ "BR-CO-09": {
+  "e": "A VAT identifier (of the seller, buyer or tax representative) does not start with a valid country prefix such as \"DE\" or \"AT\" (Greece: \"EL\").",
+  "f": "Enter the VAT identifier completely with the country prefix, e.g. DE123456789.",
+  "t": "VAT identifier without valid country prefix"
+ },
+ "BR-CO-10": {
+  "e": "The stated sum of all invoice lines (net) does not equal the addition of the individual line net amounts.",
+  "f": "Recalculate the invoice lines and correct the net sum in the invoicing software.",
+  "t": "Sum of invoice line net amounts does not match"
+ },
+ "BR-CO-11": {
+  "e": "The stated total of the invoice-level allowances does not equal the addition of the individual allowances.",
+  "f": "Recalculate the allowances and correct the total.",
+  "t": "Sum of allowances does not match"
+ },
+ "BR-CO-12": {
+  "e": "The stated total of the invoice-level charges does not equal the addition of the individual charges.",
+  "f": "Recalculate the charges and correct the total.",
+  "t": "Sum of charges does not match"
+ },
+ "BR-CO-13": {
+  "e": "The invoice amount without VAT must equal the sum of the invoice lines minus allowances plus charges at invoice level. This is not the case here.",
+  "f": "Recalculate the invoice lines, allowances and charges and regenerate the invoice.",
+  "t": "Total without VAT calculated incorrectly"
+ },
+ "BR-CO-14": {
+  "e": "The total VAT amount must equal the sum of the VAT amounts of all VAT rates in the VAT breakdown.",
+  "f": "Have the VAT amounts per VAT rate and the total recalculated in the invoicing software.",
+  "t": "Total VAT amount does not match"
+ },
+ "BR-CO-15": {
+  "e": "The invoice amount including VAT must be exactly the net total plus the VAT amount – this is not the case here.",
+  "f": "Have the net total, VAT amount and gross total recalculated in the invoicing software.",
+  "t": "Total with VAT does not match"
+ },
+ "BR-CO-16": {
+  "e": "The amount due for payment must equal the invoice total with VAT minus amounts already paid (e.g. prepayments) plus any rounding amount.",
+  "f": "Check the gross total, prepayments and amount due, and have the invoice recalculated.",
+  "t": "Amount due for payment calculated incorrectly"
+ },
+ "BR-CO-17": {
+  "e": "The VAT amount of a VAT rate is wrong: it must equal net amount × VAT rate ÷ 100, rounded to two decimal places.",
+  "f": "Check the tax calculation in the invoicing software and regenerate the invoice.",
+  "t": "VAT amount calculated incorrectly"
+ },
+ "BR-CO-18": {
+  "e": "Every invoice needs at least one VAT breakdown (net amount, VAT rate and VAT amount per VAT category) – this one is missing.",
+  "f": "Enter the VAT rate or VAT category for the invoice lines in the invoicing software so that the VAT breakdown is generated.",
+  "t": "VAT breakdown missing"
+ },
+ "BR-CO-19": {
+  "e": "An invoicing period has been created, but neither a start date nor an end date is given.",
+  "f": "Enter a start and/or end date for the invoicing period, or remove the empty period.",
+  "t": "Invoicing period without dates"
+ },
+ "BR-CO-20": {
+  "e": "A service period has been created on an invoice line, but neither a start date nor an end date is given.",
+  "f": "Enter a start and/or end date, or remove the empty period.",
+  "t": "Invoice line period without dates"
+ },
+ "BR-CO-21": {
+  "e": "Every allowance on the whole invoice needs a reason as text, as a code from a fixed list, or both.",
+  "f": "Enter a reason for every allowance.",
+  "t": "Allowance reason missing"
+ },
+ "BR-CO-22": {
+  "e": "Every charge on the whole invoice needs a reason as text, as a code from a fixed list, or both.",
+  "f": "Enter a reason for every charge.",
+  "t": "Charge reason missing"
+ },
+ "BR-CO-23": {
+  "e": "Every allowance on an invoice line needs a reason as text, as a code, or both.",
+  "f": "Enter a reason for every line allowance.",
+  "t": "Invoice line allowance reason missing"
+ },
+ "BR-CO-24": {
+  "e": "Every charge on an invoice line needs a reason as text, as a code, or both.",
+  "f": "Enter a reason for every line charge.",
+  "t": "Invoice line charge reason missing"
+ },
+ "BR-CO-25": {
+  "e": "An amount is still to be paid, but the invoice states neither a payment due date nor payment terms.",
+  "f": "State a payment term in the invoice (e.g. \"payable by ...\" or \"14 days net\").",
+  "t": "Payment due date or payment terms missing"
+ },
+ "BR-CO-26": {
+  "e": "So that the buyer can assign the supplier automatically, the invoice needs at least one seller identifier: supplier number, commercial register number or VAT identifier.",
+  "f": "Store the VAT identifier or another seller identifier in the invoicing software.",
+  "t": "Seller not clearly identifiable"
+ },
+ "BR-DE-1": {
+  "e": "An XRechnung must contain payment instructions, e.g. payment means and bank account.",
+  "f": "Store the payment means and bank account (IBAN) in the invoicing software.",
+  "t": "Payment instructions missing"
+ },
+ "BR-DE-10": {
+  "e": "A delivery address is given, but without a city.",
+  "f": "Add the city to the delivery address.",
+  "t": "City of delivery address missing"
+ },
+ "BR-DE-11": {
+  "e": "A delivery address is given, but without a postcode.",
+  "f": "Add the postcode to the delivery address.",
+  "t": "Postcode of delivery address missing"
+ },
+ "BR-DE-14": {
+  "e": "In the VAT breakdown, the VAT rate in percent is missing (0% must be stated too).",
+  "f": "Enter the VAT rate for every VAT category in the invoicing software.",
+  "t": "VAT rate missing"
+ },
+ "BR-DE-15": {
+  "e": "An XRechnung must contain a buyer reference – for public authorities this is usually the Leitweg-ID.",
+  "f": "Ask the customer for the Leitweg-ID or order reference and enter it.",
+  "t": "Buyer reference / Leitweg-ID missing"
+ },
+ "BR-DE-16": {
+  "e": "On invoices subject to VAT, the seller's VAT identifier or tax registration identifier, or a tax representative, must be given (XRechnung rule).",
+  "f": "Store your own VAT identifier or tax registration identifier in your company data.",
+  "t": "Seller's tax identifier missing"
+ },
+ "BR-DE-17": {
+  "e": "The given invoice type (e.g. invoice, credit note, corrective invoice, partial invoice) is not provided for in XRechnung.",
+  "f": "Choose a permitted invoice type, e.g. normal invoice or credit note.",
+  "t": "Invoice type not permitted"
+ },
+ "BR-DE-18": {
+  "e": "Cash discount (Skonto) terms must appear in the payment terms in a fixed notation, e.g. \"#SKONTO#TAGE=14#PROZENT=2.00#\".",
+  "f": "Enter the cash discount (Skonto) terms in the invoicing software in the prescribed format.",
+  "t": "Cash discount (Skonto) entry wrongly formatted"
+ },
+ "BR-DE-19": {
+  "e": "SEPA bank transfer is given as the payment means, but the IBAN of the receiving account is not valid.",
+  "f": "Check and correct your own IBAN in the invoicing software.",
+  "t": "IBAN for bank transfer invalid"
+ },
+ "BR-DE-2": {
+  "e": "An XRechnung must contain a contact person at the invoice issuer.",
+  "f": "Store a contact person with telephone number and email in the company data.",
+  "t": "Seller contact details missing"
+ },
+ "BR-DE-20": {
+  "e": "SEPA direct debit is given as the payment means, but the IBAN of the account to be debited is not valid.",
+  "f": "Check and correct the customer's IBAN.",
+  "t": "IBAN for direct debit invalid"
+ },
+ "BR-DE-21": {
+  "e": "The identifier stating which standard is used does not match that of XRechnung – the file may have been created in a different format.",
+  "f": "Select the \"XRechnung\" format (current version) in the invoicing software.",
+  "t": "Wrong XRechnung identifier"
+ },
+ "BR-DE-22": {
+  "e": "Several attached files have the same file name; every attachment needs a unique name.",
+  "f": "Rename the attachments so that each file name occurs only once.",
+  "t": "Attachments with the same file name"
+ },
+ "BR-DE-23-a": {
+  "e": "Bank transfer is given as the payment means, but the details of the receiving account are missing.",
+  "f": "Store your own bank account (IBAN) in the payment instructions.",
+  "t": "Bank account for bank transfer missing"
+ },
+ "BR-DE-23-b": {
+  "e": "Bank transfer is given as the payment means, but the invoice also contains card or direct debit details.",
+  "f": "Keep only the details for the chosen payment means and remove the others.",
+  "t": "Contradictory payment details (bank transfer)"
+ },
+ "BR-DE-24-a": {
+  "e": "Card payment is given as the payment means, but the details of the payment card are missing.",
+  "f": "Add the card details (e.g. last digits of the card number) or change the payment means.",
+  "t": "Card details missing"
+ },
+ "BR-DE-24-b": {
+  "e": "Card payment is given as the payment means, but the invoice also contains bank transfer or direct debit details.",
+  "f": "Keep only the card payment details and remove the others.",
+  "t": "Contradictory payment details (card)"
+ },
+ "BR-DE-25-a": {
+  "e": "Direct debit is given as the payment means, but the direct debit details (mandate, creditor ID, account) are missing.",
+  "f": "Add the direct debit details or choose a different payment means.",
+  "t": "Direct debit details missing"
+ },
+ "BR-DE-25-b": {
+  "e": "Direct debit is given as the payment means, but the invoice also contains bank transfer or card details.",
+  "f": "Keep only the direct debit details and remove the others.",
+  "t": "Contradictory payment details (direct debit)"
+ },
+ "BR-DE-26": {
+  "e": "For a corrective invoice, the original invoice (number and date) should be given.",
+  "f": "Enter the number of the corrected invoice in the corrective invoice.",
+  "t": "Reference to original invoice missing"
+ },
+ "BR-DE-27": {
+  "e": "The contact person's telephone number contains fewer than three digits and is therefore probably incomplete.",
+  "f": "Enter a complete telephone number.",
+  "t": "Telephone number invalid"
+ },
+ "BR-DE-28": {
+  "e": "The contact person's email address is not correctly formed (e.g. missing or doubled @, spaces, or a dot in the wrong place).",
+  "f": "Check and correct the email address.",
+  "t": "Email address invalid"
+ },
+ "BR-DE-3": {
+  "e": "The city is missing from the invoice issuer's address.",
+  "f": "Add the city in your own company data.",
+  "t": "Seller city missing"
+ },
+ "BR-DE-30": {
+  "e": "For payment by direct debit, the invoice issuer's creditor identifier must be given (XRechnung rule for public authorities).",
+  "f": "Store your own creditor ID in the payment instructions.",
+  "t": "Creditor ID for direct debit missing"
+ },
+ "BR-DE-31": {
+  "e": "For payment by direct debit, the IBAN of the account to be debited must be given (XRechnung rule).",
+  "f": "Enter the customer's IBAN for the direct debit.",
+  "t": "Account to be debited missing"
+ },
+ "BR-DE-4": {
+  "e": "The postcode is missing from the invoice issuer's address.",
+  "f": "Add the postcode in your own company data.",
+  "t": "Seller postcode missing"
+ },
+ "BR-DE-5": {
+  "e": "An XRechnung must contain the name of a contact person or department at the invoice issuer.",
+  "f": "Enter a contact person in the company data.",
+  "t": "Seller contact person missing"
+ },
+ "BR-DE-6": {
+  "e": "An XRechnung must contain a telephone number of the contact person at the invoice issuer.",
+  "f": "Store a telephone number in the company data.",
+  "t": "Seller telephone number missing"
+ },
+ "BR-DE-7": {
+  "e": "An XRechnung must contain an email address of the contact person at the invoice issuer.",
+  "f": "Store an email address in the company data.",
+  "t": "Seller email missing"
+ },
+ "BR-DE-8": {
+  "e": "The city is missing from the invoice recipient's address.",
+  "f": "Add the city to the customer's address.",
+  "t": "Buyer city missing"
+ },
+ "BR-DE-9": {
+  "e": "The postcode is missing from the invoice recipient's address.",
+  "f": "Add the postcode to the customer's address.",
+  "t": "Buyer postcode missing"
+ },
+ "BR-DE-CVD-01": {
+  "e": "For invoices for clean vehicles, the contract number must be given.",
+  "f": "Enter the contract number from the order in the invoice.",
+  "t": "Contract number missing"
+ },
+ "BR-DE-CVD-02": {
+  "e": "For invoices for clean vehicles, the number of the tender or lot must be given.",
+  "f": "Ask the customer for the tender or lot number and enter it.",
+  "t": "Tender / lot number missing"
+ },
+ "BR-DE-CVD-03": {
+  "e": "For invoices for clean road vehicles (procurement under the German Clean Vehicles Act), at least one invoice line must contain the vehicle category and the 'cva' entry.",
+  "f": "On the vehicle line, enter the vehicle category and the 'cva' attribute (clean vehicle).",
+  "t": "Vehicle classification missing"
+ },
+ "BR-DE-CVD-04": {
+  "e": "The given vehicle category is not one of the permitted values (e.g. M1, N1, M3).",
+  "f": "Enter a permitted vehicle category.",
+  "t": "Invalid vehicle category"
+ },
+ "BR-DE-CVD-05": {
+  "e": "The value of the 'cva' attribute (type of clean vehicle) is not one of the permitted values.",
+  "f": "Enter a permitted value for 'cva' (e.g. clean or zero-emission vehicle).",
+  "t": "Invalid value for clean vehicle"
+ },
+ "BR-DE-CVD-06-a": {
+  "e": "An invoice line contains a vehicle category, but not exactly one 'cva' attribute (clean vehicle information).",
+  "f": "In the same line, add exactly one 'cva' attribute with a valid value.",
+  "t": "'cva' attribute missing on invoice line"
+ },
+ "BR-DE-CVD-06-b": {
+  "e": "An invoice line contains the 'cva' attribute (clean vehicle), but not exactly one vehicle category.",
+  "f": "In the same line, enter exactly one vehicle category.",
+  "t": "Vehicle category missing on invoice line"
+ },
+ "BR-DE-TMP-32": {
+  "e": "The invoice should contain a delivery or service date or a service period – for the whole invoice or for each invoice line.",
+  "f": "State the delivery or service date or the service period in the invoice.",
+  "t": "Delivery date missing"
+ },
+ "BR-DEC-01": {
+  "e": "The amount of an invoice-level allowance has more than two decimal places.",
+  "f": "Round the allowance amount to two decimal places.",
+  "t": "Too many decimal places on allowance"
+ },
+ "BR-DEC-02": {
+  "e": "The base amount on which an invoice-level allowance is calculated has more than two decimal places.",
+  "f": "Round the base amount to two decimal places.",
+  "t": "Too many decimal places on allowance base amount"
+ },
+ "BR-DEC-05": {
+  "e": "The amount of an invoice-level charge has more than two decimal places.",
+  "f": "Round the charge amount to two decimal places.",
+  "t": "Too many decimal places on charge"
+ },
+ "BR-DEC-06": {
+  "e": "The base amount on which an invoice-level charge is calculated has more than two decimal places.",
+  "f": "Round the base amount to two decimal places.",
+  "t": "Too many decimal places on charge base amount"
+ },
+ "BR-DEC-09": {
+  "e": "The field \"Sum of invoice line net amounts\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: sum of invoice line net amounts"
+ },
+ "BR-DEC-10": {
+  "e": "The field \"Sum of allowances on document level\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: sum of allowances on document level"
+ },
+ "BR-DEC-11": {
+  "e": "The field \"Sum of charges on document level\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: sum of charges on document level"
+ },
+ "BR-DEC-12": {
+  "e": "The field \"Total amount without VAT\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: total amount without VAT"
+ },
+ "BR-DEC-13": {
+  "e": "The field \"Total VAT amount\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: total VAT amount"
+ },
+ "BR-DEC-14": {
+  "e": "The field \"Total amount with VAT\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: total amount with VAT"
+ },
+ "BR-DEC-15": {
+  "e": "The field \"VAT amount in accounting currency\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: VAT amount in accounting currency"
+ },
+ "BR-DEC-16": {
+  "e": "The amount already paid has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: paid amount"
+ },
+ "BR-DEC-17": {
+  "e": "The field \"Rounding amount\" has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: rounding amount"
+ },
+ "BR-DEC-18": {
+  "e": "The amount due for payment has more than two decimal places. Amounts of money may only be given to the exact cent here.",
+  "f": "Have the invoicing software round the amount to two decimal places.",
+  "t": "Too many decimal places: amount due for payment"
+ },
+ "BR-DEC-19": {
+  "e": "The net amount in the VAT breakdown has more than two decimal places.",
+  "f": "Round the amount to two decimal places (cents).",
+  "t": "Too many decimal places on net amount"
+ },
+ "BR-DEC-20": {
+  "e": "The VAT amount in the breakdown has more than two decimal places.",
+  "f": "Round the VAT amount to two decimal places (cents).",
+  "t": "Too many decimal places on VAT amount"
+ },
+ "BR-DEC-23": {
+  "e": "The net amount of an invoice line has more than two decimal places.",
+  "f": "Round the line amount to two decimal places.",
+  "t": "Too many decimal places on invoice line amount"
+ },
+ "BR-DEC-24": {
+  "e": "The amount of an allowance on an invoice line has more than two decimal places.",
+  "f": "Round the allowance amount to two decimal places.",
+  "t": "Too many decimal places on invoice line allowance"
+ },
+ "BR-DEC-25": {
+  "e": "The base amount on which an invoice line allowance is calculated has more than two decimal places.",
+  "f": "Round the base amount to two decimal places.",
+  "t": "Too many decimal places on allowance base amount"
+ },
+ "BR-DEC-27": {
+  "e": "The amount of a charge on an invoice line has more than two decimal places.",
+  "f": "Round the charge amount to two decimal places.",
+  "t": "Too many decimal places on invoice line charge"
+ },
+ "BR-DEC-28": {
+  "e": "The base amount on which an invoice line charge is calculated has more than two decimal places.",
+  "f": "Round the base amount to two decimal places.",
+  "t": "Too many decimal places in charge base amount"
+ },
+ "BR-DEX-01": {
+  "e": "An attached document has a file type that is not allowed. Permitted types include PDF, PNG, JPEG, CSV, Excel and ODS (and XML for extensions).",
+  "f": "Attach the document in a permitted format (e.g. PDF).",
+  "t": "Attachment file type not allowed"
+ },
+ "BR-DEX-02": {
+  "e": "The invoice line net amount (BT-131) of an invoice line (BG-25) or sub invoice line (BG-DEX-01) should equal the sum of the net amounts of the sub invoice lines directly below it. That is not the case here.",
+  "f": "Check the amounts of the sub invoice lines and have the invoice line recalculated.",
+  "t": "Line amount does not match its sub lines"
+ },
+ "BR-DEX-03": {
+  "e": "Each sub invoice line (BG-DEX-01) must contain exactly one sub invoice line VAT information group (BG-DEX-06).",
+  "f": "Provide exactly one VAT information entry for each sub invoice line, or ask the invoice issuer to correct the file.",
+  "t": "VAT information of sub line missing or repeated"
+ },
+ "BR-DEX-04": {
+  "e": "For an identification number (e.g. for a company, item or place), the type of identifier is not given as a code from the international list intended for this (e.g. 0088 for GLN).",
+  "f": "Correct the identifier scheme, omit the identifier, or inform the software vendor.",
+  "t": "Unknown identifier scheme"
+ },
+ "BR-DEX-05": {
+  "e": "For an identification number (e.g. for a company, item or place), the type of identifier is not given as a code from the international list intended for this (e.g. 0088 for GLN).",
+  "f": "Correct the identifier scheme, omit the identifier, or inform the software vendor.",
+  "t": "Unknown identifier scheme"
+ },
+ "BR-DEX-06": {
+  "e": "For an identification number (e.g. for a company, item or place), the type of identifier is not given as a code from the international list intended for this (e.g. 0088 for GLN).",
+  "f": "Correct the identifier scheme, omit the identifier, or inform the software vendor.",
+  "t": "Unknown identifier scheme"
+ },
+ "BR-DEX-07": {
+  "e": "For an electronic address (e.g. Leitweg-ID, email, Peppol ID), its type is not given as a valid code from a fixed list.",
+  "f": "Select the correct type of electronic address (e.g. \"Leitweg-ID\" or \"email\").",
+  "t": "Electronic address scheme unknown"
+ },
+ "BR-DEX-08": {
+  "e": "For the identification number of the delivery location, the type of identifier is not given as a code from the intended international list.",
+  "f": "Correct the identifier scheme of the delivery location or omit the identifier.",
+  "t": "Delivery location identifier invalid"
+ },
+ "BR-DEX-09": {
+  "e": "The amount due for payment (BT-115) must equal the invoice total with VAT (BT-112), minus the paid amount (BT-113), plus the rounding amount (BT-114), plus the sum of the third party payment amounts (BT-DEX-002). That is not the case here.",
+  "f": "Have the amount due, paid amount, rounding amount and third party payments recalculated in the invoicing software.",
+  "t": "Amount due for payment is wrong"
+ },
+ "BR-DEX-10": {
+  "e": "If a third party payment (BG-DEX-09) is given, the field \"third party payment type\" (BT-DEX-001) must be given as well.",
+  "f": "Add the third party payment type to the third party payment.",
+  "t": "Third party payment: payment type missing"
+ },
+ "BR-DEX-11": {
+  "e": "If a third party payment (BG-DEX-09) is given, the field \"third party payment amount\" (BT-DEX-002) must be given as well.",
+  "f": "Add the third party payment amount to the third party payment.",
+  "t": "Third party payment: payment amount missing"
+ },
+ "BR-DEX-12": {
+  "e": "If a third party payment (BG-DEX-09) is given, the field \"third party payment description\" (BT-DEX-003) must be given as well.",
+  "f": "Add the third party payment description to the third party payment.",
+  "t": "Third party payment: payment description missing"
+ },
+ "BR-DEX-13": {
+  "e": "The third party payment amount (BT-DEX-002) may have at most two decimal places.",
+  "f": "Round the amount to two decimal places.",
+  "t": "Too many decimal places in third party payment"
+ },
+ "BR-DEX-14": {
+  "e": "The currency of the third party payment amount (BT-DEX-002) must be the same as the invoice currency code (BT-5).",
+  "f": "Use the invoice currency for the third party payment amount.",
+  "t": "Currency of third party payment differs"
+ },
+ "BR-DEX-15": {
+  "e": "The invoice uses nested sub-lines; this is not supported by XRechnung.",
+  "f": "Create the invoice without sub-lines, or in the XRechnung format with extension.",
+  "t": "Sub-lines not supported"
+ },
+ "BR-E-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"VAT exempt\", but the VAT breakdown of the invoice does not contain exactly one matching entry for them.",
+  "f": "Have the invoice recalculated in your invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "VAT exempt: VAT breakdown missing"
+ },
+ "BR-E-02": {
+  "e": "The invoice contains lines with VAT-exempt supplies, but neither the VAT identifier nor the tax registration identifier of the seller (or of the seller's tax representative) is given.",
+  "f": "Enter the seller's VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "VAT exempt: seller's tax identifier missing"
+ },
+ "BR-E-03": {
+  "e": "The invoice contains a document-level allowance with the VAT category \"VAT exempt\". For this, the VAT identifier or tax registration identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (VAT exemption, allowance)"
+ },
+ "BR-E-04": {
+  "e": "The invoice contains a document-level charge (e.g. shipping costs) with the VAT category \"VAT exempt\". For this, the VAT identifier or tax registration identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (VAT exemption, charge)"
+ },
+ "BR-E-05": {
+  "e": "Invoice lines with VAT-exempt supplies must have a VAT rate of 0% - here a different rate is given.",
+  "f": "Set the VAT rate of these invoice lines to 0%, or choose the correct VAT category.",
+  "t": "VAT exempt: VAT rate must be 0%"
+ },
+ "BR-E-06": {
+  "e": "For a document-level allowance with the VAT category \"VAT exempt\", the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the allowance to 0%, or correct the VAT category.",
+  "t": "VAT rate for allowance must be 0%"
+ },
+ "BR-E-07": {
+  "e": "For a document-level charge (e.g. shipping costs) with the VAT category \"VAT exempt\", the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the charge to 0%, or correct the VAT category.",
+  "t": "VAT rate for charge must be 0%"
+ },
+ "BR-E-08": {
+  "e": "In the VAT breakdown for VAT-exempt supplies, the net amount must equal the sum of the related invoice lines minus allowances and plus charges at document level.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "VAT exempt: net amount does not match"
+ },
+ "BR-E-09": {
+  "e": "No VAT is charged on VAT-exempt supplies - the VAT amount in the VAT breakdown must therefore be 0.",
+  "f": "Set the VAT amount for this VAT category to 0 in your invoicing software, or choose the correct VAT category.",
+  "t": "VAT exempt: VAT amount must be 0"
+ },
+ "BR-E-10": {
+  "e": "For VAT-exempt supplies, the invoice must state why no VAT is charged - as text or as a code from a fixed list. This reason is missing.",
+  "f": "Add the exemption reason in your invoicing software (e.g. \"VAT-exempt under § 4 no. … UStG\" or \"Small business under § 19 UStG\").",
+  "t": "VAT exempt: reason missing"
+ },
+ "BR-FXEXT-01": {
+  "e": "A subject is given for an invoice note text, but the note itself (as text or code) is missing. If both are present, they must mean the same.",
+  "f": "Add the note text or remove the subject.",
+  "t": "Invoice note: text missing for subject"
+ },
+ "BR-FXEXT-02": {
+  "e": "For an invoice line, a subject is given for a note text, but the actual note (as text or code) is missing. If both are given, they must mean the same.",
+  "f": "Add the note text for the line or remove the subject.",
+  "t": "Line note: text missing for subject"
+ },
+ "BR-FXEXT-03": {
+  "e": "For certain additional parties (e.g. different delivery location, representative, end user), only a VAT identifier may be given, no other tax registration identifier.",
+  "f": "For these parties, enter only the VAT identifier and remove other tax registration identifiers.",
+  "t": "Wrong tax identifier for party"
+ },
+ "BR-FXEXT-04": {
+  "e": "For item attributes, only codes from a fixed, internationally agreed list should be used so that the invoice can be processed automatically.",
+  "f": "In your invoicing software, use only codes from the intended list for item attributes.",
+  "t": "Unknown code for item attribute"
+ },
+ "BR-FXEXT-06": {
+  "e": "An invoice line refers to a parent line without stating what type of line it is (e.g. normal line or subtotal).",
+  "f": "State the line type for subordinate lines.",
+  "t": "Sub-line type missing"
+ },
+ "BR-FXEXT-08": {
+  "e": "A line is marked as a subtotal, but its amount does not equal the sum of the lines below it.",
+  "f": "Have the subtotal recalculated in your invoicing software.",
+  "t": "Subtotal does not match"
+ },
+ "BR-FXEXT-11": {
+  "e": "An invoice line refers to a parent line whose number does not exist in the invoice.",
+  "f": "Correct the reference to an existing line number.",
+  "t": "Reference to non-existent line"
+ },
+ "BR-FXEXT-12": {
+  "e": "If a subtotal has an amount, all subtotals below it must have an amount as well.",
+  "f": "Add the amount to all subordinate subtotals.",
+  "t": "Amount missing in sub-subtotal"
+ },
+ "BR-FXEXT-AE-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"reverse charge\", but the matching VAT breakdown for reverse charge is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"reverse charge\" incomplete"
+ },
+ "BR-FXEXT-AE-08b": {
+  "e": "ZUGFeRD EXTENDED profile rule: For reverse charge (the customer accounts for the VAT), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Reverse charge: net amount deviates"
+ },
+ "BR-FXEXT-AE-08ini": {
+  "e": "ZUGFeRD EXTENDED profile rule: For reverse charge (the customer accounts for the VAT), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Reverse charge: net amount deviates"
+ },
+ "BR-FXEXT-AE-08rev": {
+  "e": "ZUGFeRD EXTENDED profile rule: For reverse charge (the customer accounts for the VAT), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Reverse charge: net amount deviates"
+ },
+ "BR-FXEXT-AF-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"Canary Islands tax (IGIC)\", but the matching VAT breakdown for the Canary Islands tax is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"Canary Islands tax (IGIC)\" incomplete"
+ },
+ "BR-FXEXT-AF-08b": {
+  "e": "ZUGFeRD EXTENDED profile rule: For the Canary Islands tax IGIC (Canary Islands), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "IGIC (Canary Islands): net amount deviates"
+ },
+ "BR-FXEXT-AF-08ini": {
+  "e": "ZUGFeRD EXTENDED profile rule: For the Canary Islands tax IGIC (Canary Islands), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "IGIC (Canary Islands): net amount deviates"
+ },
+ "BR-FXEXT-AF-08rev": {
+  "e": "ZUGFeRD EXTENDED profile rule: For the Canary Islands tax IGIC (Canary Islands), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "IGIC (Canary Islands): net amount deviates"
+ },
+ "BR-FXEXT-AG-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"Ceuta/Melilla tax (IPSI)\", but the matching VAT breakdown for the Ceuta/Melilla tax is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"Ceuta/Melilla tax (IPSI)\" incomplete"
+ },
+ "BR-FXEXT-AG-08b": {
+  "e": "ZUGFeRD EXTENDED profile rule: For the IPSI tax of the Spanish territories Ceuta and Melilla, the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "IPSI (Ceuta/Melilla): net amount deviates"
+ },
+ "BR-FXEXT-AG-08ini": {
+  "e": "In the VAT breakdown for supplies with \"Ceuta/Melilla tax (IPSI)\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with rounding per line, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"Ceuta/Melilla tax (IPSI)\" does not match"
+ },
+ "BR-FXEXT-AG-08rev": {
+  "e": "In the VAT breakdown for supplies with \"Ceuta/Melilla tax (IPSI)\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with gross prices or reverse rounding, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"Ceuta/Melilla tax (IPSI)\" does not match"
+ },
+ "BR-FXEXT-BR-22": {
+  "e": "A normal invoice line does not contain a quantity of the goods or services delivered.",
+  "f": "Enter the invoiced quantity for every line.",
+  "t": "Quantity missing in invoice line"
+ },
+ "BR-FXEXT-BR-23": {
+  "e": "A normal invoice line is missing the unit of the quantity (e.g. piece, hour, kg).",
+  "f": "Select a unit of measure for every line.",
+  "t": "Unit of measure missing"
+ },
+ "BR-FXEXT-BR-24": {
+  "e": "A normal invoice line has no net amount (total price of the line without VAT).",
+  "f": "State the net amount for every line, or have it calculated.",
+  "t": "Line amount missing"
+ },
+ "BR-FXEXT-BR-26": {
+  "e": "A normal invoice line is missing the net item price.",
+  "f": "Enter the item price without VAT for every line.",
+  "t": "Item price missing"
+ },
+ "BR-FXEXT-BR-38": {
+  "e": "A document-level charge or levy has neither a description nor a reason code.",
+  "f": "State a reason for the charge (e.g. \"shipping costs\") or choose a suitable code.",
+  "t": "Reason for charge missing"
+ },
+ "BR-FXEXT-BR-44": {
+  "e": "A charge or levy within an invoice line has neither a description nor a reason code.",
+  "f": "State a reason or code for the charge in the line.",
+  "t": "Reason for line charge missing"
+ },
+ "BR-FXEXT-BR-54-1": {
+  "e": "An attribute of an item (e.g. colour or size) has neither a name nor a code saying which attribute it is.",
+  "f": "Enter a name or an attribute code for the item attribute.",
+  "t": "Item attribute without name"
+ },
+ "BR-FXEXT-BR-54-2": {
+  "e": "An item attribute must have exactly one value - either as text or as a number with a unit of measure, but not both at the same time.",
+  "f": "Provide exactly one value for the item attribute and remove the other.",
+  "t": "Item attribute: value missing or duplicated"
+ },
+ "BR-FXEXT-CII-DT-097a": {
+  "e": "A date with time is not given in the required format year, month, day, hour, minute, second without separators (e.g. 20261012143000).",
+  "f": "Enter the date and time in the correct format, or inform the vendor of the invoicing software.",
+  "t": "Date/time in wrong format"
+ },
+ "BR-FXEXT-CO-04": {
+  "e": "A normal invoice line has no indication of how it is treated for VAT purposes (e.g. standard rate, VAT exempt, reverse charge).",
+  "f": "Select the VAT category or VAT rate for every line.",
+  "t": "VAT category of line missing"
+ },
+ "BR-FXEXT-CO-10": {
+  "e": "The stated sum of all invoice line amounts does not equal the actual sum of the individual lines.",
+  "f": "Have the line total recalculated in your invoicing software.",
+  "t": "Sum of invoice lines does not match"
+ },
+ "BR-FXEXT-CO-11": {
+  "e": "The stated total of the document-level allowances does not equal the sum of the individual allowances.",
+  "f": "Check the allowances and have the total recalculated.",
+  "t": "Sum of allowances does not match"
+ },
+ "BR-FXEXT-CO-12": {
+  "e": "The stated total of the charges does not equal the sum of the individual charges and logistics charges.",
+  "f": "Check the charges and have the total recalculated.",
+  "t": "Sum of charges does not match"
+ },
+ "BR-FXEXT-CO-13": {
+  "e": "The invoice amount without VAT must equal the sum of the invoice lines minus allowances plus charges. This is not the case here.",
+  "f": "Have the invoice totals recalculated in your invoicing software.",
+  "t": "Invoice net total wrong"
+ },
+ "BR-FXEXT-CO-15": {
+  "e": "The invoice amount including VAT must equal the net amount plus VAT. This is not the case here.",
+  "f": "Have the invoice totals recalculated in your invoicing software.",
+  "t": "Invoice gross total wrong"
+ },
+ "BR-FXEXT-CO-16": {
+  "e": "The amount due for payment must result from: invoice total with VAT minus paid amount plus rounding amount plus amounts collected on behalf of third parties. This is not the case here.",
+  "f": "Check the amount due, prepayments and rounding, and have it recalculated.",
+  "t": "Amount due calculated incorrectly"
+ },
+ "BR-FXEXT-E-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"VAT exempt\", but the matching VAT breakdown for VAT-exempt supplies is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"VAT exempt\" incomplete"
+ },
+ "BR-FXEXT-E-08b": {
+  "e": "ZUGFeRD EXTENDED profile rule: For VAT-exempt supplies, the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "VAT exempt: net amount deviates"
+ },
+ "BR-FXEXT-E-08ini": {
+  "e": "ZUGFeRD EXTENDED profile rule: For VAT-exempt supplies, the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "VAT exempt: net amount deviates"
+ },
+ "BR-FXEXT-E-08rev": {
+  "e": "ZUGFeRD EXTENDED profile rule: For VAT-exempt supplies, the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "VAT exempt: net amount deviates"
+ },
+ "BR-FXEXT-G-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"export outside the EU\", but the matching VAT breakdown for exports is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"export outside the EU\" incomplete"
+ },
+ "BR-FXEXT-G-08b": {
+  "e": "ZUGFeRD EXTENDED profile rule: For export to a country outside the EU, the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Export: net amount deviates"
+ },
+ "BR-FXEXT-G-08ini": {
+  "e": "ZUGFeRD EXTENDED profile rule: For export to a country outside the EU, the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Export: net amount deviates"
+ },
+ "BR-FXEXT-G-08rev": {
+  "e": "ZUGFeRD EXTENDED profile rule: For export to a country outside the EU, the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Export: net amount deviates"
+ },
+ "BR-FXEXT-IC-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"intra-community supply\", but the matching VAT breakdown for intra-community supplies is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"intra-community supply\" incomplete"
+ },
+ "BR-FXEXT-IC-08b": {
+  "e": "ZUGFeRD EXTENDED profile rule: For intra-community supply (VAT-exempt supply to a business in another EU country), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Intra-community supply: net amount deviates"
+ },
+ "BR-FXEXT-IC-08ini": {
+  "e": "ZUGFeRD EXTENDED profile rule: For intra-community supply (VAT-exempt supply to a business in another EU country), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Intra-community supply: net amount deviates"
+ },
+ "BR-FXEXT-IC-08rev": {
+  "e": "ZUGFeRD EXTENDED profile rule: For intra-community supply (VAT-exempt supply to a business in another EU country), the net amount in the VAT breakdown deviates too much from the sum of the invoice lines minus allowances plus charges.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Intra-community supply: net amount deviates"
+ },
+ "BR-FXEXT-O-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"not subject to VAT\", but the matching VAT breakdown for supplies not subject to VAT is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"not subject to VAT\" incomplete"
+ },
+ "BR-FXEXT-O-08b": {
+  "e": "In the VAT breakdown for supplies with \"not subject to VAT\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (ZUGFeRD EXTENDED, with rounding tolerance).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"not subject to VAT\" does not match"
+ },
+ "BR-FXEXT-O-08ini": {
+  "e": "In the VAT breakdown for supplies with \"not subject to VAT\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with rounding per line, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"not subject to VAT\" does not match"
+ },
+ "BR-FXEXT-O-08rev": {
+  "e": "In the VAT breakdown for supplies with \"not subject to VAT\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with gross prices or reverse rounding, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"not subject to VAT\" does not match"
+ },
+ "BR-FXEXT-S-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"standard/reduced rate\", but the matching VAT breakdown (net amount and VAT per VAT rate) for this VAT category is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"standard/reduced rate\" incomplete"
+ },
+ "BR-FXEXT-S-08ini": {
+  "e": "In the VAT breakdown for supplies with \"standard rate or reduced rate\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with rounding per line, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"standard rate or reduced rate\" does not match"
+ },
+ "BR-FXEXT-S-08rev": {
+  "e": "In the VAT breakdown for supplies with \"standard rate or reduced rate\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with gross prices or reverse rounding, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"standard rate or reduced rate\" does not match"
+ },
+ "BR-FXEXT-S-09b": {
+  "e": "For each VAT rate in the standard or reduced rate, the VAT amount must equal the net amount times the VAT rate (small rounding deviations are allowed). This is not the case here.",
+  "f": "Have the VAT per VAT rate recalculated in your invoicing software.",
+  "t": "VAT calculated incorrectly"
+ },
+ "BR-FXEXT-S08b": {
+  "e": "In the VAT breakdown for supplies with \"standard rate or reduced rate\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (ZUGFeRD EXTENDED, with rounding tolerance).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"standard rate or reduced rate\" does not match"
+ },
+ "BR-FXEXT-Z-01": {
+  "e": "The invoice contains invoice lines, allowances or charges with the VAT category \"zero rate\", but the matching VAT breakdown for the zero rate is missing.",
+  "f": "Add the missing VAT details of the seller or the missing VAT breakdown in your invoicing software.",
+  "t": "VAT details for \"zero rate\" incomplete"
+ },
+ "BR-FXEXT-Z-08b": {
+  "e": "In the VAT breakdown for supplies with \"zero rate\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (ZUGFeRD EXTENDED, with rounding tolerance).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"zero rate\" does not match"
+ },
+ "BR-FXEXT-Z-08ini": {
+  "e": "In the VAT breakdown for supplies with \"zero rate\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with rounding per line, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"zero rate\" does not match"
+ },
+ "BR-FXEXT-Z-08rev": {
+  "e": "In the VAT breakdown for supplies with \"zero rate\", the net amount does not match the invoice lines: It must equal the sum of the invoice line amounts minus allowances plus charges (including logistics charges) of this category (check for invoices with gross prices or reverse rounding, ZUGFeRD EXTENDED).",
+  "f": "Have the VAT breakdown recalculated in your invoicing software, or check the amounts of the invoice lines, allowances and charges.",
+  "t": "Net amount for \"zero rate\" does not match"
+ },
+ "BR-G-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"export\", but the VAT breakdown of the invoice does not contain exactly one matching entry for them.",
+  "f": "Have the invoice recalculated in your invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "Export: VAT breakdown missing"
+ },
+ "BR-G-02": {
+  "e": "For an export outside the EU, the VAT identifier of the seller (or of the seller's tax representative) must appear on the invoice.",
+  "f": "Enter the seller's VAT identifier in your invoicing software.",
+  "t": "Export: seller's VAT identifier missing"
+ },
+ "BR-G-03": {
+  "e": "The invoice contains a document-level allowance with the VAT category export outside the EU (VAT-free). For this, the VAT identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (export, allowance)"
+ },
+ "BR-G-04": {
+  "e": "The invoice contains a document-level charge (e.g. shipping costs) with the VAT category export outside the EU (VAT-free). For this, the VAT identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (export, charge)"
+ },
+ "BR-G-05": {
+  "e": "Invoice lines with export to a country outside the EU must have a VAT rate of 0% - here a different rate is given.",
+  "f": "Set the VAT rate of these invoice lines to 0%, or choose the correct VAT category.",
+  "t": "Export: VAT rate must be 0%"
+ },
+ "BR-G-06": {
+  "e": "For a document-level allowance with the VAT category export outside the EU (VAT-free), the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the allowance to 0%, or correct the VAT category.",
+  "t": "VAT rate for allowance must be 0%"
+ },
+ "BR-G-07": {
+  "e": "For a document-level charge (e.g. shipping costs) with the VAT category export outside the EU (VAT-free), the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the charge to 0%, or correct the VAT category.",
+  "t": "VAT rate for charge must be 0%"
+ },
+ "BR-G-08": {
+  "e": "In the VAT breakdown for export to a country outside the EU, the net amount must equal the sum of the related invoice lines minus allowances and plus charges at document level.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Export: net amount does not match"
+ },
+ "BR-G-09": {
+  "e": "No VAT is charged on export to a country outside the EU - the VAT amount in the VAT breakdown must therefore be 0.",
+  "f": "Set the VAT amount for this VAT category to 0 in your invoicing software, or choose the correct VAT category.",
+  "t": "Export: VAT amount must be 0"
+ },
+ "BR-G-10": {
+  "e": "For export to a country outside the EU, the invoice must state why no VAT is charged - as text or as a code from a fixed list. This reason is missing.",
+  "f": "Add the exemption reason in your invoicing software (e.g. \"VAT-free export supply\").",
+  "t": "Export: reason missing"
+ },
+ "BR-IC-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"intra-community supply\", but the VAT breakdown of the invoice does not contain exactly one matching entry for them.",
+  "f": "Have the invoice recalculated in your invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "Intra-community supply: VAT breakdown missing"
+ },
+ "BR-IC-02": {
+  "e": "For an intra-community supply, the VAT identifier of the seller (or of the seller's tax representative) and the VAT identifier of the buyer must be given.",
+  "f": "Add both VAT identifiers to the invoice.",
+  "t": "EU supply: VAT identifiers missing"
+ },
+ "BR-IC-03": {
+  "e": "The invoice contains a document-level allowance with the VAT category intra-community supply (VAT-free supply to another EU country). For this, the VAT identifier of the seller (or the seller's tax representative) and the VAT identifier of the buyer must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (EU supply, allowance)"
+ },
+ "BR-IC-04": {
+  "e": "The invoice contains a document-level charge (e.g. shipping costs) with the VAT category intra-community supply (VAT-free supply to another EU country). For this, the VAT identifier of the seller (or the seller's tax representative) and the VAT identifier of the buyer must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (EU supply, charge)"
+ },
+ "BR-IC-05": {
+  "e": "Invoice lines with intra-community supply (VAT-free supply to a business in another EU country) must have a VAT rate of 0% - here a different rate is given.",
+  "f": "Set the VAT rate of these invoice lines to 0%, or choose the correct VAT category.",
+  "t": "Intra-community supply: VAT rate must be 0%"
+ },
+ "BR-IC-06": {
+  "e": "For a document-level allowance with the VAT category intra-community supply (VAT-free supply to another EU country), the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the allowance to 0%, or correct the VAT category.",
+  "t": "VAT rate for allowance must be 0%"
+ },
+ "BR-IC-07": {
+  "e": "For a document-level charge (e.g. shipping costs) with the VAT category intra-community supply (VAT-free supply to another EU country), the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the charge to 0%, or correct the VAT category.",
+  "t": "VAT rate for charge must be 0%"
+ },
+ "BR-IC-08": {
+  "e": "In the VAT breakdown for intra-community supply (VAT-free supply to a business in another EU country), the net amount must equal the sum of the related invoice lines minus allowances and plus charges at document level.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Intra-community supply: net amount does not match"
+ },
+ "BR-IC-09": {
+  "e": "For intra-community supply (VAT-free supply to a business in another EU country), no VAT is charged - the VAT amount in the VAT breakdown must therefore be 0.",
+  "f": "Set the VAT amount for this VAT category to 0 in your invoicing software, or choose the correct VAT category.",
+  "t": "Intra-community supply: VAT amount must be 0"
+ },
+ "BR-IC-10": {
+  "e": "For intra-community supply (VAT-free supply to a business in another EU country), the invoice must state why no VAT is charged - as text or as a code from a fixed list. This reason is missing.",
+  "f": "Add the exemption reason in your invoicing software (e.g. \"VAT-free intra-community supply\").",
+  "t": "Intra-community supply: reason missing"
+ },
+ "BR-IC-11": {
+  "e": "For an intra-community supply (VAT-free to a business in another EU country), the delivery date or the invoicing period must be given.",
+  "f": "Add the delivery date or invoicing period to the invoice.",
+  "t": "EU supply: delivery date or invoicing period missing"
+ },
+ "BR-IC-12": {
+  "e": "For an intra-community supply (VAT-free to a business in another EU country), the country to which the goods were delivered must be given.",
+  "f": "Add the delivery address including the country to the invoice.",
+  "t": "EU supply: country of delivery missing"
+ },
+ "BR-O-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"not subject to VAT\", but the VAT breakdown of the invoice does not contain exactly one matching entry for them.",
+  "f": "Have the invoice recalculated in your invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "Not subject to VAT: VAT breakdown missing"
+ },
+ "BR-O-02": {
+  "e": "For supplies not subject to VAT, neither the VAT identifier of the seller (or the seller's tax representative) nor that of the buyer may appear on the invoice.",
+  "f": "Remove the VAT identifiers or choose the correct VAT category.",
+  "t": "Not subject to VAT: VAT identifier not allowed"
+ },
+ "BR-O-03": {
+  "e": "The invoice contains a document-level allowance with the VAT category \"not subject to VAT\". In that case, no VAT identifiers of the seller, tax representative or buyer may be given.",
+  "f": "Either remove the VAT identifiers or correct the VAT category of the allowance.",
+  "t": "VAT identifier on allowance not subject to VAT"
+ },
+ "BR-O-04": {
+  "e": "The invoice contains a document-level charge (e.g. shipping costs) with the VAT category \"not subject to VAT\". In that case, no VAT identifiers of the seller, tax representative or buyer may be given.",
+  "f": "Either remove the VAT identifiers or correct the VAT category of the charge.",
+  "t": "VAT identifier on charge not subject to VAT"
+ },
+ "BR-O-05": {
+  "e": "Invoice lines marked as \"not subject to VAT\" must not contain a VAT rate (not even 0%).",
+  "f": "Remove the VAT rate from these invoice lines.",
+  "t": "Not subject to VAT: VAT rate not allowed"
+ },
+ "BR-O-06": {
+  "e": "For a document-level allowance with the VAT category \"not subject to VAT\", no VAT rate may be given.",
+  "f": "Remove the VAT rate from the allowance.",
+  "t": "VAT rate on allowance not subject to VAT"
+ },
+ "BR-O-07": {
+  "e": "For a document-level charge (e.g. shipping costs) with the VAT category \"not subject to VAT\", no VAT rate may be given.",
+  "f": "Remove the VAT rate from the charge.",
+  "t": "VAT rate on charge not subject to VAT"
+ },
+ "BR-O-08": {
+  "e": "In the VAT breakdown for supplies not subject to VAT (e.g. services not subject to German or EU VAT), the net amount must equal the sum of the related invoice lines minus allowances and plus charges at document level.",
+  "f": "Check the invoice lines, allowances and charges of this VAT category and have the invoice recalculated.",
+  "t": "Not subject to VAT: net amount does not match"
+ },
+ "BR-O-09": {
+  "e": "For supplies not subject to VAT (e.g. services not subject to German or EU VAT), no VAT is charged - the VAT amount in the VAT breakdown must therefore be 0.",
+  "f": "Set the VAT amount for this VAT category to 0 in your invoicing software, or choose the correct VAT category.",
+  "t": "Not subject to VAT: VAT amount must be 0"
+ },
+ "BR-O-10": {
+  "e": "For supplies not subject to VAT (e.g. services not subject to German or EU VAT), the invoice must state why no VAT is charged - as text or as a code from a fixed list. This reason is missing.",
+  "f": "Add the exemption reason in your invoicing software (e.g. \"Not taxable in Germany\").",
+  "t": "Not subject to VAT: reason missing"
+ },
+ "BR-O-11": {
+  "e": "If the invoice contains supplies not subject to VAT, it must not contain any other VAT categories (e.g. 19%) - everything must be \"not subject to VAT\".",
+  "f": "Split taxable and non-taxable supplies into separate invoices.",
+  "t": "Not subject to VAT: other VAT categories not allowed"
+ },
+ "BR-O-12": {
+  "e": "The invoice is marked as \"not subject to VAT\" but contains invoice lines with another VAT category.",
+  "f": "Set all invoice lines to \"not subject to VAT\" or split the supplies into separate invoices.",
+  "t": "Not subject to VAT: lines with another VAT category"
+ },
+ "BR-O-13": {
+  "e": "The invoice is marked as \"not subject to VAT\" but contains a document-level allowance with another VAT category.",
+  "f": "Mark the allowance as \"not subject to VAT\" as well.",
+  "t": "Not subject to VAT: allowance with another VAT category"
+ },
+ "BR-O-14": {
+  "e": "The invoice is marked as \"not subject to VAT\" but contains a charge (e.g. shipping costs) with another VAT category.",
+  "f": "Mark the charge as \"not subject to VAT\" as well.",
+  "t": "Not subject to VAT: charge with another VAT category"
+ },
+ "BR-S-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"standard rate\", but the VAT breakdown of the invoice does not contain at least one matching entry for them.",
+  "f": "Have the invoice recalculated in your invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "Standard rate: VAT breakdown missing"
+ },
+ "BR-S-02": {
+  "e": "The invoice contains lines with VAT at the standard or reduced rate (e.g. 19% or 7%), but neither the VAT identifier nor the tax registration identifier of the seller (or of the seller's tax representative) is given.",
+  "f": "Enter the seller's VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Standard rate: seller's tax identifier missing"
+ },
+ "BR-S-03": {
+  "e": "The invoice contains a document-level allowance with the VAT category standard rate or reduced rate (e.g. 19% or 7%). For this, the VAT identifier or tax registration identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (standard rate, allowance)"
+ },
+ "BR-S-04": {
+  "e": "The invoice contains a document-level charge (e.g. shipping costs) with the VAT category standard rate or reduced rate (e.g. 19% or 7%). For this, the VAT identifier or tax registration identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (standard rate, charge)"
+ },
+ "BR-S-05": {
+  "e": "Invoice lines with normal VAT (standard rate or reduced rate) must have a VAT rate greater than 0%, e.g. 19% or 7%.",
+  "f": "Enter the correct VAT rate or, if no VAT applies, choose the appropriate VAT category (e.g. VAT exempt).",
+  "t": "Standard rate: VAT rate missing or 0%"
+ },
+ "BR-S-06": {
+  "e": "For a document-level allowance with standard rate or reduced rate, a VAT rate greater than 0% must be given.",
+  "f": "Enter the correct VAT rate (e.g. 19% or 7%) for the allowance.",
+  "t": "VAT rate for allowance must be above 0"
+ },
+ "BR-S-07": {
+  "e": "For a document-level charge (e.g. shipping costs) with standard rate or reduced rate, a VAT rate greater than 0% must be given.",
+  "f": "Enter the correct VAT rate (e.g. 19% or 7%) for the charge.",
+  "t": "VAT rate for charge must be above 0"
+ },
+ "BR-S-08": {
+  "e": "For each VAT rate (e.g. 19% and 7%), the net amount in the breakdown must equal the sum of the invoice lines with this rate plus charges and minus allowances at document level. This is not the case here.",
+  "f": "Recalculate the invoice lines per VAT rate and correct the VAT breakdown.",
+  "t": "Net total per VAT rate does not match"
+ },
+ "BR-S-09": {
+  "e": "For supplies taxed at the normal rate (e.g. 19% or 7%), the VAT amount must equal the net amount × VAT rate. This does not match here.",
+  "f": "Check the VAT calculation in your invoicing software and regenerate the invoice.",
+  "t": "VAT amount at standard rate wrong"
+ },
+ "BR-S-10": {
+  "e": "For supplies taxed at the normal rate (e.g. 19% or 7%), no reason for a VAT exemption may be given.",
+  "f": "Remove the exemption reason or correct the VAT category.",
+  "t": "Exemption reason not allowed at standard rate"
+ },
+ "BR-TMP-2": {
+  "e": "The reference to an external document must be a complete web address (e.g. starting with https://).",
+  "f": "Enter the full link starting with https://.",
+  "t": "Link to additional document invalid"
+ },
+ "BR-TMP-3": {
+  "e": "The base quantity or unit of the price is stated differently in two places; both must be the same.",
+  "f": "Check the price base quantity, or inform the vendor of the invoicing software.",
+  "t": "Price base quantity inconsistent"
+ },
+ "BR-TMP-4": {
+  "e": "Within additional supporting documents (BG-24), the supporting document description (BT-123, ram:Name) may occur at most once.",
+  "f": "Remove the duplicate description, or ask the invoice issuer to correct the file.",
+  "t": "Supporting document description given more than once"
+ },
+ "BR-TMP-5": {
+  "e": "Within additional supporting documents (BG-24), the attached document (BT-125, ram:AttachmentBinaryObject) may occur at most once.",
+  "f": "Embed only one document per attachment, or ask the invoice issuer to correct the file.",
+  "t": "Attached document given more than once"
+ },
+ "BR-TMP-6": {
+  "e": "Dates in a UBL invoice must be given in the format YYYY-MM-DD.",
+  "f": "Give the date in the format YYYY-MM-DD, or ask the invoice issuer to correct the file.",
+  "t": "Wrong date format in UBL"
+ },
+ "BR-TMP-7": {
+  "e": "Dates in a UNCEFACT/CII invoice must carry the attribute format=\"102\" and be given in the format YYYYMMDD.",
+  "f": "Give the date with format=\"102\" in the format YYYYMMDD, or ask the invoice issuer to correct the file.",
+  "t": "Wrong date format in UNCEFACT/CII"
+ },
+ "BR-TMP-CVD-01": {
+  "e": "For the classification of an item, the type of classification is not given as a code from the intended list.",
+  "f": "Choose a valid classification scheme, or inform the vendor.",
+  "t": "Item classification scheme invalid"
+ },
+ "BR-Z-01": {
+  "e": "Invoice lines, allowances or charges are marked as \"zero rate\", but the VAT breakdown of the invoice does not contain exactly one matching entry for them.",
+  "f": "Have the invoice recalculated in your invoicing software so that the VAT breakdown matches the invoice lines.",
+  "t": "Zero rate: VAT breakdown missing"
+ },
+ "BR-Z-02": {
+  "e": "The invoice contains lines with VAT at the zero rate (0%, e.g. certain solar installations), but neither the VAT identifier nor the tax registration identifier of the seller (or of the seller's tax representative) is given.",
+  "f": "Enter the seller's VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Zero rate: seller's tax identifier missing"
+ },
+ "BR-Z-03": {
+  "e": "The invoice contains a document-level allowance with the VAT category zero rate (0%). For this, the VAT identifier or tax registration identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (zero rate, allowance)"
+ },
+ "BR-Z-04": {
+  "e": "The invoice contains a document-level charge (e.g. shipping costs) with the VAT category zero rate (0%). For this, the VAT identifier or tax registration identifier of the seller (or the seller's tax representative) must be given.",
+  "f": "Enter the missing VAT identifier or tax registration identifier in your invoicing software.",
+  "t": "Tax identifier missing (zero rate, charge)"
+ },
+ "BR-Z-05": {
+  "e": "Invoice lines with VAT at the zero rate (0%, e.g. certain solar installations) must have a VAT rate of 0% - here a different rate is given.",
+  "f": "Set the VAT rate of these invoice lines to 0%, or choose the correct VAT category.",
+  "t": "Zero rate: VAT rate must be 0%"
+ },
+ "BR-Z-06": {
+  "e": "For a document-level allowance with the VAT category zero rate (0%), the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the allowance to 0%, or correct the VAT category.",
+  "t": "VAT rate for allowance must be 0%"
+ },
+ "BR-Z-07": {
+  "e": "For a document-level charge (e.g. shipping costs) with the VAT category zero rate (0%), the VAT rate must be 0%.",
+  "f": "Set the VAT rate of the charge to 0%, or correct the VAT category.",
+  "t": "VAT rate for charge must be 0%"
+ },
+ "BR-Z-08": {
+  "e": "For supplies at the zero rate (0% VAT), the net amount in the breakdown must equal the sum of the relevant invoice lines minus allowances and plus charges at document level. This is not the case here.",
+  "f": "Recalculate the invoice lines, allowances and charges with 0% VAT and correct the breakdown.",
+  "t": "Net total at zero rate does not match"
+ },
+ "BR-Z-09": {
+  "e": "For supplies at the zero rate, the VAT amount must be exactly 0.",
+  "f": "Set the VAT amount for the zero-rate supplies to 0, or correct the VAT category.",
+  "t": "VAT amount at zero rate not 0"
+ },
+ "BR-Z-10": {
+  "e": "For supplies at the zero rate, no reason for a VAT exemption may be given - that applies only to VAT-exempt supplies.",
+  "f": "Remove the exemption reason or, if the supply is in fact VAT-exempt, change the VAT category to \"VAT exempt\".",
+  "t": "Exemption reason not allowed at zero rate"
+ },
+ "CII-DT-097": {
+  "e": "A date is not given in the required format year-month-day without separators (e.g. 20261012).",
+  "f": "Correct the date in your invoicing software, or point the vendor to the date format.",
+  "t": "Date in wrong format"
+ },
+ "CII-SR-463": {
+  "e": "For an allowance or charge at document level, it is not indicated whether it is a deduction or a surcharge.",
+  "f": "Ask the invoice issuer to regenerate the file with a clear indication.",
+  "t": "Unclear whether allowance or charge"
+ },
+ "CII-SR-464": {
+  "e": "The BIC of the bank for the bank account may appear only once on the invoice.",
+  "f": "Remove duplicate BIC entries in your invoicing software.",
+  "t": "BIC given more than once"
+ },
+ "CII-SR-465": {
+  "e": "The seller's contact person or department may be given only once.",
+  "f": "Remove duplicate seller contact details.",
+  "t": "Seller contact given more than once"
+ },
+ "CII-SR-466": {
+  "e": "The buyer's contact person or department may be given only once.",
+  "f": "Remove duplicate buyer contact details.",
+  "t": "Buyer contact given more than once"
+ },
+ "CII-SR-467": {
+  "e": "If several payment methods (e.g. several bank accounts) are given, all must have the same payment means.",
+  "f": "Choose the same payment means for all payment details, or remove the surplus ones.",
+  "t": "Different payment means"
+ },
+ "CII-SR-468": {
+  "e": "If several payment methods are given, the description text of the payment means must be the same everywhere.",
+  "f": "Make the text for the payment means consistent.",
+  "t": "Different payment descriptions"
+ },
+ "CII-SR-469": {
+  "e": "The payment reference may appear only once on the invoice.",
+  "f": "Remove duplicate payment reference entries.",
+  "t": "Payment reference given more than once"
+ },
+ "CII-SR-470": {
+  "e": "Exactly one entry must be given for the payee account: either an IBAN or another account number. Here it is missing entirely or both are given.",
+  "f": "For bank transfers, enter the IBAN of the payee account and use only this one account detail.",
+  "t": "Account detail missing or duplicated"
+ },
+ "CII-SR-471": {
+  "e": "For an allowance or charge at document level, the VAT category (e.g. standard rate, VAT exempt) is missing.",
+  "f": "Enter the matching VAT category for every allowance or charge.",
+  "t": "VAT category missing on allowance/charge"
+ },
+ "CII-SR-472": {
+  "e": "For an allowance or charge at document level, the VAT rate should be given.",
+  "f": "Add the VAT rate in percent for every allowance or charge.",
+  "t": "VAT rate missing on allowance/charge"
+ },
+ "CII-SR-473": {
+  "e": "For an allowance or charge, the amount is entered more than once; only one amount is allowed.",
+  "f": "Remove the duplicate amount, or ask the invoice issuer to correct the file.",
+  "t": "Amount given more than once"
+ },
+ "CII-SR-474": {
+  "e": "An invoice line may contain at most one reference to a related object or referenced document.",
+  "f": "Remove duplicate references from the line.",
+  "t": "Line reference given more than once"
+ },
+ "CII-SR-475": {
+  "e": "A particular attachment (supporting document) may have only one name - here several are given.",
+  "f": "Remove duplicate attachments and recreate the invoice.",
+  "t": "Supporting document attachment named more than once"
+ },
+ "CII-SR-476": {
+  "e": "A particular attachment (supporting document) may be embedded as a file only once.",
+  "f": "Remove duplicate file attachments.",
+  "t": "Supporting document attached more than once"
+ },
+ "PEPPOL-EN16931-R001": {
+  "e": "For sending via the Peppol network, the business process the invoice belongs to must be given (a technical identifier).",
+  "f": "Set the Peppol format correctly in your invoicing software, or contact the vendor.",
+  "t": "Business process identifier missing"
+ },
+ "PEPPOL-EN16931-R005": {
+  "e": "A different currency for VAT may only be given if it differs from the invoice currency (Peppol rule).",
+  "f": "Remove the separate VAT accounting currency if it equals the invoice currency.",
+  "t": "VAT accounting currency same as invoice currency"
+ },
+ "PEPPOL-EN16931-R008": {
+  "e": "The invoice file contains fields without content. This is not allowed under the rules of the Peppol network (currently only a warning).",
+  "f": "Remove or fill in empty fields in your invoicing software, or ask the invoice issuer to create the file without empty fields.",
+  "t": "Empty fields in the invoice"
+ },
+ "PEPPOL-EN16931-R010": {
+  "e": "For the Peppol network, the electronic receiving address of the invoice recipient (e.g. Peppol ID or Leitweg-ID) must be given.",
+  "f": "Store the customer's electronic address (Peppol ID).",
+  "t": "Buyer's electronic address missing"
+ },
+ "PEPPOL-EN16931-R020": {
+  "e": "For the Peppol network, the electronic address of the invoice issuer (e.g. Peppol ID or email) must be given.",
+  "f": "Store the electronic address in your own company data.",
+  "t": "Seller's electronic address missing"
+ },
+ "PEPPOL-EN16931-R040": {
+  "e": "The amount of an allowance or charge must equal base amount times percentage divided by 100. This is not the case here.",
+  "f": "Have the allowance or charge recalculated.",
+  "t": "Allowance/charge calculated incorrectly"
+ },
+ "PEPPOL-EN16931-R041": {
+  "e": "An allowance or charge is given as a percentage, but the amount to which the percentage refers is missing.",
+  "f": "Add the base amount to the allowance/charge.",
+  "t": "Base amount for allowance/charge missing"
+ },
+ "PEPPOL-EN16931-R042": {
+  "e": "For an allowance or charge, a base amount is given, but the corresponding percentage is missing.",
+  "f": "Add the percentage or remove the base amount.",
+  "t": "Percentage for allowance/charge missing"
+ },
+ "PEPPOL-EN16931-R043": {
+  "e": "The indicator showing whether an entry is an allowance or a charge (ChargeIndicator) must be \"true\" or \"false\".",
+  "f": "Set the value to \"true\" (charge) or \"false\" (allowance), or ask the invoice issuer to correct the file.",
+  "t": "Invalid value for allowance/charge indicator"
+ },
+ "PEPPOL-EN16931-R043-1": {
+  "e": "For an allowance or charge, it must be clearly indicated whether it is a charge or an allowance; the value given is invalid.",
+  "f": "Inform the vendor of the invoicing software, as this is a technical format error.",
+  "t": "Allowance/charge indicator invalid"
+ },
+ "PEPPOL-EN16931-R043-2": {
+  "e": "For an allowance or charge, it must be clearly indicated whether it is a charge or an allowance; the value given is invalid.",
+  "f": "Inform the vendor of the invoicing software, as this is a technical format error.",
+  "t": "Allowance/charge indicator invalid"
+ },
+ "PEPPOL-EN16931-R044": {
+  "e": "For the item price of an invoice line, only allowances are permitted, no charges (Peppol rule).",
+  "f": "Remove the charge from the price and state it instead as a separate charge in the invoice line.",
+  "t": "Charge at price level not allowed"
+ },
+ "PEPPOL-EN16931-R046": {
+  "e": "If a gross price is given, the net price must equal the gross price minus the price discount. This is not the case here.",
+  "f": "Check and correct the gross price, net price and price discount of the line.",
+  "t": "Net price does not match gross price"
+ },
+ "PEPPOL-EN16931-R053": {
+  "e": "The total VAT amount in the invoice currency may appear only once (Peppol rule).",
+  "f": "Remove duplicate VAT total entries, or inform the vendor of the invoicing software.",
+  "t": "Total VAT amount given more than once"
+ },
+ "PEPPOL-EN16931-R054": {
+  "e": "If a separate VAT accounting currency is given, the VAT amount in that currency may appear only once (Peppol rule).",
+  "f": "Remove duplicate entries so that the VAT amount appears only once per currency.",
+  "t": "VAT amount in VAT accounting currency given more than once"
+ },
+ "PEPPOL-EN16931-R055": {
+  "e": "The total VAT amount in the invoice currency and in the VAT accounting currency must have the same sign (both positive or both negative).",
+  "f": "Check the VAT amounts in both currencies and make the signs match.",
+  "t": "Signs of the VAT amounts contradict"
+ },
+ "PEPPOL-EN16931-R061": {
+  "e": "For payment by direct debit, the mandate reference of the SEPA direct debit mandate must be given.",
+  "f": "Add the customer's mandate reference to the invoice.",
+  "t": "Mandate reference for direct debit missing"
+ },
+ "PEPPOL-EN16931-R101": {
+  "e": "A reference to an additional document is given at a place where it is only allowed for invoice lines.",
+  "f": "Remove the document reference or move it to the correct place, or inform the vendor.",
+  "t": "Additional document in wrong place"
+ },
+ "PEPPOL-EN16931-R110": {
+  "e": "The start of the invoicing period of a line lies outside the invoicing period of the whole invoice.",
+  "f": "Align the periods of the line and the invoice.",
+  "t": "Line period starts outside"
+ },
+ "PEPPOL-EN16931-R111": {
+  "e": "The end of the invoicing period of a line lies outside the invoicing period of the whole invoice.",
+  "f": "Align the periods of the line and the invoice.",
+  "t": "Line period ends outside"
+ },
+ "PEPPOL-EN16931-R120": {
+  "e": "The invoice line net amount must equal the invoiced quantity multiplied by (item net price divided by item price base quantity), plus the invoice line charges and minus the invoice line allowances. That is not the case here.",
+  "f": "Check the quantity, price, allowances and charges of the line and have the line amount recalculated.",
+  "t": "Invoice line amount is wrong"
+ },
+ "PEPPOL-EN16931-R121": {
+  "e": "The quantity to which a price refers (e.g. \"price per 100 pieces\") must be greater than zero.",
+  "f": "Set the base quantity of the price to a positive value (e.g. 1).",
+  "t": "Price base quantity invalid"
+ },
+ "PEPPOL-EN16931-R130": {
+  "e": "The unit of the price base quantity must be the same as the unit of the invoiced quantity (e.g. both piece).",
+  "f": "Make the units of measure of price and quantity the same.",
+  "t": "Units of measure do not match"
+ },
+ "UBL-DT-01": {
+  "e": "Amounts may have at most two decimal places.",
+  "f": "Round the amount to two decimal places, or ask the invoice issuer to correct the file.",
+  "t": "Too many decimal places in amounts"
+ },
+ "UBL-DT-06": {
+  "e": "Embedded binary objects (attachments) must carry the MIME code attribute.",
+  "f": "Provide the file type of the attachment, or ask the invoice issuer to correct the file.",
+  "t": "File type of attachment missing"
+ },
+ "UBL-DT-07": {
+  "e": "Embedded binary objects (attachments) must carry the file name attribute.",
+  "f": "Provide the file name of the attachment, or ask the invoice issuer to correct the file.",
+  "t": "File name of attachment missing"
+ },
+ "UBL-DT-08": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"scheme name\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"scheme name\""
+ },
+ "UBL-DT-09": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"scheme agency name\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"scheme agency name\""
+ },
+ "UBL-DT-10": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"scheme data uri\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"scheme data uri\""
+ },
+ "UBL-DT-11": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"scheme uri\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"scheme uri\""
+ },
+ "UBL-DT-12": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"format\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"format\""
+ },
+ "UBL-DT-13": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"unit code list identifier\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"unit code list identifier\""
+ },
+ "UBL-DT-14": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"unit code list agency identifier\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"unit code list agency identifier\""
+ },
+ "UBL-DT-15": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"unit code list agency name\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"unit code list agency name\""
+ },
+ "UBL-DT-16": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"list agency name\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"list agency name\""
+ },
+ "UBL-DT-17": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"list name\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"list name\""
+ },
+ "UBL-DT-18": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"name\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"name\""
+ },
+ "UBL-DT-19": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"language identifier\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"language identifier\""
+ },
+ "UBL-DT-20": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"list uri\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"list uri\""
+ },
+ "UBL-DT-21": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"list scheme uri\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"list scheme uri\""
+ },
+ "UBL-DT-22": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"language local identifier\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"language local identifier\""
+ },
+ "UBL-DT-23": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"uri\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"uri\""
+ },
+ "UBL-DT-24": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"currency code list version id\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"currency code list version id\""
+ },
+ "UBL-DT-25": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"CharacterSetCode\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"CharacterSetCode\""
+ },
+ "UBL-DT-26": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"EncodingCode\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"EncodingCode\""
+ },
+ "UBL-DT-27": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"scheme agency ID\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"scheme agency ID\""
+ },
+ "UBL-DT-28": {
+  "e": "The invoice file (UBL) contains the technical extra attribute \"list agency ID\". It should not be present according to the rules.",
+  "f": "Ask the invoice issuer to produce the file without this attribute, or adjust the export setting in the invoicing software.",
+  "t": "Unpermitted extra attribute \"list agency ID\""
+ },
+ "UBL-SR-01": {
+  "e": "The field \"contract identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Contract identifier given more than once"
+ },
+ "UBL-SR-02": {
+  "e": "The field \"receive advice identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Receive advice identifier given more than once"
+ },
+ "UBL-SR-03": {
+  "e": "The field \"despatch advice identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Despatch advice identifier given more than once"
+ },
+ "UBL-SR-04": {
+  "e": "The field \"invoice object identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Invoice object identifier given more than once"
+ },
+ "UBL-SR-05": {
+  "e": "The field \"payment terms\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payment terms given more than once"
+ },
+ "UBL-SR-06": {
+  "e": "The field \"preceding invoice reference\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Preceding invoice reference given more than once"
+ },
+ "UBL-SR-07": {
+  "e": "If a preceding invoice is referenced, its invoice number must be given.",
+  "f": "Add the number of the preceding invoice, or remove the reference.",
+  "t": "Preceding invoice number missing"
+ },
+ "UBL-SR-08": {
+  "e": "The field \"invoice period\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Invoice period given more than once"
+ },
+ "UBL-SR-09": {
+  "e": "The field \"seller name\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller name given more than once"
+ },
+ "UBL-SR-10": {
+  "e": "The field \"seller trader name\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller trader name given more than once"
+ },
+ "UBL-SR-11": {
+  "e": "The field \"seller legal registration identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller legal registration identifier given more than once"
+ },
+ "UBL-SR-12": {
+  "e": "The field \"seller VAT identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller VAT identifier given more than once"
+ },
+ "UBL-SR-13": {
+  "e": "The field \"seller tax registration\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller tax registration given more than once"
+ },
+ "UBL-SR-14": {
+  "e": "The field \"seller additional legal information\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller additional legal information given more than once"
+ },
+ "UBL-SR-15": {
+  "e": "The field \"buyer name\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Buyer name given more than once"
+ },
+ "UBL-SR-16": {
+  "e": "The field \"buyer identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Buyer identifier given more than once"
+ },
+ "UBL-SR-17": {
+  "e": "The field \"buyer legal registration identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Buyer legal registration identifier given more than once"
+ },
+ "UBL-SR-18": {
+  "e": "The field \"buyer VAT identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Buyer VAT identifier given more than once"
+ },
+ "UBL-SR-19": {
+  "e": "The field \"payee name\", if the payee is different from the seller appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payee name given more than once"
+ },
+ "UBL-SR-20": {
+  "e": "The field \"payee identifier\", if the payee is different from the seller appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payee identifier given more than once"
+ },
+ "UBL-SR-21": {
+  "e": "The field \"payee legal registration identifier\", if the payee is different from the seller appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payee legal registration identifier given more than once"
+ },
+ "UBL-SR-22": {
+  "e": "The field \"seller tax representative name\", if the seller has a tax representative appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller tax representative name given more than once"
+ },
+ "UBL-SR-23": {
+  "e": "The field \"seller tax representative VAT identifier\", if the seller has a tax representative appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Seller tax representative VAT identifier given more than once"
+ },
+ "UBL-SR-24": {
+  "e": "The field \"deliver to information\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Deliver to information given more than once"
+ },
+ "UBL-SR-25": {
+  "e": "The field \"deliver to party name\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Deliver to party name given more than once"
+ },
+ "UBL-SR-26": {
+  "e": "The field \"payment reference\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payment reference given more than once"
+ },
+ "UBL-SR-27": {
+  "e": "The field \"payment means text\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payment means text given more than once"
+ },
+ "UBL-SR-28": {
+  "e": "The field \"mandate reference identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Mandate reference identifier given more than once"
+ },
+ "UBL-SR-29": {
+  "e": "The field \"bank creditor reference\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Bank creditor reference given more than once"
+ },
+ "UBL-SR-30": {
+  "e": "The field \"document level allowance reason\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Document level allowance reason given more than once"
+ },
+ "UBL-SR-31": {
+  "e": "The field \"document level charge reason\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Document level charge reason given more than once"
+ },
+ "UBL-SR-32": {
+  "e": "The field \"VAT exemption reason text\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "VAT exemption reason text given more than once"
+ },
+ "UBL-SR-33": {
+  "e": "The field \"supporting document description\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Supporting document description given more than once"
+ },
+ "UBL-SR-34": {
+  "e": "The field \"invoice line note\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Invoice line note given more than once"
+ },
+ "UBL-SR-35": {
+  "e": "The field \"referenced purchase order line identifier\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Referenced purchase order line identifier given more than once"
+ },
+ "UBL-SR-36": {
+  "e": "The field \"invoice line period\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Invoice line period given more than once"
+ },
+ "UBL-SR-37": {
+  "e": "The field \"item price discount\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Item price discount given more than once"
+ },
+ "UBL-SR-39": {
+  "e": "The field \"project reference\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Project reference given more than once"
+ },
+ "UBL-SR-40": {
+  "e": "The field \"buyer trade name\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Buyer trade name given more than once"
+ },
+ "UBL-SR-42": {
+  "e": "The seller (accounting supplier party) may have at most two party tax scheme entries.",
+  "f": "Remove the surplus tax entries for the seller, or ask the invoice issuer to correct the file.",
+  "t": "Too many tax entries for the seller"
+ },
+ "UBL-SR-43": {
+  "e": "A scheme identifier may only be used for the invoiced object, that is, when the document type code is 130 or 50.",
+  "f": "Remove the scheme identifier, or mark the entry as an invoiced object (code 130 or 50).",
+  "t": "Scheme identifier only allowed for invoiced object"
+ },
+ "UBL-SR-44": {
+  "e": "An invoice may only have one unique PaymentID, but the same PaymentID may be used for several payment means.",
+  "f": "Use the same PaymentID in all payment instructions, or ask the invoice issuer to correct the file.",
+  "t": "Several different payment IDs"
+ },
+ "UBL-SR-45": {
+  "e": "The field \"payment due date\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payment due date given more than once"
+ },
+ "UBL-SR-46": {
+  "e": "The field \"payment means text\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Payment means text given more than once"
+ },
+ "UBL-SR-47": {
+  "e": "If there is more than one payment means code, they must all be equal.",
+  "f": "Select the same payment means in all payment instructions, or ask the invoice issuer to correct the file.",
+  "t": "Payment means codes differ"
+ },
+ "UBL-SR-48": {
+  "e": "Each invoice line must have exactly one classified VAT category.",
+  "f": "Give exactly one VAT category for each invoice line.",
+  "t": "VAT category of line missing or repeated"
+ },
+ "UBL-SR-49": {
+  "e": "The field \"value tax point date\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Value tax point date given more than once"
+ },
+ "UBL-SR-50": {
+  "e": "The field \"item description\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Item description given more than once"
+ },
+ "UBL-SR-51": {
+  "e": "An address can have only one third address line.",
+  "f": "Combine the surplus address lines, or ask the invoice issuer to correct the file.",
+  "t": "Address with more than one third line"
+ },
+ "UBL-SR-52": {
+  "e": "The field \"document reference\" appears more than once in the invoice; only one is allowed.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Document reference given more than once"
+ },
+ "UBL-SR-53": {
+  "e": "If a tax scheme is stated (PartyTaxScheme/TaxScheme/ID), the CompanyID (VAT identifier) must be stated as well.",
+  "f": "Add the VAT identifier, or remove the tax entry.",
+  "t": "VAT identifier missing in tax entry"
+ },
+ "UBL-SR-54": {
+  "e": "An invoice may contain at most one payment card account (BG-18).",
+  "f": "Remove the surplus payment cards, or ask the invoice issuer to correct the file.",
+  "t": "More than one payment card"
+ },
+ "UBL-SR-55": {
+  "e": "An invoice may contain at most one payment mandate (BG-19).",
+  "f": "Remove the surplus payment mandates, or ask the invoice issuer to correct the file.",
+  "t": "More than one payment mandate"
+ },
+ "UBL-SR-56": {
+  "e": "The originator document reference identifier (BT-17) may occur at most once.",
+  "f": "Remove the duplicate entry, or ask the invoice issuer to correct the file.",
+  "t": "Originator document reference given more than once"
+ }
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>E-Rechnung prüfen</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/icon.png">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<div class="bar" id="bar" data-i18n="E-Rechnung prüfen">E-Rechnung prüfen</div>
+<div class="lang" role="group" aria-label="Language"><button type="button" data-lang="de">DE</button><button type="button" data-lang="en">EN</button></div>
+<main>
+  <h1 id="title" data-i18n="E-Rechnung prüfen">E-Rechnung prüfen</h1>
+  <p class="intro" data-i18n="ZUGFeRD, Factur-X, XRechnung und UBL prüfen und anzeigen – mit einem Bericht, der erklärt, was nicht stimmt.">ZUGFeRD, Factur-X, XRechnung und UBL prüfen und anzeigen – mit einem Bericht, der erklärt, was nicht stimmt.</p>
+
+  <section class="upload">
+    <div class="card drop" id="drop">
+      <svg class="doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 17v-6"/><path d="m9.5 13.5 2.5-2.5 2.5 2.5"/></svg>
+      <h2 data-i18n="Rechnungen hierher ziehen">Rechnungen hierher ziehen</h2>
+      <p id="dropText"></p>
+      <button class="btn" id="pick" type="button" data-i18n="Dateien auswählen">Dateien auswählen</button>
+      <input type="file" id="file" accept=".pdf,.xml,application/pdf,text/xml,application/xml" multiple hidden>
+    </div>
+    <p class="foot" data-i18n="Dateien werden nur für die Prüfung verarbeitet und danach sofort gelöscht. Es wird nichts gespeichert oder protokolliert.">Dateien werden nur für die Prüfung verarbeitet und danach sofort gelöscht. Es wird nichts gespeichert oder protokolliert.</p>
+  </section>
+
+  <div id="results"></div>
+
+  <section class="about section" id="about">
+    <div class="sh" data-i18n="Was wird geprüft?">Was wird geprüft?</div>
+    <div class="list">
+      <p data-i18n-html="about1"></p>
+      <p data-i18n-html="about2"></p>
+      <p data-i18n-html="about3"></p>
+      <p data-i18n-html="about4"></p>
+    </div>
+    <p class="foot" id="versions"></p>
+  </section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"><span id="toastText"></span><button type="button" id="toastX" aria-label="×"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<script src="/i18n.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
