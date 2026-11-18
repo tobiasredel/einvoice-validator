@@ -1,6 +1,6 @@
 # E-Invoice Validator & Viewer: Mustang + KoSIT + Python-App in einem Image, ohne Laufzeit-Downloads.
 # Alle Fremdartefakte sind per Version und SHA-256 festgelegt.
-FROM eclipse-temurin:21-jre-noble@sha256:0eda5830ed7b669abc246a8dc520ea8a23cab06f9a8d4b6964109e2f2394e46f AS base
+FROM eclipse-temurin:21-jre-noble@sha256:0d57a8e90c2bb844c5a8e1b2b71e11eff06dad7edcfd803cd21ed4ae203b2515 AS base
 
 FROM base AS fetch
 ARG MUSTANG_VERSION=2.26.0
